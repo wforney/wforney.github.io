@@ -2,7 +2,23 @@
 
 See **[billforney.com](https://www.billforney.com/)** for my blog.
 
-Notes to self...
+## Useful links
+
+- 
+
+## Development Environment Setup
+
+```
+npm i -g --production windows-build-tools
+npm i -g node-gyp
+setx PYTHON "%USERPROFILE%\.windows-build-tools\python27\python.exe"
+npm i -g typescript tslint
+npm i -g eslint jshint
+npm i -g aurelia-cli polymer-cli angular-cli
+npm i -g yo generator-aspnet generator-polymer
+```
+
+###Notes to self...
 ---
 You can use the [editor on GitHub](https://github.com/wforney/wforney.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
