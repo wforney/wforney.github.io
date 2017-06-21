@@ -10,6 +10,7 @@
 - [Design toolkits and resources for UWP apps](https://docs.microsoft.com/en-us/windows/uwp/design-downloads/index)
 - [ASP.NET Core (.csproj) Embedded Resources](https://codeopinion.com/asp-net-core-csproj-embedded-resources/)
 - [Seven Tips For Using Swagger And AutoRest Together In ASP.NET Core Services](http://michaco.net/blog/TipsForUsingSwaggerAndAutorestInAspNetCoreMvcServices)
+- [Productivity Power Tools 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017)
 
 ## Development Environment Setup
 
