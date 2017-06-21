@@ -18,7 +18,7 @@ npm i -g aurelia-cli polymer-cli angular-cli
 npm i -g yo generator-aspnet generator-polymer
 ```
 
-###Notes to self...
+### Notes to self...
 ---
 You can use the [editor on GitHub](https://github.com/wforney/wforney.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
