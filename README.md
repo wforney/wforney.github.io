@@ -8,6 +8,8 @@
 - [Developer Assistant](https://marketplace.visualstudio.com/items?itemName=OneCodeTeam.DeveloperAssistant-13032) for Visual Studio (_Microsoft_)
 - [Universal Windows Platform (UWP) app samples](https://github.com/Microsoft/Windows-universal-samples)
 - [Design toolkits and resources for UWP apps](https://docs.microsoft.com/en-us/windows/uwp/design-downloads/index)
+- [ASP.NET Core (.csproj) Embedded Resources](https://codeopinion.com/asp-net-core-csproj-embedded-resources/)
+- [Seven Tips For Using Swagger And AutoRest Together In ASP.NET Core Services](http://michaco.net/blog/TipsForUsingSwaggerAndAutorestInAspNetCoreMvcServices)
 
 ## Development Environment Setup
 
