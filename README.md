@@ -43,6 +43,7 @@ dotnet publish -c Release
 
 ## Notes to self...
 ---
+[Prose](http://prose.io/#wforney/wforney.github.io/edit/master/README.md)
 You can use the [editor on GitHub](https://github.com/wforney/wforney.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 ```markdown
