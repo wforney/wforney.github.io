@@ -43,7 +43,7 @@ _Enable Hyper-V_ for mobile emulators and virtual machines
 dotnet publish -c Release
 ```
 
-## Notes to self...
+## Notes to self about GitHub Markdown...
 ---
 [Prose](http://prose.io/#wforney/wforney.github.io/edit/master/README.md)
 
