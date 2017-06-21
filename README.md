@@ -1,6 +1,4 @@
-# William Forney's GitHub Pages
-
-See **[billforney.com](https://www.billforney.com/)** for my blog.
+# See **[billforney.com](https://www.billforney.com/)** for my blog.
 
 ## Useful links
 
