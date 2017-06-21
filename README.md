@@ -14,6 +14,8 @@
 
 ## Development Environment Setup
 
+[Fix a node.js version mismatch with Visual Studio installed version](https://stackoverflow.com/questions/43849585/update-node-version-in-visual-studio-2017)
+
 ```
 npm i -g --production windows-build-tools
 npm i -g node-gyp
