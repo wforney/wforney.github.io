@@ -4,7 +4,7 @@ See **[billforney.com](https://www.billforney.com/)** for my blog.
 
 ## Useful links
 
-- 
+- [ASP.NET Core](https://www.microsoft.com/net/download/core)
 
 ## Development Environment Setup
 
@@ -15,10 +15,18 @@ setx PYTHON "%USERPROFILE%\.windows-build-tools\python27\python.exe"
 npm i -g typescript tslint
 npm i -g eslint jshint
 npm i -g aurelia-cli polymer-cli angular-cli
-npm i -g yo generator-aspnet generator-polymer
+npm i -g yo generator-aspnet generator-polymer generator-aspnetcore-spa
+dotnet new --install Microsoft.AspNetCore.SpaTemplates::*
 ```
 
-### Notes to self...
+## ASP.NET Core
+
+- Publish command
+```
+dotnet publish -c Release
+```
+
+## Notes to self...
 ---
 You can use the [editor on GitHub](https://github.com/wforney/wforney.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
