@@ -11,6 +11,7 @@
 - [ASP.NET Core (.csproj) Embedded Resources](https://codeopinion.com/asp-net-core-csproj-embedded-resources/)
 - [Seven Tips For Using Swagger And AutoRest Together In ASP.NET Core Services](http://michaco.net/blog/TipsForUsingSwaggerAndAutorestInAspNetCoreMvcServices)
 - [Productivity Power Tools 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017)
+- [Front End Dev Bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
 
 ## Development Environment Setup
 
