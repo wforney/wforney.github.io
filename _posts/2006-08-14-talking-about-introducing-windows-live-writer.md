@@ -1,7 +1,7 @@
 ---
 title: "Talking about Introducing Windows Live Writer"
 date: 2006-08-14
-categories: ["Uncategorized"]
+categories: ["Computers and Internet"]
 tags: []
 original_url: "https://williamforney.com/2006/08/14/talking-about-introducing-windows-live-writer/"
 ---

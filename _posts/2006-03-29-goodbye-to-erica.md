@@ -1,7 +1,7 @@
 ---
 title: "goodbye to erica"
 date: 2006-03-29
-categories: ["Uncategorized"]
+categories: ["Personal"]
 tags: []
 original_url: "https://williamforney.com/2006/03/29/goodbye-to-erica/"
 ---

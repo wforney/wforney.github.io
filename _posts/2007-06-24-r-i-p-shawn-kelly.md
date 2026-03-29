@@ -1,7 +1,7 @@
 ---
 title: "R.I.P. Shawn Kelly"
 date: 2007-06-24
-categories: ["Uncategorized"]
+categories: ["Personal"]
 tags: []
 original_url: "https://williamforney.com/2007/06/24/r-i-p-shawn-kelly/"
 ---

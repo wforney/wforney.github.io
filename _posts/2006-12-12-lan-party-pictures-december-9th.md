@@ -1,7 +1,7 @@
 ---
 title: "LAN Party Pictures – December 9th"
 date: 2006-12-12
-categories: ["Uncategorized"]
+categories: ["Gaming", "Photography"]
 tags: []
 original_url: "https://williamforney.com/2006/12/12/lan-party-pictures-december-9th/"
 ---

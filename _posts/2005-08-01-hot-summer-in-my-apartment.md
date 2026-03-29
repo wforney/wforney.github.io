@@ -1,7 +1,7 @@
 ---
 title: "Hot Summer In My Apartment"
 date: 2005-08-01
-categories: ["Uncategorized"]
+categories: ["Personal"]
 tags: []
 original_url: "https://williamforney.com/2005/08/01/hot-summer-in-my-apartment/"
 ---

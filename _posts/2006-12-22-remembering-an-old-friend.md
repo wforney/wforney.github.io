@@ -1,7 +1,7 @@
 ---
 title: "remembering an old friend"
 date: 2006-12-22
-categories: ["Uncategorized"]
+categories: ["Personal"]
 tags: []
 original_url: "https://williamforney.com/2006/12/22/remembering-an-old-friend/"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Talking about Scobleizer – Microsoft Geek Blogger » Yahoo’s new pretty maps are doomed (and so are Microsoft’s)"
 date: 2006-01-26
-categories: ["Uncategorized"]
+categories: ["Development"]
 tags: []
 original_url: "https://williamforney.com/2006/01/26/talking-about-scobleizer-microsoft-geek-blogger-yahoos-new-pretty-maps-are-doomed-and-so-are-microsofts/"
 ---
