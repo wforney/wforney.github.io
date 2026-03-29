@@ -1,12 +1,10 @@
----
+﻿---
 title: "BBQ at DSS – Fire Department Visits!"
 date: 2007-05-10
 categories: ["Entertainment"]
 tags: []
 original_url: "https://williamforney.com/2007/05/10/bbq-at-dss-fire-department-visits/"
 ---
-
-![Santa holding a cup sitting in a chair](/assets/img/posts/3123692128_56968073d0_o5b65d.jpg)
 
 Last night we had an impromptu BBQ at DSS, Nate’s shop. He was slinging burgers and we had just finished cooking and gone inside for a minute when Brian heard something outside and someone started banging on the front door. The BBQ grill was outside the back door in the little carport area.
 

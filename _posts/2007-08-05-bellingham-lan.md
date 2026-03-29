@@ -4,6 +4,9 @@ date: 2007-08-05
 categories: ["Entertainment"]
 tags: ["Bellingham LAN"]
 original_url: "https://williamforney.com/2007/08/05/bellingham-lan/"
+image:
+  path: /assets/img/posts/bellingham-lan-2007-08-04-bellingham-lan-001.jpg
+  alt: "Bellingham LAN 1"
 ---
 
 Some preliminary photos…

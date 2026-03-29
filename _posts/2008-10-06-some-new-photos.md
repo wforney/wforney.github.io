@@ -4,6 +4,9 @@ date: 2008-10-06
 categories: ["Skagit Young Professionals"]
 tags: []
 original_url: "https://williamforney.com/2008/10/06/some-new-photos/"
+image:
+  path: /assets/img/posts/2892954259_39f9d2f6ce1.jpg
+  alt: "Heliotrope Hike View"
 ---
 
 ![Heliotrope Hike View](/assets/img/posts/2892954259_39f9d2f6ce1.jpg)

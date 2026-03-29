@@ -1,12 +1,10 @@
----
+﻿---
 title: "Espresso Connection"
 date: 2005-08-17
 categories: ["Food and drink"]
 tags: []
 original_url: "https://williamforney.com/2005/08/17/espresso-connection/"
 ---
-
-![Hana Teriyaki](/assets/img/posts/2166932152_3611e96ff01.jpg)
 
 I went to dinner the other day with a friend of mine and we were joking around about how we eat out so much we should start a restaurant review. So, here’s the first one.
 

@@ -4,6 +4,9 @@ date: 2007-04-11
 categories: ["Travel"]
 tags: ["drive", "up-river", "camera phone", "Concrete", "WA"]
 original_url: "https://williamforney.com/2007/04/11/nice-day-for-a-drive/"
+image:
+  path: /assets/img/posts/2007-04-11-drive-001.jpg
+  alt: "Drive up-river 1"
 ---
 
 I went for a drive up-river to see a client today. I was bored along the way so I took some photos with my camera phone to pass the time. Here they are. Don’t mind the crack in my window or the water. LOL

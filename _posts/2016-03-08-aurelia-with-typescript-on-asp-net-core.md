@@ -1,12 +1,10 @@
----
+﻿---
 title: "Aurelia with TypeScript on ASP.NET Core"
 date: 2016-03-08
 categories: ["Computers and Internet", "Development"]
 tags: ["ASP.NET"]
 original_url: "https://williamforney.com/2016/03/08/aurelia-with-typescript-on-asp-net-core/"
 ---
-
-![Custom Case Fan Mod](/assets/img/posts/1624452984_9de317e37b1.jpg)
 
 I’ve been tracking the [ASP.NET](https://docs.asp.net/en/latest/ "ASP.NET documentation") betas and release candidates over the past year or more and it’s coming along nicely. I like the separation of client side and server side in the new folder structure and the unification of the [ASP.NET MVC](https://docs.asp.net/en/latest/mvc/index.html) and WebAPI controllers. For the past few years I’ve used [jsViews](http://www.jsviews.com/), [Kendo UI](http://www.telerik.com/kendo-ui), [Angular](https://angular.io/), [Durandal](http://durandaljs.com/), [Knockout](http://knockoutjs.com/), and [Aurelia](http://aurelia.io/) for front end JavaScript development.
 

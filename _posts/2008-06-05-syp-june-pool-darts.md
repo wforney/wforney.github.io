@@ -4,6 +4,9 @@ date: 2008-06-05
 categories: ["Skagit Young Professionals"]
 tags: ["SYP", "Skagit Young Professionals", "pool", "darts"]
 original_url: "https://williamforney.com/2008/06/05/syp-june-pool-darts/"
+image:
+  path: /assets/img/posts/2552743964_9bffdc2d8a1.jpg
+  alt: "SYP Pool Outing"
 ---
 
 ![SYP Pool Outing](/assets/img/posts/2552743964_9bffdc2d8a1.jpg)

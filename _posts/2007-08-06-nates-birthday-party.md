@@ -4,6 +4,9 @@ date: 2007-08-06
 categories: ["Entertainment"]
 tags: ["Nate", "birthday", "party"]
 original_url: "https://williamforney.com/2007/08/06/nates-birthday-party/"
+image:
+  path: /assets/img/posts/2007-08-06-nates-party.jpg
+  alt: "Nate's birthday party"
 ---
 
 I posted some photos from Nate’s birthday party yesterday here:

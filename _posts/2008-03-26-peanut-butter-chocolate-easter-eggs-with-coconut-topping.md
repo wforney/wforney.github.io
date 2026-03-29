@@ -4,6 +4,9 @@ date: 2008-03-26
 categories: ["Food and drink"]
 tags: []
 original_url: "https://williamforney.com/2008/03/26/peanut-butter-chocolate-easter-eggs-with-coconut-topping/"
+image:
+  path: /assets/img/posts/DSC01884.jpg
+  alt: "Peanut butter and chocolate eggs with coconut"
 ---
 
 ![Peanut butter and chocolate eggs with coconut](/assets/img/posts/DSC01884.jpg)

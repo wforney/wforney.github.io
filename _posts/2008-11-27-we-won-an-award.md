@@ -4,6 +4,9 @@ date: 2008-11-27
 categories: ["Skagit Young Professionals"]
 tags: ["Festival of Trees", "Tiki", "Christmas", "tree", "cancer", "Mount Vernon", "Chamber of Commerce", "Skagit Young Professionals", "SYP"]
 original_url: "https://williamforney.com/2008/11/27/we-won-an-award/"
+image:
+  path: /assets/img/posts/3061899425_f62226a0391.jpg
+  alt: "Tree Decorating Team"
 ---
 
 ![Tree Decorating Team](/assets/img/posts/3061899425_f62226a0391.jpg)

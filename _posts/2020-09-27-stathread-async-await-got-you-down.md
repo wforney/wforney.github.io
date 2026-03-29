@@ -4,6 +4,9 @@ date: 2020-09-27
 categories: ["Development", "Computers and Internet"]
 tags: ["async", "await", "C#", "STA", "SynchronizationContext", "Windows Forms"]
 original_url: "https://williamforney.com/2020/09/27/stathread-async-await-got-you-down/"
+image:
+  path: /assets/img/posts/pexels-photo-270348.jpeg
+  alt: "abstract business code coder"
 ---
 
 ![abstract business code coder](/assets/img/posts/pexels-photo-270348.jpeg)

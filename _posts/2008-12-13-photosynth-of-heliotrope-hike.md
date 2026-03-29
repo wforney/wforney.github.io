@@ -4,6 +4,9 @@ date: 2008-12-13
 categories: ["Skagit Young Professionals"]
 tags: ["Heliotrope", "hike", "Photosynth"]
 original_url: "https://williamforney.com/2008/12/13/photosynth-of-heliotrope-hike/"
+image:
+  path: /assets/img/posts/2892954259_39f9d2f6ce1.jpg
+  alt: "Heliotrope Hike View"
 ---
 
 ![Heliotrope Hike View](/assets/img/posts/2892954259_39f9d2f6ce1.jpg)

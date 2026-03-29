@@ -4,6 +4,9 @@ date: 2020-09-27
 categories: ["Development", "Computers and Internet"]
 tags: ["C#", "DbDataRecord", "DBNull", "IDataRecord", "Map"]
 original_url: "https://williamforney.com/2020/09/27/how-to-map-an-idatarecord-to-an-entity-class-object-without-using-reflection/"
+image:
+  path: /assets/img/posts/pexels-photo-546819.jpeg
+  alt: "blur close up code computer"
 ---
 
 ![blur close up code computer](/assets/img/posts/pexels-photo-546819.jpeg)

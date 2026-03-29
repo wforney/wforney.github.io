@@ -4,6 +4,9 @@ date: 2006-12-12
 categories: ["Gaming", "Photography"]
 tags: []
 original_url: "https://williamforney.com/2006/12/12/lan-party-pictures-december-9th/"
+image:
+  path: /assets/img/posts/2006-12-09-lan-party-001.jpg
+  alt: "LAN Party December 9th 2006"
 ---
 
 ![LAN Party December 9th 2006](/assets/img/posts/2006-12-09-lan-party-001.jpg)

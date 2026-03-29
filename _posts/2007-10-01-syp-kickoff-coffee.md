@@ -4,6 +4,9 @@ date: 2007-10-01
 categories: ["Skagit Young Professionals"]
 tags: ["SYP", "Skagit Young Professionals", "Kickoff Coffee", "coffee", "Java Jo’s"]
 original_url: "https://williamforney.com/2007/10/01/syp-kickoff-coffee/"
+image:
+  path: /assets/img/posts/1468058267_9fc944eadb1.jpg
+  alt: "SYP Crowd"
 ---
 
 ![SYP Crowd](/assets/img/posts/1468058267_9fc944eadb1.jpg)

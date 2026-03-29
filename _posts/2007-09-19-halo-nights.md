@@ -4,6 +4,9 @@ date: 2007-09-19
 categories: ["Entertainment"]
 tags: ["Halo", "LOL", "ROFL"]
 original_url: "https://williamforney.com/2007/09/19/halo-nights/"
+image:
+  path: /assets/img/posts/2007-09-19-halo-nights.jpg
+  alt: "Halo Nights"
 ---
 
 This is really funny.

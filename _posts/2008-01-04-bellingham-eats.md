@@ -4,6 +4,9 @@ date: 2008-01-04
 categories: ["Food and drink"]
 tags: ["Hana Teriyaki", "teriyaki", "Bellingham"]
 original_url: "https://williamforney.com/2008/01/04/bellingham-eats/"
+image:
+  path: /assets/img/posts/2166932152_3611e96ff01.jpg
+  alt: "Hana Teriyaki"
 ---
 
 ![Hana Teriyaki](/assets/img/posts/2166932152_3611e96ff01.jpg)

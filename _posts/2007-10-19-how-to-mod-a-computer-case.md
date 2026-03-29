@@ -4,6 +4,9 @@ date: 2007-10-19
 categories: ["Computers and Internet", "Development"]
 tags: ["How To Mod A Computer Case", "Mod", "Computer Case", "Chassis", "custom"]
 original_url: "https://williamforney.com/2007/10/19/how-to-mod-a-computer-case/"
+image:
+  path: /assets/img/posts/1624452984_9de317e37b1.jpg
+  alt: "Custom Case Fan Mod"
 ---
 
 ![Custom Case Fan Mod](/assets/img/posts/1624452984_9de317e37b1.jpg)

@@ -4,6 +4,9 @@ date: 2007-09-18
 categories: ["Computers and Internet", "Development"]
 tags: ["Windows Live OneCare", "team", "visit"]
 original_url: "https://williamforney.com/2007/09/18/onecare-team-visit/"
+image:
+  path: /assets/img/posts/1400010854_28f92eb9d71.jpg
+  alt: "Windows One Care Team, Nate, and Bill"
 ---
 
 ![Windows One Care Team, Nate, and Bill](/assets/img/posts/1400010854_28f92eb9d71.jpg)

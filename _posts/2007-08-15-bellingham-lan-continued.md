@@ -4,6 +4,9 @@ date: 2007-08-15
 categories: ["LAN Parties"]
 tags: []
 original_url: "https://williamforney.com/2007/08/15/bellingham-lan-continued/"
+image:
+  path: /assets/img/posts/2099273197_0e79d4c74b1.jpg
+  alt: "The old Computer Repair Place shop"
 ---
 
 ![The old Computer Repair Place shop](/assets/img/posts/2099273197_0e79d4c74b1.jpg)

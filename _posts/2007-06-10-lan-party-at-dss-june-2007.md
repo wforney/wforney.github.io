@@ -4,6 +4,9 @@ date: 2007-06-10
 categories: ["Entertainment"]
 tags: []
 original_url: "https://williamforney.com/2007/06/10/lan-party-at-dss-june-2007/"
+image:
+  path: /assets/img/posts/2007-06-10-lan-dss-001.jpg
+  alt: "LAN party June 2007 1"
 ---
 
 Last night was the June LAN party over at DSS. There were a fair number of people there. Along with the usual games, we had a Wii setup off to the side and there were a couple of amusing prizes. Here are some of the photos I took. Everyone loves dodging the camera and flipping it off, though I didn’t post those.

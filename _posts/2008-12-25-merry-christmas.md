@@ -4,6 +4,9 @@ date: 2008-12-25
 categories: ["Entertainment"]
 tags: []
 original_url: "https://williamforney.com/2008/12/25/merry-christmas/"
+image:
+  path: /assets/img/posts/3123692128_56968073d0_o5b65d.jpg
+  alt: "Santa holding a cup sitting in a chair"
 ---
 
 ![Santa holding a cup sitting in a chair](/assets/img/posts/3123692128_56968073d0_o5b65d.jpg)

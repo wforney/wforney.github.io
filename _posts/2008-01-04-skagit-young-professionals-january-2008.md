@@ -4,6 +4,9 @@ date: 2008-01-04
 categories: ["Skagit Young Professionals"]
 tags: ["SYP", "Skagit Young Professionals", "January", "Ristretto", "coffee"]
 original_url: "https://williamforney.com/2008/01/04/skagit-young-professionals-january-2008/"
+image:
+  path: /assets/img/posts/2008-01-04-syp-january-001.jpg
+  alt: "SYP January 2008 1"
 ---
 
 Here are the photos from the meet up last night…

@@ -1,12 +1,10 @@
----
+﻿---
 title: "How to open a “new window” in a Windows 10 Universal App"
 date: 2015-08-13
 categories: ["Computers and Internet", "Development"]
 tags: ["Windows 10", "Universal Apps", "new window", "UWP"]
 original_url: "https://williamforney.com/2015/08/13/how-to-open-a-new-window-in-a-windows-10-universal-app/"
 ---
-
-![Custom Case Fan Mod](/assets/img/posts/1624452984_9de317e37b1.jpg)
 
 I had to dig a little bit to find this. Since not all form factors support multiple windows and tablet mode generally discourages floating windows this is probably buried for a reason, but I wanted to do it anyway so here it is:
     
@@ -35,4 +33,4 @@ I had to dig a little bit to find this. Since not all form factors support multi
     var viewShown = await ApplicationViewSwitcher.TryShowAsStandaloneAsync(viewId);
 
 Hopefully that will save someone some digging. ![screenshot](https://www.billforney.com/posts/files/036808d6-86a0-4dde-bf48-7542c71f5856.png)
-
+

@@ -1,12 +1,10 @@
----
+﻿---
 title: "Talking about Mac attack"
 date: 2007-08-12
 categories: ["Computers and Internet", "Development"]
 tags: []
 original_url: "https://williamforney.com/2007/08/12/talking-about-mac-attack/"
 ---
-
-![Windows One Care Team, Nate, and Bill](/assets/img/posts/1400010854_28f92eb9d71.jpg)
 
 ROFL! Bad language warning…
 

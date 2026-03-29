@@ -4,6 +4,9 @@ date: 2020-09-27
 categories: ["Development", "Computers and Internet"]
 tags: ["cursor", "wait", "wait cursor", "WaitCursor", "Windows Forms"]
 original_url: "https://williamforney.com/2020/09/27/using-a-wait-cursor-doesnt-have-to-be-hard/"
+image:
+  path: /assets/img/posts/pexels-photo-301448.jpeg
+  alt: "animal cute little mouse"
 ---
 
 ![animal cute little mouse](/assets/img/posts/pexels-photo-301448.jpeg)

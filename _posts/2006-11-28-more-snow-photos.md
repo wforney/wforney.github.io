@@ -4,6 +4,9 @@ date: 2006-11-28
 categories: ["Entertainment"]
 tags: []
 original_url: "https://williamforney.com/2006/11/28/more-snow-photos/"
+image:
+  path: /assets/img/posts/2006-11-28-snow-001.jpg
+  alt: "Snow 1"
 ---
 
 Here are some more snow photos that I took in the car this afternoon.

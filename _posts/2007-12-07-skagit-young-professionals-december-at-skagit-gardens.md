@@ -4,6 +4,9 @@ date: 2007-12-07
 categories: ["Skagit Young Professionals"]
 tags: ["SYP", "Skagit Young Professionals", "December", "Skagit Gardens"]
 original_url: "https://williamforney.com/2007/12/07/skagit-young-professionals-december-at-skagit-gardens/"
+image:
+  path: /assets/img/posts/2007-12-07-syp-december-001.jpg
+  alt: "SYP December at Skagit Gardens 1"
 ---
 
 We had our monthly get together tonight at Skagit Gardens. There were a few new faces too. Here are the photos…

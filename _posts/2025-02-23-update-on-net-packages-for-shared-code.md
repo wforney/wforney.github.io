@@ -4,6 +4,9 @@ date: 2025-02-23
 categories: ["Development", "Computers and Internet"]
 tags: [".NET", "GitHub", "NuGet", "shared code"]
 original_url: "https://williamforney.com/2025/02/23/update-on-net-packages-for-shared-code/"
+image:
+  path: /assets/img/posts/pexels-photo-270348.jpeg
+  alt: "abstract business code coder"
 ---
 
 ![abstract business code coder](/assets/img/posts/pexels-photo-270348.jpeg)

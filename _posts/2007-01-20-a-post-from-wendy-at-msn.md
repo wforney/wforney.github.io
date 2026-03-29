@@ -1,4 +1,4 @@
----
+﻿---
 title: "A post from Wendy at MSN."
 date: 2007-01-20
 categories: ["Computers and Internet"]
@@ -6,8 +6,6 @@ tags: []
 author: "Wendy"
 original_url: "https://williamforney.com/2007/01/20/a-post-from-wendy-at-msn/"
 ---
-
-![Windows One Care Team, Nate, and Bill](/assets/img/posts/1400010854_28f92eb9d71.jpg)
 
 LOL… I just have to say this was quite an amusing post, and well to the point of trying to get people to send their errors/usage info to Microsoft. Unfortunately I do know a lot of people who are really scared of sending information about themselves, no matter how innocent it is, to anyone at some big company in "corporate land". I personally don’t really care since I’ve realized like a lot of other people that everybody can find out anything they want about you if they just try. Anyway, here is the post I’m referring to…
 
