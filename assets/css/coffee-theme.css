@@ -1,0 +1,35 @@
+/*
+ * Coffee theme backgrounds
+ * Sidebar: dark coffee beans texture with semi-transparent overlay
+ * Body: very faint warm coffee tint for depth
+ */
+
+/* ── Sidebar ──────────────────────────────────────────────────────────── */
+#sidebar {
+  background-image:
+    linear-gradient(rgba(20, 14, 10, 0.68), rgba(20, 14, 10, 0.68)),
+    url("/assets/img/backgrounds/coffee-beans-texture.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Ensure sidebar text/links stay visible over the image */
+#sidebar .site-title a,
+#sidebar .site-subtitle,
+#sidebar nav a,
+#sidebar .sidebar-bottom a,
+#sidebar .profile-wrapper {
+  position: relative;
+}
+
+/* ── Body / main background ───────────────────────────────────────────── */
+body[data-mode="dark"],
+[data-mode="dark"] body,
+body {
+  background-image:
+    linear-gradient(rgba(27, 27, 30, 0.93), rgba(27, 27, 30, 0.93)),
+    url("/assets/img/backgrounds/coffee-beans-roasted.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
