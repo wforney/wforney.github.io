@@ -60,6 +60,17 @@ article.thought-post .post-preview::before {
   display: block !important;
 }
 
+/* Chirpy clamps post-list paragraphs and titles to 2 lines with
+   -webkit-line-clamp. Undo that for thought posts so full content shows. */
+#post-list article.thought-post .card-body .card-title,
+#post-list article.thought-post .card-text.content p {
+  display: block !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
+}
+
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
