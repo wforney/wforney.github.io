@@ -18,10 +18,14 @@ github:
 twitter:
   username: wforney
 
+linkedin:
+  username: wforney
+
 social:
   name: William Forney
   email: blog@williamforney.com
   links:
+    - https://www.linkedin.com/in/wforney
     - https://github.com/wforney
     - https://twitter.com/wforney
 
