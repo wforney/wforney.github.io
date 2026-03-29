@@ -197,4 +197,4 @@ Oh, but what if you want a blocking version of that?
 
 Hopefully, part of this will come in handy for someone as it was for me.
 
-The code for this is available on (https://github.com/improvgroup/sharedcode) and via (https://www.nuget.org/packages/SharedCode.Data/).
+The code for this is available on [improvgroup/sharedcode on GitHub](https://github.com/improvgroup/sharedcode) and via [SharedCode.Data on NuGet](https://www.nuget.org/packages/SharedCode.Data/).

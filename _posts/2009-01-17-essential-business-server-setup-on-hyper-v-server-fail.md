@@ -8,6 +8,3 @@ original_url: "https://williamforney.com/2009/01/17/essential-business-server-se
 
 This is pretty obscure… EBS goes through its setup perfectly until it tries to install System Center Essentials, which we all know was invented by Satan himself because it never freakin’ installs correctly even by itself. So, if anybody reading this has any ideas about how to get around this issue, let me know… And no, installing VMware is NOT a solution, even if that might work.
 
-[!(http://improvgroup-001-site13.dtempurl.com/wp-content/uploads/2010/09/image5b25d.png?w=300)](http://improvgroup-001-site13.dtempurl.com/wp-content/uploads/2010/09/image5b25d.png)
-
-Technorati Tags: (http://technorati.com/tags/EBS),(http://technorati.com/tags/SCE),(http://technorati.com/tags/Hyper-V),(http://technorati.com/tags/FAIL)

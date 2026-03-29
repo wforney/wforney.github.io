@@ -17,5 +17,4 @@ a:DestinationUnreachableThe message with To ‘http://servicebus.windows.net/ser
 I guess I’ll poke around with it later when I have a few hours. Any suggestions?
 
 FOLLOWUP NOTE: I was able to get the service working on Azure if I disable the interceptor that adds the API key check. So, it seems maybe I only partially fixed the previous issue in the starter kit.
-
-Technorati Tags: (http://technorati.com/tags/REST),(http://technorati.com/tags/WCF),(http://technorati.com/tags/Azure),(http://technorati.com/tags/Message),(http://technorati.com/tags/Bus),(http://technorati.com/tags/DestinationUnreachable),(http://technorati.com/tags/AddressFilter),(http://technorati.com/tags/EndpointAddress),(http://technorati.com/tags/EndpointDispatcher),[OperationContext.Current](http://technorati.com/tags/OperationContext.Current),(http://technorati.com/tags/AspNetCompatibility)
+

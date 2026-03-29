@@ -34,6 +34,5 @@ I had to dig a little bit to find this. Since not all form factors support multi
     
     var viewShown = await ApplicationViewSwitcher.TryShowAsStandaloneAsync(viewId);
 
-Hopefully that will save someone some digging. !(https://www.billforney.com/posts/files/036808d6-86a0-4dde-bf48-7542c71f5856.png)
-
-Technorati Tags: (http://technorati.com/tags/Windows+10),(http://technorati.com/tags/Universal+Apps),(http://technorati.com/tags/new+window)
+Hopefully that will save someone some digging. ![screenshot](https://www.billforney.com/posts/files/036808d6-86a0-4dde-bf48-7542c71f5856.png)
+
