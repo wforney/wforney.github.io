@@ -49,8 +49,9 @@ layout: default
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     {% assign post_text = post.content | strip_html | strip %}
+    {% assign img_count = post.content | split: '<img ' | size | minus: 1 %}
     {% assign is_short = false %}
-    {% if post_text.size < 280 %}{% assign is_short = true %}{% endif %}
+    {% if post_text.size < 280 and img_count < 2 %}{% assign is_short = true %}{% endif %}
 
     <article class="card-wrapper card{% if is_short %} thought-post{% endif %}">
       {% unless is_short %}<a href="{{ post.url | relative_url }}" class="post-preview row g-0">{% else %}<div class="post-preview row g-0">{% endunless %}
