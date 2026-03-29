@@ -18,6 +18,7 @@ For the past two decades I have worked with a large variety of businesses and te
 - <i class="fab fa-facebook"></i> **Facebook:** [facebook.com/wforney](https://www.facebook.com/wforney)
 - <i class="fab fa-tiktok"></i> **TikTok:** [@billforney](https://tiktok.com/@billforney)
 - <i class="fab fa-youtube"></i> **YouTube:** [@wforney](https://www.youtube.com/@wforney)
+- <i class="fab fa-pinterest"></i> **Pinterest:** [pinterest.com/wforney](https://www.pinterest.com/wforney/)
 - <i class="fas fa-chalkboard-user"></i> **Maven:** [Connect with me](https://app.maven.co/join/DsYfuhyr) · [Book a consult](https://app.maven.co/join/DsYfuhyr/consult)
 - <i class="fas fa-mug-hot"></i> **Buy Me a Coffee:** [buymeacoffee.com/wforney](https://buymeacoffee.com/wforney)
 - <i class="fas fa-cube"></i> **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)

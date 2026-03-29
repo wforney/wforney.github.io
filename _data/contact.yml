@@ -28,6 +28,10 @@
   icon: "fab fa-youtube"
   url: "https://www.youtube.com/@wforney"
 
+- type: pinterest
+  icon: "fab fa-pinterest"
+  url: "https://www.pinterest.com/wforney/"
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true
