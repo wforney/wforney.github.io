@@ -6,7 +6,7 @@ tags: ["NoLagGaming", "gaming", "LAN Party", "December", "LAN", "Nick", "birthda
 original_url: "https://williamforney.com/2007/12/10/nolaggaming-december-lan-party/"
 ---
 
-![The old Computer Repair Place shop](https://williamforney.com/wp-content/uploads/2007/12/2099273197_0e79d4c74b1.jpg)
+![The old Computer Repair Place shop](/assets/img/posts/2099273197_0e79d4c74b1.jpg)
 
 I went to the December LAN party across the way yesterday. It was also Nick’s birthday so we had a cake and took some video that Nate is going to edit and post somewhere. Here are some photos from the party.
 

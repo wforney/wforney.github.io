@@ -6,7 +6,7 @@ tags: []
 original_url: "https://williamforney.com/2008/03/26/peanut-butter-chocolate-easter-eggs-with-coconut-topping/"
 ---
 
-![Peanut butter and chocolate eggs with coconut](https://williamforney.com/wp-content/uploads/2008/03/DSC01884.jpg)
+![Peanut butter and chocolate eggs with coconut](/assets/img/posts/DSC01884.jpg)
 
 [!(http://tkfiles.storage.live.com/y1pRC-YaWs03lydMEBiFttu9lgL-_KgXkfZLQkegnyDGDj_gH2kDSYQqsVEUEtJS7CPWukjADcbt8A)](http://tkfiles.storage.live.com/y1pRC-YaWs03lydMEBiFttu9lgL-_KgXkfZLQkegnyDGDj_gH2kDSYQqsVEUEtJS7CPWukjADcbt8A)Mmmm…. Yummy stuff… Tonight after work I went over to Amelia and Tony’s house to make some delicious desert.
 
@@ -41,4 +41,4 @@ Decorate with colored icing after they dry.
 Makes about 26 eggs.  
   
 ---  
-[![](http://blufiles.storage.live.com/y1piUzRTQsNkTNZR-azSBPtpjIPsmuDbKEGtQxy4tX1pP92dOEOrOqKQNEmIGxjHm8HRPb5QTtIRMk)](http://blufiles.storage.live.com/y1piUzRTQsNkTNZR-azSBPtpjlpk-IKv0ramQAScGacl3UjsJO595NcJwuKEYHmFjzZ8Fma0oQRTXo)
+[](http://blufiles.storage.live.com/y1piUzRTQsNkTNZR-azSBPtpjlpk-IKv0ramQAScGacl3UjsJO595NcJwuKEYHmFjzZ8Fma0oQRTXo)

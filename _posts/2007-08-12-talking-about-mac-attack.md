@@ -6,7 +6,7 @@ tags: []
 original_url: "https://williamforney.com/2007/08/12/talking-about-mac-attack/"
 ---
 
-![Windows One Care Team, Nate, and Bill](https://williamforney.com/wp-content/uploads/2007/09/1400010854_28f92eb9d71.jpg)
+![Windows One Care Team, Nate, and Bill](/assets/img/posts/1400010854_28f92eb9d71.jpg)
 
 ROFL! Bad language warning…
 

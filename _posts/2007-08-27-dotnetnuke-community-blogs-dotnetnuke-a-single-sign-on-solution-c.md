@@ -10,6 +10,4 @@ This is great, now somebody needs to implement Windows Live ID with this…
 
 Source: <http://www.dotnetnuke.com/community/blogs/tabid/825/entryid/1531/default.aspx>
 
-![](http://tkfiles.storage.msn.com/y1pfcrwExK5OSKYh797_jE_klK1Nw8OIYp0fr-tpmWI6tW6pnJhchcSr_IOkF7inrMhv2m-HPHbH_Q)
-
 Technorati tags: (http://technorati.com/tags/Single Sign-on), (http://technorati.com/tags/Windows Live ID)

@@ -27,7 +27,7 @@ social:
 
 theme_mode: dark
 
-avatar: ""
+avatar: "https://0.gravatar.com/avatar/f4c1d4d37afad2272d15ca67555270e5?s=320"
 
 toc: true
 
@@ -90,3 +90,4 @@ exclude:
   - Gemfile.lock
   - scrape_blog.py
   - cleanup_posts.py
+  - download_images.py

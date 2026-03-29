@@ -6,7 +6,7 @@ tags: []
 original_url: "https://williamforney.com/2007/10/31/talking-about-skagit-young-professionals-dinner-club-october/"
 ---
 
-![SYP Crowd](https://williamforney.com/wp-content/uploads/2007/10/1468058267_9fc944eadb1.jpg)
+![SYP Crowd](/assets/img/posts/1468058267_9fc944eadb1.jpg)
 
 It was fun. We had a smaller turnout, probably because it was in Anacortes which is a bit out of the way for most of us. Still, the food was good and the conversation was interesting. So where should we go next time?
 

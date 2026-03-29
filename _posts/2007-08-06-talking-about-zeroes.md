@@ -12,6 +12,6 @@ Quote
 
 > (https://video.msn.com/?g=b28fb5eb-0bb5-4878-a6a1-d4e8ace2812c&f=&fg=blog)
 > 
-> [![](http://img.video.msn.com/i/40/2831656.jpg)](https://video.msn.com/?g=b28fb5eb-0bb5-4878-a6a1-d4e8ace2812c&f=&fg=blog)
+> [](https://video.msn.com/?g=b28fb5eb-0bb5-4878-a6a1-d4e8ace2812c&f=&fg=blog)
 > 
 > Ordinary people…pointless abilities.

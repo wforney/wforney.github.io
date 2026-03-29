@@ -6,7 +6,7 @@ tags: []
 original_url: "https://williamforney.com/2007/08/15/bellingham-lan-continued/"
 ---
 
-![The old Computer Repair Place shop](https://williamforney.com/wp-content/uploads/2007/12/2099273197_0e79d4c74b1.jpg)
+![The old Computer Repair Place shop](/assets/img/posts/2099273197_0e79d4c74b1.jpg)
 
 I found a few more photos on my crappy camera phone from the LAN.
 

@@ -6,7 +6,7 @@ tags: ["C#", "DbDataRecord", "DBNull", "IDataRecord", "Map"]
 original_url: "https://williamforney.com/2020/09/27/how-to-map-an-idatarecord-to-an-entity-class-object-without-using-reflection/"
 ---
 
-![blur close up code computer](https://williamforney.com/wp-content/uploads/2020/09/pexels-photo-546819.jpeg)
+![blur close up code computer](/assets/img/posts/pexels-photo-546819.jpeg)
 
 Recently I had a need to map an IDataRecord to an entity class object in C#. Here is the code for reference… First, we need the method that generates a function to map the properties while handling DBNull.
     

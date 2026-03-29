@@ -6,7 +6,7 @@ tags: ["cursor", "wait", "wait cursor", "WaitCursor", "Windows Forms"]
 original_url: "https://williamforney.com/2020/09/27/using-a-wait-cursor-doesnt-have-to-be-hard/"
 ---
 
-![animal cute little mouse](https://williamforney.com/wp-content/uploads/2020/09/pexels-photo-301448.jpeg)
+![animal cute little mouse](/assets/img/posts/pexels-photo-301448.jpeg)
 
 Here is a simple disposable wait cursor class to simplify your mouse display needs…
     

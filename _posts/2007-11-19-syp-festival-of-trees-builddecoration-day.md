@@ -6,7 +6,7 @@ tags: ["Skagit Young Professionals", "SYP", "Festival of Trees", "Christmas", "t
 original_url: "https://williamforney.com/2007/11/19/syp-festival-of-trees-builddecoration-day/"
 ---
 
-![SYP Pool Outing](https://williamforney.com/wp-content/uploads/2008/06/2552743964_9bffdc2d8a1.jpg)
+![SYP Pool Outing](/assets/img/posts/2552743964_9bffdc2d8a1.jpg)
 
 Today was build day for our trees and I took a ton of photos. Some of them are blurry, but I uploaded them anyway. The theme for our tree is Forever Young and it has just about everything a kid could want when they wake up Christmas morning.
 

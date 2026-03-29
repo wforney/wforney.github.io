@@ -12,4 +12,3 @@ Technorati tags: (http://technorati.com/tags/bad design)
 
 Source: <http://blogs.msdn.com/mswanson/archive/2007/05/06/bad-design-by-example.aspx>
 
-![](http://tkfiles.storage.msn.com/y1pfcrwExK5OSJba08Wr2rPqSaxgtO-Dn2_gIghpEV0MPfwY1IZV6780FftKo0IdTNIaUDqivxksSs)

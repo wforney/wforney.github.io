@@ -6,7 +6,7 @@ tags: ["async", "await", "C#", "STA", "SynchronizationContext", "Windows Forms"]
 original_url: "https://williamforney.com/2020/09/27/stathread-async-await-got-you-down/"
 ---
 
-![abstract business code coder](https://williamforney.com/wp-content/uploads/2020/09/pexels-photo-270348.jpeg)
+![abstract business code coder](/assets/img/posts/pexels-photo-270348.jpeg)
 
 When encountering issues with async/await while building a Windows Forms application recently I came across this helpful class that allows you to await returning to the initial (usually UI) thread…
     

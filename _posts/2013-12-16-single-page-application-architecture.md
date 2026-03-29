@@ -6,7 +6,7 @@ tags: ["JavaScript", "single page application", "SPA", "architecture", "layers",
 original_url: "https://williamforney.com/2013/12/16/single-page-application-architecture/"
 ---
 
-![blur close up code computer](https://williamforney.com/wp-content/uploads/2020/09/pexels-photo-546819.jpeg)
+![blur close up code computer](/assets/img/posts/pexels-photo-546819.jpeg)
 
 I’ve been poking around at a lot of JavaScript over the last year or two and have been refining this layered architecture for setting up applications. The main idea behind it is to cover all the old bases in a way that also reduces the number of requests and performs very well. The layers I am using are setup like so:
 

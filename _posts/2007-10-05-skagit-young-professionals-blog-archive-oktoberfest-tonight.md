@@ -6,7 +6,7 @@ tags: ["SYP", "Skagit Young Professionals", "Oktoberfest", "Guardian Northwest T
 original_url: "https://williamforney.com/2007/10/05/skagit-young-professionals-blog-archive-oktoberfest-tonight/"
 ---
 
-![SYP @ Skagit River Brewery](https://williamforney.com/wp-content/uploads/2007/10/1488500646_0b0dce4ccc1.jpg)
+![SYP @ Skagit River Brewery](/assets/img/posts/1488500646_0b0dce4ccc1.jpg)
 
 Well, the Oktoberfest event last night was a lot of fun and I added some photos to the flickr feed that somebody took with my camera.
 

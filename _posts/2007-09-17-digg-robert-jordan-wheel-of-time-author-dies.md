@@ -12,8 +12,5 @@ Technorati tags: (http://technorati.com/tags/Robert Jordan), (http://technorati.
 
 Source: <http://www.digg.com/celebrity/Robert_Jordan_Wheel_of_Time_author_Dies>
 
-![](http://tkfiles.storage.msn.com/y1pfcrwExK5OSKAarQJr-RNOw7NfkWDsW09461xKYfdIFi_EcieRd93aGmWghIjusOFlDjeGi4xghI)
-
 Source: <http://www.digg.com/celebrity/Robert_Jordan_Wheel_of_Time_author_Dies>
 
-![](http://tkfiles.storage.msn.com/y1pfcrwExK5OSKAarQJr-RNOw7NfkWDsW09461xKYfdIFi_EcieRd93aGmWghIjusOFlDjeGi4xghI)

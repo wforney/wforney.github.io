@@ -6,7 +6,7 @@ tags: ["Windows 10", "Universal Apps", "new window", "UWP"]
 original_url: "https://williamforney.com/2015/08/13/how-to-open-a-new-window-in-a-windows-10-universal-app/"
 ---
 
-![Custom Case Fan Mod](https://williamforney.com/wp-content/uploads/2007/10/1624452984_9de317e37b1.jpg)
+![Custom Case Fan Mod](/assets/img/posts/1624452984_9de317e37b1.jpg)
 
 I had to dig a little bit to find this. Since not all form factors support multiple windows and tablet mode generally discourages floating windows this is probably buried for a reason, but I wanted to do it anyway so here it is:
     

@@ -12,4 +12,3 @@ Technorati tags: (http://technorati.com/tags/Silverlight)
 
 Source: [http://weblogs.asp.net/scottgu/archive/2007/09/04/silverlight-1-0-released-and-silverlight-for-linux-announced.aspx](https://weblogs.asp.net/scottgu/archive/2007/09/04/silverlight-1-0-released-and-silverlight-for-linux-announced.aspx)
 
-![](http://tkfiles.storage.msn.com/y1pfcrwExK5OSIrSOsMGweqCuxhtphwahgcPcAd58UHXwI-kTBa5kbDrfRwWpIObcPzw7KxSaMbFSg)

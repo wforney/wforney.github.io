@@ -12,4 +12,3 @@ Technorati tags: (http://technorati.com/tags/Halo), (http://technorati.com/tags/
 
 Source: <http://www.superdeluxe.com/sd/contentDetail.do?id=D81F2344BF5AC7BBFFE3587F10E93131C90D27BA743FF37E>
 
-![](http://tkfiles.storage.msn.com/y1pfcrwExK5OSJDzLILcGdiV6csRFUsw54tm2gvlL8t2c68P28s-P-FInWuydeVoXWWA4idUW9I9W0)
