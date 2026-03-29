@@ -9,9 +9,11 @@ _Software Engineer by day — Entrepreneur by night — Geek all the time_
 
 For the past two decades I have worked with a large variety of businesses and technologies to design, develop and deploy software to improve the efficiency and impact of the organizations where I have applied my efforts. I look forward to applying my skills to new projects and learning along the way.
 
-- **GitHub:** [github.com/wforney](https://github.com/wforney)
-- **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
 - **LinkedIn:** [linkedin.com/in/wforney](https://www.linkedin.com/in/wforney)
+- **GitHub:** [github.com/wforney](https://github.com/wforney)
+- **Twitter/X:** [@wforney](https://twitter.com/wforney)
+- **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
+- **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
 - **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
 
 ---
