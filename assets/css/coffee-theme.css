@@ -36,6 +36,18 @@ article.thought-post .card-body {
   height: auto !important;
 }
 
+article.thought-post .preview-img {
+  aspect-ratio: unset !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+article.thought-post .preview-img img {
+  height: auto !important;
+  object-fit: unset !important;
+  width: 100% !important;
+}
+
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
