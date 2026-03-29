@@ -1,7 +1,6 @@
 ---
-layout: page
-title: About
-permalink: /about/
+icon: fas fa-info-circle
+order: 1
 ---
 
 ## William Forney
@@ -14,3 +13,4 @@ I write about .NET, cloud architecture, open source software, and whatever else 
 
 - **GitHub:** [github.com/wforney](https://github.com/wforney)
 - **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
+- **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)

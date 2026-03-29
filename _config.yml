@@ -1,55 +1,92 @@
+lang: en
+timezone: America/Los_Angeles
+
 title: William Forney
+tagline: have code, will travel
 description: >-
   Personal blog of William Forney — software engineer, architect, and developer.
   Writing about .NET, cloud, architecture, and more.
+
 url: "https://wforney.github.io"
 baseurl: ""
 
-author:
+theme: jekyll-theme-chirpy
+
+github:
+  username: wforney
+
+twitter:
+  username: wforney
+
+social:
   name: William Forney
-  email: "blog@williamforney.com"
+  email: blog@williamforney.com
+  links:
+    - https://github.com/wforney
+    - https://twitter.com/wforney
 
-# Theme
-remote_theme: jekyll/minima
+theme_mode: dark
 
-minima:
-  skin: dark
-  social_links:
-    - { platform: github,   user_url: "https://github.com/wforney" }
-    - { platform: x,        user_url: "https://twitter.com/wforney" }
+avatar: ""
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-remote-theme
+toc: true
 
-# Pagination
-paginate: 10
-paginate_path: "/page/:num/"
+# Syntax highlighting
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
 
 # Permalink matches original WordPress URL structure
 permalink: /:year/:month/:day/:title/
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
-
 # Exclude from build
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - scrape_blog.py
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
+  - LICENSE
   - "*.sh"
   - vendor/
   - node_modules/
-  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scrape_blog.py
+  - cleanup_posts.py
