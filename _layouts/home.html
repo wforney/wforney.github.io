@@ -57,7 +57,10 @@ layout: default
 
         <div class="col-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
+            <h1 class="card-title my-2 mt-md-0">
+              {{ post.title }}
+              {% if is_short %}<span class="badge bg-secondary ms-2" style="font-size:0.6em;vertical-align:middle;" title="Short post — full content shown here">thought</span>{% endif %}
+            </h1>
 
             <div class="card-text content mt-0 mb-3">
               {% if is_short %}
