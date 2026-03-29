@@ -25,7 +25,7 @@ original_url: "https://williamforney.com/2017/05/22/getting-started-with-aurelia
          dotnet new --install Microsoft.AspNetCore.SpaTemplates::*
 
   
-[![screenshot](https://cdn.billforney.com/posts/files/8b3319ec-e312-4eeb-9563-6c3346824f4a.png)](https://www.billforney.com/posts/files/154a197a-19ee-4157-a105-2f2d112fee1e.png)   
+![screenshot](/assets/img/posts/aurelia-step3.png)
 
   4. Create the Aurelia project like this:   
 
@@ -33,7 +33,7 @@ original_url: "https://williamforney.com/2017/05/22/getting-started-with-aurelia
          dotnet new Aurelia 
 
   
-[![screenshot](https://cdn.billforney.com/posts/files/b82a15d9-1c79-4f0f-a9ad-50198bcf6ded.png)](https://www.billforney.com/posts/files/980c3012-e173-4f36-98eb-ffb66fe7a49e.png)   
+![screenshot](/assets/img/posts/aurelia-step4.png)
 
   5. Prepare the environment to run using these commands, ignoring any warnings from npm as they are expected…   
 
@@ -43,9 +43,9 @@ original_url: "https://williamforney.com/2017/05/22/getting-started-with-aurelia
          setx ASPNETCORE_ENVIRONMENT "Development"
 
   
-[![screenshot](https://cdn.billforney.com/posts/files/364730d1-299c-4d28-9882-4755d0bc193b.png)](https://www.billforney.com/posts/files/72c213e6-3bb9-4a0b-8b1b-f2d62d6c8f50.png)   
-[![screenshot](https://cdn.billforney.com/posts/files/95490758-98b2-4472-b73c-b2b712228082.png)](https://www.billforney.com/posts/files/360c2c5f-4d3a-4e7b-84ef-ebd3004d017c.png)   
-[![screenshot](https://cdn.billforney.com/posts/files/681fd176-2a30-42c3-8e9f-62377d9cfe4a.png)](https://www.billforney.com/posts/files/334108f7-3756-47fa-8726-dbaaf71520af.png)   
+![screenshot](/assets/img/posts/aurelia-step5a.png)
+![screenshot](/assets/img/posts/aurelia-step5b.png)
+![screenshot](/assets/img/posts/aurelia-step5c.png)
 
   6. Restart your command prompt to ensure that the environment change takes effect.
   7. Run your new app with the command line   
@@ -54,11 +54,11 @@ original_url: "https://williamforney.com/2017/05/22/getting-started-with-aurelia
          dotnet run
 
   
-[![screenshot](https://cdn.billforney.com/posts/files/fff4a40b-422f-476f-b5d7-01fe75a26160.png)](https://www.billforney.com/posts/files/5066c1b8-af88-4800-8ce9-ff500566c0c6.png)
+![screenshot](/assets/img/posts/aurelia-step7.png)
 
 These steps should give you a bare bones ASP.NET Core site with a basic Aurelia setup that looks like this…
 
-[![screenshot](https://cdn.billforney.com/posts/files/9ffcad10-0c8a-448d-baed-92dc878ef2cf.png)](https://www.billforney.com/posts/files/955d3a59-a706-42f3-95f7-379f8e15c720.png)
+![screenshot](/assets/img/posts/aurelia-finish.png)
 
 ## Publishing to a Host
 

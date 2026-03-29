@@ -6,8 +6,6 @@ tags: []
 original_url: "https://williamforney.com/2006/01/09/another-funny-little-quiz/"
 ---
 
-![Neo, the One](http://images.quizfarm.com/1130268505NEO.jpg)
-
 You scored as **Neo, the "One"**. Neo is the computer hacker-turned-Messiah of the Matrix. He leads a small group of human rebels against the technology that controls them. Neo doubts his ability to lead but doesn't want to disappoint his friends. His goal is for a world where all men know the Truth and are free from the bonds of the Matrix.
 
 | Character | Score |
