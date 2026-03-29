@@ -15,4 +15,4 @@ original_url: "https://williamforney.com/2006/01/09/a-rather-funny-little-online
 **Lust:**|  Medium|   
 **Pride:**|  Low|   
   
-[Discover Your Sins – Click Here](http://www.4degreez.com/misc/seven_deadly_sins.html)
+(http://www.4degreez.com/misc/seven_deadly_sins.html)

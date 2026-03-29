@@ -6,4 +6,6 @@ tags: []
 original_url: "https://williamforney.com/2006/12/13/vista-user-profile-hell-resolved/"
 ---
 
+![Windows One Care Team, Nate, and Bill](https://williamforney.com/wp-content/uploads/2007/09/1400010854_28f92eb9d71.jpg)
+
 Well after a bit of tracking things down and booting to safe mode a few times I figured out that the combination of mozy.com’s backup service and windows onecare is what caused the problem. Looks like mozy was trying to backup my registry file while onecare tried to scan it and poof… windows couldn’t access it when i logged in… or something like that anyway. I disabled mozy and logged in, then reconfigured it to not backup that file. Then everything went back to normal. Geesh…

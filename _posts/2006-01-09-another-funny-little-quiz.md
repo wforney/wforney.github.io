@@ -6,7 +6,7 @@ tags: []
 original_url: "https://williamforney.com/2006/01/09/another-funny-little-quiz/"
 ---
 
-| You scored as **Neo, the "One"**. Neo is the computer hacker-turned-Messiah of the Matrix. He leads a small group of human rebels against the technology that controls them. Neo doubts his ability to lead but doesn’t want to disappoint his friends. His goal is for a world where all men know the Truth and are free from the bonds of the Matrix.| Neo, the "One"| |   
+![](http://images.quizfarm.com/1130268505NEO.jpg)| You scored as **Neo, the "One"**. Neo is the computer hacker-turned-Messiah of the Matrix. He leads a small group of human rebels against the technology that controls them. Neo doubts his ability to lead but doesn’t want to disappoint his friends. His goal is for a world where all men know the Truth and are free from the bonds of the Matrix.| Neo, the "One"| |   
 ---  
 83%  
 Captain Jack Sparrow| |   
@@ -40,42 +40,34 @@ El Zorro| |
 ---  
 17%  
   
-[Which Action Hero Would You Be? v. 2.0](http://quizfarm.com/test.php?q_id=92013)  
+(http://quizfarm.com/test.php?q_id=92013)  
 created with [QuizFarm.com](http://quizfarm.com/)
 
 ## Related Posts
 
 [](https://williamforney.com/2007/09/05/mike-swansons-blog-bad-design-by-example/)
 
-  * [Entertainment](https://williamforney.com/category/entertainment/)
+  * (https://williamforney.com/category/entertainment/)
 
-
-
-## [Mike Swanson’s Blog : Bad Design by Example](https://williamforney.com/2007/09/05/mike-swansons-blog-bad-design-by-example/)
+## (https://williamforney.com/2007/09/05/mike-swansons-blog-bad-design-by-example/)
 
 [](https://williamforney.com/2007/03/26/free/)
 
-  * [Entertainment](https://williamforney.com/category/entertainment/)
+  * (https://williamforney.com/category/entertainment/)
 
-
-
-## [free](https://williamforney.com/2007/03/26/free/)
+## (https://williamforney.com/2007/03/26/free/)
 
 [](https://williamforney.com/2007/06/10/lan-party-at-dss-june-2007-continued-the-prizes/)
 
-  * [Entertainment](https://williamforney.com/category/entertainment/)
+  * (https://williamforney.com/category/entertainment/)
 
-
-
-## [LAN Party at DSS (June 2007) continued… the prizes](https://williamforney.com/2007/06/10/lan-party-at-dss-june-2007-continued-the-prizes/)
+## (https://williamforney.com/2007/06/10/lan-party-at-dss-june-2007-continued-the-prizes/)
 
 [](https://williamforney.com/2006/07/25/another-one-bites-the-dust/)
 
-  * [Entertainment](https://williamforney.com/category/entertainment/)
+  * (https://williamforney.com/category/entertainment/)
 
-
-
-## [another one bites the dust](https://williamforney.com/2006/07/25/another-one-bites-the-dust/)
+## (https://williamforney.com/2006/07/25/another-one-bites-the-dust/)
 
  __
 
@@ -87,8 +79,6 @@ created with [QuizFarm.com](http://quizfarm.com/)
   * [ __ ](http://www.printfriendly.com/print?url=https%3A%2F%2Fwilliamforney.com%2F2006%2F01%2F09%2Fanother-funny-little-quiz%2F&title=another%20funny%20little%20quiz)
   * [ __ ](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwilliamforney.com%2F2006%2F01%2F09%2Fanother-funny-little-quiz%2F&title=another%20funny%20little%20quiz)
 
-
-
 Share This
 
   * [ __https://www.facebook.com/wforney ](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwilliamforney.com%2F2006%2F01%2F09%2Fanother-funny-little-quiz%2F&t=another%20funny%20little%20quiz)
@@ -96,7 +86,5 @@ Share This
   * __https://www.pinterest.com/wforney/
   * [ __Print Friendly ](http://www.printfriendly.com/print?url=https%3A%2F%2Fwilliamforney.com%2F2006%2F01%2F09%2Fanother-funny-little-quiz%2F&title=another%20funny%20little%20quiz)
   * [ __https://www.linkedin.com/in/wforney ](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwilliamforney.com%2F2006%2F01%2F09%2Fanother-funny-little-quiz%2F&title=another%20funny%20little%20quiz)
-
-
 
 %d

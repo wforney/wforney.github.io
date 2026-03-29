@@ -10,7 +10,7 @@ Well, if you didn’t know, I joined the EDASC Swing into the Holidays event com
 
 Quote
 
-> [EDASC Committee Meeting boat ride video](https://soapbox.msn.com/video.aspx?vid=7e2f5131-001b-4373-ad50-0a13c89be7fd)
+> (https://soapbox.msn.com/video.aspx?vid=7e2f5131-001b-4373-ad50-0a13c89be7fd)
 > 
 > [http://images.soapbox.msn.com/flash/soapbox1_1.swf](https://images.soapbox.msn.com/flash/soapbox1_1.swf)   
 > [Video: EDASC Committee Meeting boat ride video](https://soapbox.msn.com/video.aspx?vid=7e2f5131-001b-4373-ad50-0a13c89be7fd "EDASC Committee Meeting boat ride video")

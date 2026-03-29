@@ -11,4 +11,4 @@ We had our monthly get together tonight at Skagit Gardens. There were a few new 
 <http://sc1.sclive.net/12.2.1265.1006/Web/Parts/PhotoAlbum/script/slideshow.swf>  
 [Bill’s Space: 2007-12-07 SYP December Bash At Skagit Gardens](http://wforney.spaces.live.com/photos/cns!3F38E6530D38A38C!60522/)
 
-Technorati tags: [SYP](http://technorati.com/tags/SYP), [Skagit Young Professionals](http://technorati.com/tags/Skagit Young Professionals), [December](http://technorati.com/tags/December), [Skagit Gardens](http://technorati.com/tags/Skagit Gardens)
+Technorati tags: (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/December), (http://technorati.com/tags/Skagit Gardens)

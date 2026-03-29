@@ -93,7 +93,7 @@ permissions>
 
 <
 
-content><![CDATA[Content]]></content>
+content><![CDATA]></content>
 
 </
 
@@ -179,7 +179,7 @@ categories>
 
 <
 
-content><![CDATA[Content]]></content>
+content><![CDATA]></content>
 
 </
 
@@ -265,7 +265,7 @@ user id="{B29DA606-AE45-49ff-94BE-A144AE350A08}"
 
 displayName="William Forney" firstName="William" middleName="Lee" lastName="Forney"
 
-emailAddress="[[email protected]](/cdn-cgi/l/email-protection)"
+emailAddress="[](/cdn-cgi/l/email-protection)"
 
 password="" />
 

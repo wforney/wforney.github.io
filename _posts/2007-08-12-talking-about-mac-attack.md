@@ -6,11 +6,13 @@ tags: []
 original_url: "https://williamforney.com/2007/08/12/talking-about-mac-attack/"
 ---
 
+![Windows One Care Team, Nate, and Bill](https://williamforney.com/wp-content/uploads/2007/09/1400010854_28f92eb9d71.jpg)
+
 ROFL! Bad language warning…
 
 Quote
 
-> [Mac attack](https://soapbox.msn.com/video.aspx?vid=3101c07e-c3eb-49aa-9610-f80f40d244f1)
+> (https://soapbox.msn.com/video.aspx?vid=3101c07e-c3eb-49aa-9610-f80f40d244f1)
 > 
 > [http://images.soapbox.msn.com/flash/soapbox1_1.swf](https://images.soapbox.msn.com/flash/soapbox1_1.swf)   
 > [Video: Mac attack](https://soapbox.msn.com/video.aspx?vid=3101c07e-c3eb-49aa-9610-f80f40d244f1 "Mac attack")

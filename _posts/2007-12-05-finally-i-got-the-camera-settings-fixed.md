@@ -14,4 +14,4 @@ I took some photos recently of the office decorations and at kickoff coffee on M
 <http://sc1.sclive.net/12.2.1265.1006/Web/Parts/PhotoAlbum/script/slideshow.swf>  
 [Bill’s Space: 2007-12-03 SYP Kickoff Coffee](http://wforney.spaces.live.com/photos/cns!3F38E6530D38A38C!60473/)
 
-Technorati tags: [photography](http://technorati.com/tags/photography), [Padgett & Padgett](http://technorati.com/tags/Padgett & Padgett), [SYP](http://technorati.com/tags/SYP), [Skagit Young Professionals](http://technorati.com/tags/Skagit Young Professionals), [Kickoff Coffee](http://technorati.com/tags/Kickoff Coffee), [coffee](http://technorati.com/tags/coffee)
+Technorati tags: (http://technorati.com/tags/photography), (http://technorati.com/tags/Padgett & Padgett), (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/Kickoff Coffee), (http://technorati.com/tags/coffee)

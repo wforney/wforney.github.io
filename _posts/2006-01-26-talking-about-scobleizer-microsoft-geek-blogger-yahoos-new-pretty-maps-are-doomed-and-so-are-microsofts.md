@@ -26,4 +26,4 @@ Very exciting indeed.
 
  _Quote_
 
-> [Scobleizer – Microsoft Geek Blogger » Yahoo’s new pretty maps are doomed (and so are Microsoft’s)](http://scobleizer.wordpress.com/2005/11/03/yahoos-new-pretty-maps-are-doomed-and-so-are-microsofts/)
+> (http://scobleizer.wordpress.com/2005/11/03/yahoos-new-pretty-maps-are-doomed-and-so-are-microsofts/)

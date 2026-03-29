@@ -8,4 +8,4 @@ original_url: "https://williamforney.com/2006/10/07/interface-technical-training
 
 LOL… well, don’t quit your day jobs guys, but this was good for a chuckle anyway… 
 
-[Link to Interface Technical Training :: DLL Hell Song Page](http://www.interfacett.com/dllhell/)
+(http://www.interfacett.com/dllhell/)

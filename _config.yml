@@ -7,13 +7,16 @@ baseurl: ""
 
 author:
   name: William Forney
-  email: ""
+  email: "blog@williamforney.com"
 
 # Theme
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/wforney" }
+    - { platform: twitter, user_url: "https://twitter.com/wforney" }
 
 # Plugins
 plugins:
@@ -21,6 +24,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Pagination
 paginate: 10

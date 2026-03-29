@@ -13,19 +13,16 @@ The solution is to disable the virtual adapter that was auto-created for the phy
 Rename a network connection:
     
     
-```
-netsh interface set interface name=”Local Area Connection 3” newname=”Internet Connection”
-```
+    netsh interface set interface name=”Local Area Connection 3” newname=”Internet Connection”
+
 Disable a network connection:
     
     
-```
-netsh interface set interface name=”Internet Connection” disabled
-```
+    netsh interface set interface name=”Internet Connection” disabled
+
 Pretty simple, but my install of Hyper-V Server also suffered from a bug that luckily has a hot fix. It was showing no interfaces when I ran this:
     
     
-```
-netsh interface show interface
-```
+    netsh interface show interface
+
 …which is a bug. After I found the patch for that though the rest was done in no time.

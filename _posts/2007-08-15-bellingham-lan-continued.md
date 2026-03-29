@@ -6,6 +6,8 @@ tags: []
 original_url: "https://williamforney.com/2007/08/15/bellingham-lan-continued/"
 ---
 
+![The old Computer Repair Place shop](https://williamforney.com/wp-content/uploads/2007/12/2099273197_0e79d4c74b1.jpg)
+
 I found a few more photos on my crappy camera phone from the LAN.
 
-[*[image: 0804071923b]*](https://tkfiles.storage.msn.com/y1pIbSW21GRCo27o8ctGBsyvqattWYWEnGIgBq4_atJsW9zaYB8s8EsJ9K8v1CGn3ddC2mx9t8na_I)[*[image: 0804071923a]*](https://tkfiles.storage.msn.com/y1pIbSW21GRCo1E8ED4vIidVaRPfkMBL5vwI-nlVs-9G2WP7fm2aIUjsoaQVmf5SXEoWxNbdV9sW58)[*[image: 0804071923]*](https://tkfiles.storage.msn.com/y1pIbSW21GRCo2PQmOdmBlXvu4qjKmEpZlp06X3DlfkAkBWIgLEepLDf-9wn10UWJe-m2QY6ZuG3WM)[*[image: 0804071922]*](https://tkfiles.storage.msn.com/y1pIbSW21GRCo1XfsEHMFBx5DmgFaRwEGC7ug7v3VOo1QZdTnWlEwjsXCoC22GBH3lcOStkerMnEDs)
+[!(http://tkfiles.storage.msn.com/y1pIbSW21GRCo15yYp4LCkvbaMn-oumIzwGLeXaqJt0K4nzDQc54-W-UqG1YjC9HwA3hfnWev2j12s)](https://tkfiles.storage.msn.com/y1pIbSW21GRCo27o8ctGBsyvqattWYWEnGIgBq4_atJsW9zaYB8s8EsJ9K8v1CGn3ddC2mx9t8na_I)[!(http://tkfiles.storage.msn.com/y1pIbSW21GRCo0e9FnZpElJ-xNkSfJU9Ua6OQ2DnyByMgx0bEfmyAGNGOUw2b1aUBf6pse-Ei7VGE0)](https://tkfiles.storage.msn.com/y1pIbSW21GRCo1E8ED4vIidVaRPfkMBL5vwI-nlVs-9G2WP7fm2aIUjsoaQVmf5SXEoWxNbdV9sW58)[!(http://tkfiles.storage.msn.com/y1pIbSW21GRCo0QablaKyYZJmWAaGivVaf6vnIE0W-vfU4s3hAcllg7eUeb2qDR9bSeLGXdOCl9bzU)](https://tkfiles.storage.msn.com/y1pIbSW21GRCo2PQmOdmBlXvu4qjKmEpZlp06X3DlfkAkBWIgLEepLDf-9wn10UWJe-m2QY6ZuG3WM)[!(http://tkfiles.storage.msn.com/y1pIbSW21GRCo2Mpfc7G3K1XBZ7Jj4ll0u0HgvSBahaoQ5JcVggBIEQCCTuW8RKD2XVAuRZ6x0ggoY)](https://tkfiles.storage.msn.com/y1pIbSW21GRCo1XfsEHMFBx5DmgFaRwEGC7ug7v3VOo1QZdTnWlEwjsXCoC22GBH3lcOStkerMnEDs)

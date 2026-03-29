@@ -10,4 +10,4 @@ Yeah, I know, guilty… Turns out the reason my Visual Studio 2008 has been havi
 
 [http://jberke.blogspot.com/2008/05/typelibbuilderexe-crashes-javascript.html](https://jberke.blogspot.com/2008/05/typelibbuilderexe-crashes-javascript.html "http://jberke.blogspot.com/2008/05/typelibbuilderexe-crashes-javascript.html")
 
-Technorati Tags: [TypeLibBuilder.exe](http://technorati.com/tags/TypeLibBuilder.exe),[DigitalPersona](http://technorati.com/tags/DigitalPersona),[fingerprint](http://technorati.com/tags/fingerprint),[reader](http://technorati.com/tags/reader),[Visual Studio 2008](http://technorati.com/tags/Visual+Studio+2008),[crash](http://technorati.com/tags/crash)
+Technorati Tags: [TypeLibBuilder.exe](http://technorati.com/tags/TypeLibBuilder.exe),(http://technorati.com/tags/DigitalPersona),(http://technorati.com/tags/fingerprint),(http://technorati.com/tags/reader),(http://technorati.com/tags/Visual+Studio+2008),(http://technorati.com/tags/crash)

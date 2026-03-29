@@ -6,7 +6,9 @@ tags: []
 original_url: "https://williamforney.com/2008/03/26/peanut-butter-chocolate-easter-eggs-with-coconut-topping/"
 ---
 
-[*[image: Peanut butter chocolate eggs... mmm...]*](http://tkfiles.storage.live.com/y1pRC-YaWs03lydMEBiFttu9lgL-_KgXkfZLQkegnyDGDj_gH2kDSYQqsVEUEtJS7CPWukjADcbt8A)Mmmm…. Yummy stuff… Tonight after work I went over to Amelia and Tony’s house to make some delicious desert.
+![Peanut butter and chocolate eggs with coconut](https://williamforney.com/wp-content/uploads/2008/03/DSC01884.jpg)
+
+[!(http://tkfiles.storage.live.com/y1pRC-YaWs03lydMEBiFttu9lgL-_KgXkfZLQkegnyDGDj_gH2kDSYQqsVEUEtJS7CPWukjADcbt8A)](http://tkfiles.storage.live.com/y1pRC-YaWs03lydMEBiFttu9lgL-_KgXkfZLQkegnyDGDj_gH2kDSYQqsVEUEtJS7CPWukjADcbt8A)Mmmm…. Yummy stuff… Tonight after work I went over to Amelia and Tony’s house to make some delicious desert.
 
 You see, before my mother passed away she sent us some peanut butter and chocolate eggs all the way from Pennsylvania. Everyone in the office loved them so much we asked for the recipe. I gave a copy to Steve, one to Ray or Denise and kept one. Needless to say, I misplaced mine, as did Steve. Denise had tucked it away in her recipe box though and found it the other day. So, now that I have a copy again I whipped some up. They’re easy to make and deliciously evil. The recipe is as follows…
 
@@ -39,4 +41,4 @@ Decorate with colored icing after they dry.
 Makes about 26 eggs.  
   
 ---  
-[](http://blufiles.storage.live.com/y1piUzRTQsNkTNZR-azSBPtpjlpk-IKv0ramQAScGacl3UjsJO595NcJwuKEYHmFjzZ8Fma0oQRTXo)
+[![](http://blufiles.storage.live.com/y1piUzRTQsNkTNZR-azSBPtpjIPsmuDbKEGtQxy4tX1pP92dOEOrOqKQNEmIGxjHm8HRPb5QTtIRMk)](http://blufiles.storage.live.com/y1piUzRTQsNkTNZR-azSBPtpjlpk-IKv0ramQAScGacl3UjsJO595NcJwuKEYHmFjzZ8Fma0oQRTXo)

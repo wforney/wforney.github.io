@@ -6,6 +6,8 @@ tags: []
 original_url: "https://williamforney.com/2007/08/21/why-microsofts-partner-support-and-ms-gearup-com-sucks-the-rant/"
 ---
 
+![Windows One Care Team, Nate, and Bill](https://williamforney.com/wp-content/uploads/2007/09/1400010854_28f92eb9d71.jpg)
+
 MS-GearUp.com is the biggest busted piece of crap I’ve seen yet! Yeah, it works fine if you’re starting a new agreement from scratch, but if you’re trying to do a quote for a renewal/2nd/3rd year open value agreement it is hopelessly broken. It’s either truly "smarter" than you, or… it’s acting like it’s smarter than you. Not to mention that tech support is email only for this, which is next to useless since it would take 3-4 days to explain what you’re trying to do to some guy in another country who has no clue what you’re talking about in the first place and is about as woefully untrained as the Licensing/Partner Resource Desk people. Wait, maybe I should call my SBSC T-PAM? No, wait, maybe I should have them call the Licensing Desk and conference in the Partner Resource Desk so they can all have a big 3 hour conversation and still come to the conclusion that I should talk to my ALP because NOBODY has any F&#KING clue how the H3&& this stuff is actually supposed to be properly licensed. Oh wait, Eric Ligman knows… He’s the guru, but what’s his email address again???
 
 Maybe I should just take my customer to the Microsoft store with my "buddy’s friend’s cousin’s neighbor" and buy all their software at a super discount. That’s what everybody seems to do around here anyway. What’s wrong with Microsoft, can’t they get a handle on this $H!T?

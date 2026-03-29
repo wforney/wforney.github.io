@@ -14,4 +14,4 @@ In a so far vain attempt to get somebody to answer the question as to why Outloo
 
 Ok, I’m done ranting now. Honestly though, how hard can it be to just fix this?
 
-Technorati Tags: [Outlook](http://technorati.com/tags/Outlook),[2007](http://technorati.com/tags/2007),[Windows Live](http://technorati.com/tags/Windows Live),[Outlook Connector](http://technorati.com/tags/Outlook Connector),[0x80070057](http://technorati.com/tags/0x80070057)
+Technorati Tags: (http://technorati.com/tags/Outlook),(http://technorati.com/tags/2007),(http://technorati.com/tags/Windows Live),(http://technorati.com/tags/Outlook Connector),(http://technorati.com/tags/0x80070057)
