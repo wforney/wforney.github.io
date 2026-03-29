@@ -3,6 +3,7 @@ title: "A post from Wendy at MSN."
 date: 2007-01-20
 categories: ["Computers and Internet"]
 tags: []
+author: "Wendy"
 original_url: "https://williamforney.com/2007/01/20/a-post-from-wendy-at-msn/"
 ---
 

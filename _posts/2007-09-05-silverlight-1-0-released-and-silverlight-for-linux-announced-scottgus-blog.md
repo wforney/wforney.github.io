@@ -2,7 +2,7 @@
 title: "Silverlight 1.0 Released and Silverlight for Linux Announced – ScottGu’s Blog"
 date: 2007-09-05
 categories: ["Computers and Internet", "Development"]
-tags: ["Silverlight"]
+tags: ["Silverlight"]`nauthor: "Scott Guthrie"
 original_url: "https://williamforney.com/2007/09/05/silverlight-1-0-released-and-silverlight-for-linux-announced-scottgus-blog/"
 ---
 
