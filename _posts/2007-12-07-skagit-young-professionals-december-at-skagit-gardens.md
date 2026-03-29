@@ -8,7 +8,22 @@ original_url: "https://williamforney.com/2007/12/07/skagit-young-professionals-d
 
 We had our monthly get together tonight at Skagit Gardens. There were a few new faces too. Here are the photos…
 
-<http://sc1.sclive.net/12.2.1265.1006/Web/Parts/PhotoAlbum/script/slideshow.swf>  
-[Bill’s Space: 2007-12-07 SYP December Bash At Skagit Gardens](http://wforney.spaces.live.com/photos/cns!3F38E6530D38A38C!60522/)
+![SYP December at Skagit Gardens 1](/assets/img/posts/2007-12-07-syp-december-001.jpg)
+![SYP December at Skagit Gardens 2](/assets/img/posts/2007-12-07-syp-december-002.jpg)
+![SYP December at Skagit Gardens 3](/assets/img/posts/2007-12-07-syp-december-003.jpg)
+![SYP December at Skagit Gardens 4](/assets/img/posts/2007-12-07-syp-december-004.jpg)
+![SYP December at Skagit Gardens 5](/assets/img/posts/2007-12-07-syp-december-005.jpg)
+![SYP December at Skagit Gardens 6](/assets/img/posts/2007-12-07-syp-december-006.jpg)
+![SYP December at Skagit Gardens 7](/assets/img/posts/2007-12-07-syp-december-007.jpg)
+![SYP December at Skagit Gardens 8](/assets/img/posts/2007-12-07-syp-december-008.jpg)
+![SYP December at Skagit Gardens 9](/assets/img/posts/2007-12-07-syp-december-009.jpg)
+![SYP December at Skagit Gardens 10](/assets/img/posts/2007-12-07-syp-december-010.jpg)
+![SYP December at Skagit Gardens 11](/assets/img/posts/2007-12-07-syp-december-011.jpg)
+![SYP December at Skagit Gardens 12](/assets/img/posts/2007-12-07-syp-december-012.jpg)
+![SYP December at Skagit Gardens 13](/assets/img/posts/2007-12-07-syp-december-013.jpg)
+![SYP December at Skagit Gardens 14](/assets/img/posts/2007-12-07-syp-december-014.jpg)
+![SYP December at Skagit Gardens 15](/assets/img/posts/2007-12-07-syp-december-015.jpg)
+![SYP December at Skagit Gardens 16](/assets/img/posts/2007-12-07-syp-december-016.jpg)
+
 
 Technorati tags: (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/December), (http://technorati.com/tags/Skagit Gardens)

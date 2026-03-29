@@ -8,4 +8,4 @@ original_url: "https://williamforney.com/2006/08/14/talking-about-introducing-wi
 
 Windows Live Writer – a new msft blogging tool I stumbled across today. downloading now, looks interesting.
 
-<http://windowslivewriter.spaces.live.com/PersonalSpace.aspx?_c02_owner=1>
+*Windows Live Writer's homepage was hosted on Windows Live Spaces and is no longer available.*

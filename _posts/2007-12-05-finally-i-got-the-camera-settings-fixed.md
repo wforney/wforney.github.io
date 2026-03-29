@@ -8,10 +8,15 @@ original_url: "https://williamforney.com/2007/12/05/finally-i-got-the-camera-set
 
 I took some photos recently of the office decorations and at kickoff coffee on Monday. Today I finally figured out why some images are always coming out blurry. Turns out there was a setting in the camera that was wrong. Go figure. hehe Anyway, with that fixed the photos should be a lot better now.
 
-<http://sc1.sclive.net/12.2.1265.1006/Web/Parts/PhotoAlbum/script/slideshow.swf>  
-[Bill’s Space: 2007-12-04 P2 Office Decorations](http://wforney.spaces.live.com/photos/cns!3F38E6530D38A38C!60479/)
+![P2 office decorations Dec 2007 1](/assets/img/posts/2007-12-04-p2-office-001.jpg)
+![P2 office decorations Dec 2007 2](/assets/img/posts/2007-12-04-p2-office-002.jpg)
+![P2 office decorations Dec 2007 3](/assets/img/posts/2007-12-04-p2-office-003.jpg)
+![P2 office decorations Dec 2007 4](/assets/img/posts/2007-12-04-p2-office-004.jpg)
+![P2 office decorations Dec 2007 5](/assets/img/posts/2007-12-04-p2-office-005.jpg)
 
-<http://sc1.sclive.net/12.2.1265.1006/Web/Parts/PhotoAlbum/script/slideshow.swf>  
-[Bill’s Space: 2007-12-03 SYP Kickoff Coffee](http://wforney.spaces.live.com/photos/cns!3F38E6530D38A38C!60473/)
+
+![SYP Kickoff Coffee Dec 2007 1](/assets/img/posts/2007-12-03-syp-kickoff-coffee-001.jpg)
+![SYP Kickoff Coffee Dec 2007 2](/assets/img/posts/2007-12-03-syp-kickoff-coffee-002.jpg)
+
 
 Technorati tags: (http://technorati.com/tags/photography), (http://technorati.com/tags/Padgett & Padgett), (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/Kickoff Coffee), (http://technorati.com/tags/coffee)

@@ -8,4 +8,4 @@ original_url: "https://williamforney.com/2006/08/12/talking-about-ultimate-list-
 
 As I was stumbling around the net today I came across this list of stuff from Microsoft. There are a lot of interesting research projects and nifty tools on this list… Check em out…
 
-<http://bhandler.spaces.live.com/blog/cns!70F64BC910C9F7F3!1231.entry>
+*This link was hosted on Windows Live Spaces and is no longer available.*
