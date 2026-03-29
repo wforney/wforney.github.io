@@ -53,6 +53,12 @@ article.thought-post .post-preview::before {
   pointer-events: none;
 }
 
+/* Chirpy inherits flex from card-body into card-text, making <p> tags
+   flow side-by-side. Force block layout for thought post content. */
+article.thought-post .card-text.content {
+  display: block !important;
+}
+
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
