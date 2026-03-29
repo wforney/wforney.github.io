@@ -27,6 +27,14 @@
   margin-left: 1em;
 }
 
+/* ── Card title: prevent descender clipping ───────────────────────────── */
+/* Chirpy uses -webkit-line-clamp + overflow:hidden on card titles.
+   The default h1 line-height:1.2 clips bottom of descenders on the last
+   visible line. A slightly looser line-height gives them room. */
+#post-list .card .card-body .card-title {
+  line-height: 1.4 !important;
+}
+
 /* ── Thought posts: allow full content height ─────────────────────────── */
 article.thought-post,
 article.thought-post .post-preview,
