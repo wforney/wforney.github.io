@@ -1,0 +1,15 @@
+---
+title: "SYP June – Pool & Darts"
+date: 2008-06-05
+categories: ["Skagit Young Professionals"]
+tags: ["SYP", "Skagit Young Professionals", "pool", "darts"]
+original_url: "https://williamforney.com/2008/06/05/syp-june-pool-darts/"
+---
+
+Well, the Skagit Young Professionals met again for pool and darts. I took a few photos, but they were mostly blurry. I’d just been to the dentist so I wasn’t my usual jovial self in case anybody was wondering.
+
+We need to do this more often, preferably when I don’t have a sore tooth. If you shrink them some of the blurry ones look ok though none are that great. Anyway, the photos are on Flickr and here are the links…
+
+[*[image: DSC01983]*](http://www.flickr.com/photos/15674747@N00/2552743964/ "DSC01983")[*[image: DSC01959]*](http://www.flickr.com/photos/15674747@N00/2552689902/ "DSC01959")[*[image: DSC01960]*](http://www.flickr.com/photos/15674747@N00/2551869843/ "DSC01960")[*[image: DSC01961]*](http://www.flickr.com/photos/15674747@N00/2551871643/ "DSC01961")[*[image: DSC01962]*](http://www.flickr.com/photos/15674747@N00/2552694880/ "DSC01962")[*[image: DSC01963]*](http://www.flickr.com/photos/15674747@N00/2551875795/ "DSC01963")[*[image: DSC01964]*](http://www.flickr.com/photos/15674747@N00/2552699262/ "DSC01964")[*[image: DSC01965]*](http://www.flickr.com/photos/15674747@N00/2552701938/ "DSC01965")[*[image: DSC01966]*](http://www.flickr.com/photos/15674747@N00/2552704686/ "DSC01966")[*[image: Scott]*](http://www.flickr.com/photos/15674747@N00/2552707496/ "Scott")[*[image: DSC01968]*](http://www.flickr.com/photos/15674747@N00/2552710196/ "DSC01968")[*[image: DSC01969]*](http://www.flickr.com/photos/15674747@N00/2552712338/ "DSC01969")[*[image: DSC01970]*](http://www.flickr.com/photos/15674747@N00/2552715470/ "DSC01970")[*[image: DSC01971]*](http://www.flickr.com/photos/15674747@N00/2552716040/ "DSC01971")[*[image: DSC01972]*](http://www.flickr.com/photos/15674747@N00/2552717124/ "DSC01972")[*[image: Tony]*](http://www.flickr.com/photos/15674747@N00/2551896431/ "Tony")[*[image: DSC01974]*](http://www.flickr.com/photos/15674747@N00/2551899099/ "DSC01974")[*[image: DSC01975]*](http://www.flickr.com/photos/15674747@N00/2551901867/ "DSC01975")[*[image: DSC01976]*](http://www.flickr.com/photos/15674747@N00/2551904649/ "DSC01976")[*[image: DSC01977]*](http://www.flickr.com/photos/15674747@N00/2551907315/ "DSC01977")[*[image: DSC01978]*](http://www.flickr.com/photos/15674747@N00/2551909973/ "DSC01978")[*[image: DSC01979]*](http://www.flickr.com/photos/15674747@N00/2551912711/ "DSC01979")[*[image: DSC01980]*](http://www.flickr.com/photos/15674747@N00/2551915301/ "DSC01980")[*[image: DSC01981]*](http://www.flickr.com/photos/15674747@N00/2552738734/ "DSC01981")[*[image: DSC01982]*](http://www.flickr.com/photos/15674747@N00/2552741194/ "DSC01982")
+
+Technorati Tags: [SYP](http://technorati.com/tags/SYP),[Skagit Young Professionals](http://technorati.com/tags/Skagit Young Professionals),[pool](http://technorati.com/tags/pool),[darts](http://technorati.com/tags/darts)

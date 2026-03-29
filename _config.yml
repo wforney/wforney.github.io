@@ -1,0 +1,51 @@
+title: William Forney
+description: >-
+  Personal blog of William Forney — software engineer, architect, and developer.
+  Writing about .NET, cloud, architecture, and more.
+url: "https://wforney.github.io"
+baseurl: ""
+
+author:
+  name: William Forney
+  email: ""
+
+# Theme
+theme: minima
+
+minima:
+  skin: dark
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Permalink matches original WordPress URL structure
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scrape_blog.py
+  - "*.sh"
+  - vendor/
+  - node_modules/
+  - README.md
