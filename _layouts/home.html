@@ -52,7 +52,7 @@ layout: default
     {% assign is_short = false %}
     {% if post_text.size < 280 %}{% assign is_short = true %}{% endif %}
 
-    <article class="card-wrapper card">
+    <article class="card-wrapper card{% if is_short %} thought-post{% endif %}">
       {% unless is_short %}<a href="{{ post.url | relative_url }}" class="post-preview row g-0">{% else %}<div class="post-preview row g-0">{% endunless %}
 
         <div class="col-12">

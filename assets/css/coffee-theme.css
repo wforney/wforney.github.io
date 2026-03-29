@@ -27,6 +27,15 @@
   margin-left: 1em;
 }
 
+/* ── Thought posts: allow full content height ─────────────────────────── */
+article.thought-post,
+article.thought-post .post-preview,
+article.thought-post .card-body {
+  max-height: none !important;
+  overflow: visible !important;
+  height: auto !important;
+}
+
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
