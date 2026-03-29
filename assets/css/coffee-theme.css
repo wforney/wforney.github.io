@@ -54,8 +54,9 @@ article.thought-post .post-preview::before {
 }
 
 /* Chirpy inherits flex from card-body into card-text, making <p> tags
-   flow side-by-side. Force block layout for thought post content. */
-article.thought-post .card-text.content {
+   flow side-by-side. Force block layout for thought post content.
+   Must use #post-list to beat Chirpy's ID-selector specificity. */
+#post-list article.thought-post .card-text.content {
   display: block !important;
 }
 
