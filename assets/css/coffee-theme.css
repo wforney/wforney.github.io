@@ -22,7 +22,11 @@
   position: relative;
 }
 
-/* ── Body / main background ───────────────────────────────────────────── */
+/* ── Post list image spacing ──────────────────────────────────────────── */
+.post-preview .preview-img {
+  margin-left: 1em;
+}
+
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
