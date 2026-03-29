@@ -12,3 +12,4 @@ This should be fun. I’ve been to The Porterhouse before and the food is awesom
 
 Source: <http://www.skagityoungprofessionals.com/2007/08/21/good-company-good-eats/>
 
+![SYP Good Company Good Eats dinner](/assets/img/posts/2007-08-22-syp-dinner.jpg)

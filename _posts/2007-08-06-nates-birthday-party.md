@@ -11,3 +11,5 @@ I posted some photos from Nate’s birthday party yesterday here:
 Source: [http://picasaweb.google.com/wforney/20070806NateSBirthdayParty](https://picasaweb.google.com/wforney/20070806NateSBirthdayParty)
 
 Technorati tags: (http://technorati.com/tags/Nate), (http://technorati.com/tags/birthday), (http://technorati.com/tags/party)
+
+![Nate's birthday party](/assets/img/posts/2007-08-06-nates-party.jpg)

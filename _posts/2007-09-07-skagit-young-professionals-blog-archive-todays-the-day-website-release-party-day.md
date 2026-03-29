@@ -16,3 +16,4 @@ Source: <http://www.skagityoungprofessionals.com/2007/09/06/todays-the-day-websi
 
 Source: <http://www.skagityoungprofessionals.com/2007/09/06/todays-the-day-website-release-party-day/>
 
+![SYP website launch party](/assets/img/posts/2007-09-07-syp-launch-party.jpg)

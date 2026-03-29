@@ -23,3 +23,6 @@ Source: <http://www.skagityoungprofessionals.com/2007/09/07/sunny-sunday-hike/>
 
 Source: <http://www.skagityoungprofessionals.com/2007/09/07/sunny-sunday-hike/>
 
+![Cascade Pass hike](/assets/img/posts/2007-09-10-hike-1.jpg)
+
+![Cascade Pass hike](/assets/img/posts/2007-09-10-hike-2.jpg)

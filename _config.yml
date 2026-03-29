@@ -91,3 +91,4 @@ exclude:
   - scrape_blog.py
   - cleanup_posts.py
   - download_images.py
+  - recover_images.py
