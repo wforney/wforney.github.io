@@ -1,0 +1,37 @@
+# Sidebar contact/social icons
+# github and twitter URLs are auto-generated from _config.yml usernames
+# All others require explicit url
+
+- type: github
+  icon: "fab fa-github"
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/wforney"
+
+- type: instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/billforney"
+
+- type: facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/wforney"
+
+- type: tiktok
+  icon: "fab fa-tiktok"
+  url: "https://tiktok.com/@billforney"
+
+- type: youtube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/@wforney"
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
