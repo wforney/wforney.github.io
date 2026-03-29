@@ -28,10 +28,11 @@
 }
 
 /* ── Card title: prevent descender clipping ───────────────────────────── */
-/* Chirpy uses -webkit-line-clamp + overflow:hidden on card titles.
-   The default h1 line-height:1.2 clips bottom of descenders on the last
-   visible line. A slightly looser line-height gives them room. */
+/* Chirpy uses -webkit-line-clamp + overflow:hidden on card titles, which
+   clips descenders (g, j, p, y). Set overflow:visible so descenders show
+   fully — post titles are short enough to not need ellipsis truncation. */
 #post-list .card .card-body .card-title {
+  overflow: visible !important;
   line-height: 1.4 !important;
 }
 
