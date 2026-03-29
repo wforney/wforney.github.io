@@ -12,4 +12,4 @@ A good place to find information about the Gundam anime universe(s)…
 
  _Quote_
 
-> (https://sirhaggis.blogspot.com/2005/07/sir-haggis-guide-to-gundam.html)
+> [Sir Haggis' Guide to Gundam](https://sirhaggis.blogspot.com/2005/07/sir-haggis-guide-to-gundam.html)

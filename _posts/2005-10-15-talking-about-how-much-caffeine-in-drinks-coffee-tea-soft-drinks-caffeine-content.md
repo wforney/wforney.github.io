@@ -12,4 +12,4 @@ I didn’t know this, but this is funny. A good cup of coffee still beats those 
 
  _Quote_
 
-> (http://wilstar.com/caffeine.htm)
+> [How Much Caffeine in Drinks — Coffee, Tea, Soft Drinks — Caffeine Content](http://wilstar.com/caffeine.htm)
