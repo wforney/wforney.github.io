@@ -48,8 +48,12 @@ layout: default
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
+    {% assign post_text = post.content | strip_html | strip %}
+    {% assign is_short = false %}
+    {% if post_text.size < 280 %}{% assign is_short = true %}{% endif %}
+
     <article class="card-wrapper card">
-      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
+      {% unless is_short %}<a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">{% else %}<div class="post-preview row g-0">{% endunless %}
         {% assign card_body_col = '12' %}
 
         {% if post.image %}
@@ -78,7 +82,11 @@ layout: default
             <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
+              {% if is_short %}
+                {{ post.content }}
+              {% else %}
+                <p>{% include post-description.html %}</p>
+              {% endif %}
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
@@ -117,7 +125,7 @@ layout: default
           </div>
           <!-- .card-body -->
         </div>
-      </a>
+      {% unless is_short %}</a>{% else %}</div>{% endunless %}
     </article>
   {% endfor %}
 </div>
