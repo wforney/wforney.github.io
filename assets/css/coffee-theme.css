@@ -10,6 +10,21 @@
   padding-left: 0;
 }
 
+/* ── Sidebar extra (Maven + Buy Me a Coffee) ─────────────────────────── */
+.sidebar-extra {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar-extra .btn-outline-light {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.sidebar-extra .btn-outline-light:hover {
+  opacity: 1;
+}
+
 /* ── Sidebar ──────────────────────────────────────────────────────────── */
 #sidebar {
   background-image:
