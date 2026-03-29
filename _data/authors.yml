@@ -1,0 +1,22 @@
+# Guest and cross-post authors
+# Format: key must match the `author:` value in post front matter
+
+Nathan Stewart:
+  name: Nathan Stewart
+
+Jon Russell:
+  name: Jon Russell
+
+Ashley:
+  name: Ashley
+
+Wendy:
+  name: Wendy
+
+Mike Swanson:
+  name: Mike Swanson
+  url: https://blogs.msdn.com/mswanson/
+
+Scott Guthrie:
+  name: Scott Guthrie
+  url: https://weblogs.asp.net/scottgu/
