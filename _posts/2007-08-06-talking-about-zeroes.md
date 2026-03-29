@@ -10,8 +10,8 @@ This is just funny…
 
 Quote
 
-> (https://video.msn.com/?g=b28fb5eb-0bb5-4878-a6a1-d4e8ace2812c&f=&fg=blog)
+> [video.msn.com](https://video.msn.com/?g=b28fb5eb-0bb5-4878-a6a1-d4e8ace2812c&f=&fg=blog)
 > 
-> [](https://video.msn.com/?g=b28fb5eb-0bb5-4878-a6a1-d4e8ace2812c&f=&fg=blog)
+> 
 > 
 > Ordinary people…pointless abilities.

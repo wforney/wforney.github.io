@@ -16,7 +16,6 @@ We went to Cascadian Farms’ roadside stand for ice cream and smoothies and a b
 
 I’m going to go to our coffee thing in a few.
 
-
 Source: <http://www.skagityoungprofessionals.com/2007/09/07/sunny-sunday-hike/>
 
 ![Cascade Pass hike](/assets/img/posts/2007-09-10-hike-1.jpg)

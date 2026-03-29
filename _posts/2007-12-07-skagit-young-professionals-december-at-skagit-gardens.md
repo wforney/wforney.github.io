@@ -24,6 +24,3 @@ We had our monthly get together tonight at Skagit Gardens. There were a few new 
 ![SYP December at Skagit Gardens 14](/assets/img/posts/2007-12-07-syp-december-014.jpg)
 ![SYP December at Skagit Gardens 15](/assets/img/posts/2007-12-07-syp-december-015.jpg)
 ![SYP December at Skagit Gardens 16](/assets/img/posts/2007-12-07-syp-december-016.jpg)
-
-
-Technorati tags: (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/December), (http://technorati.com/tags/Skagit Gardens)

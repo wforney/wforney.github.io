@@ -22,6 +22,3 @@ Here are the photos from the meet up last night…
 ![SYP January 2008 12](/assets/img/posts/2008-01-04-syp-january-012.jpg)
 ![SYP January 2008 13](/assets/img/posts/2008-01-04-syp-january-013.jpg)
 ![SYP January 2008 14](/assets/img/posts/2008-01-04-syp-january-014.jpg)
-
-
-Technorati tags: (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/January), (http://technorati.com/tags/Ristretto), (http://technorati.com/tags/coffee)

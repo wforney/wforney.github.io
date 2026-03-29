@@ -17,4 +17,3 @@ I went for a drive up-river to see a client today. I was bored along the way so 
 ![Drive up-river 7](/assets/img/posts/2007-04-11-drive-007.jpg)
 ![Drive up-river 8](/assets/img/posts/2007-04-11-drive-008.jpg)
 ![Drive up-river 9](/assets/img/posts/2007-04-11-drive-009.jpg)
-Technorati tags: (http://technorati.com/tags/drive), (http://technorati.com/tags/up-river), (http://technorati.com/tags/camera phone), (http://technorati.com/tags/Concrete), (http://technorati.com/tags/WA)

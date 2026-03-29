@@ -8,9 +8,4 @@ original_url: "https://williamforney.com/2007/09/07/knight-rider-theme-collegehu
 
 This was cool…
 
-Technorati tags: (http://technorati.com/tags/Knight Rider), (http://technorati.com/tags/theme), (http://technorati.com/tags/music)
-
 Source: <http://www.collegehumor.com/video:1773942>
-
-Source: <http://www.collegehumor.com/video:1773942>
-

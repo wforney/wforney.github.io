@@ -12,10 +12,10 @@ It was fun. We had a smaller turnout, probably because it was in Anacortes which
 
 Quote
 
-> (http://syp-dinnerclub-october.events.live.com/)
+> [syp-dinnerclub-october.events.live.com](http://syp-dinnerclub-october.events.live.com/)
 > 
-> !(http://shared.live.com/4FK9aqzvrflZGlAXJATfbfCLXTF6fG2oEtY3uxzEjo-XGI6aF8Xw-w/DinnerParty_Abstract/12.1.1355/img/image100.png)| | Hosted by:| Rockfish Grill & Anacortes Brewery  
+> | | Hosted by:| Rockfish Grill & Anacortes Brewery  
 > ---|---  
 > Date and time:| Tuesday, October 30, 2007 at 7:00 PM  
 > Location name:| 320 Commercial Street, Anacortes, WA  
-> | (http://syp-dinnerclub-october.events.live.com/)
+> | [syp-dinnerclub-october.events.live.com](http://syp-dinnerclub-october.events.live.com/)

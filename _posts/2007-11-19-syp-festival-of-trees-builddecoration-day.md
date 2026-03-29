@@ -30,6 +30,3 @@ Today was build day for our trees and I took a ton of photos. Some of them are b
 ![SYP Festival of Trees Decoration Day Nov 18 2007 18](/assets/img/posts/2007-11-18-syp-decoration-day-018.jpg)
 ![SYP Festival of Trees Decoration Day Nov 18 2007 19](/assets/img/posts/2007-11-18-syp-decoration-day-019.jpg)
 ![SYP Festival of Trees Decoration Day Nov 18 2007 20](/assets/img/posts/2007-11-18-syp-decoration-day-020.jpg)
-
-
-Technorati tags: (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/SYP), (http://technorati.com/tags/Festival of Trees), (http://technorati.com/tags/Christmas), (http://technorati.com/tags/tree), (http://technorati.com/tags/decorations), (http://technorati.com/tags/Forever Young)

@@ -12,7 +12,7 @@ ROFL! Bad language warning…
 
 Quote
 
-> (https://soapbox.msn.com/video.aspx?vid=3101c07e-c3eb-49aa-9610-f80f40d244f1)
+> [soapbox.msn.com](https://soapbox.msn.com/video.aspx?vid=3101c07e-c3eb-49aa-9610-f80f40d244f1)
 > 
-> [http://images.soapbox.msn.com/flash/soapbox1_1.swf](https://images.soapbox.msn.com/flash/soapbox1_1.swf)   
+>    
 > [Video: Mac attack](https://soapbox.msn.com/video.aspx?vid=3101c07e-c3eb-49aa-9610-f80f40d244f1 "Mac attack")

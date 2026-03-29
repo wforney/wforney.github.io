@@ -6,4 +6,4 @@ tags: []
 original_url: "https://williamforney.com/2007/02/10/ajax-extensions/"
 ---
 
-AJAX is cool, AJAX is fun, I’m gonna go sit in the sun… somewhere warm… lol… I’m playing with (https://ajax.asp.net/) in a new project. I’ve used them for a while, but this will be the first deployment after its release.
+AJAX is cool, AJAX is fun, I’m gonna go sit in the sun… somewhere warm… lol… I’m playing with [ajax.asp.net](https://ajax.asp.net/) in a new project. I’ve used them for a while, but this will be the first deployment after its release.

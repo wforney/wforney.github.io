@@ -11,5 +11,3 @@ original_url: "https://williamforney.com/2007/07/06/seven-deadly-sins-of-game-de
 This article about bad points in game design is kind of interesting… 
 
 Source: [http://weblogs.asp.net/bleroy/archive/2007/07/05/seven-deadly-sins-of-game-design.aspx](https://weblogs.asp.net/bleroy/archive/2007/07/05/seven-deadly-sins-of-game-design.aspx)
-
-Technorati tags: (http://technorati.com/tags/bad game design)

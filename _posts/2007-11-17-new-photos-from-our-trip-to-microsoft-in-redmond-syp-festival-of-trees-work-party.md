@@ -49,7 +49,6 @@ This week has been pretty busy. On Thursday a few of us went to a Microsoft Tech
 ![Microsoft TechNet event Nov 15 2007 37](/assets/img/posts/2007-11-15-technet-037.jpg)
 ![Microsoft TechNet event Nov 15 2007 38](/assets/img/posts/2007-11-15-technet-038.jpg)
 
-
 Today, Friday, I went to the SYP Festival of Trees committee work party at Amelia & Tony’s house where we got the tree decorations ready.
 
 There are untouched photos on my flickr account and some corrected ones (some are still pretty blurry) on my spaces photo section. Enjoy!
@@ -80,6 +79,3 @@ There are untouched photos on my flickr account and some corrected ones (some ar
 ![SYP Festival of Trees work party Nov 16 2007 24](/assets/img/posts/2007-11-16-syp-work-party-024.jpg)
 ![SYP Festival of Trees work party Nov 16 2007 25](/assets/img/posts/2007-11-16-syp-work-party-025.jpg)
 ![SYP Festival of Trees work party Nov 16 2007 26](/assets/img/posts/2007-11-16-syp-work-party-026.jpg)
-
-
-Technorati tags: (http://technorati.com/tags/Microsoft), (http://technorati.com/tags/TechNet), (http://technorati.com/tags/Redmond), (http://technorati.com/tags/Event), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/SYP), (http://technorati.com/tags/Festival of Trees), (http://technorati.com/tags/work party)

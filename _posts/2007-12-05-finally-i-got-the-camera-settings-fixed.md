@@ -14,9 +14,5 @@ I took some photos recently of the office decorations and at kickoff coffee on M
 ![P2 office decorations Dec 2007 4](/assets/img/posts/2007-12-04-p2-office-004.jpg)
 ![P2 office decorations Dec 2007 5](/assets/img/posts/2007-12-04-p2-office-005.jpg)
 
-
 ![SYP Kickoff Coffee Dec 2007 1](/assets/img/posts/2007-12-03-syp-kickoff-coffee-001.jpg)
 ![SYP Kickoff Coffee Dec 2007 2](/assets/img/posts/2007-12-03-syp-kickoff-coffee-002.jpg)
-
-
-Technorati tags: (http://technorati.com/tags/photography), (http://technorati.com/tags/Padgett & Padgett), (http://technorati.com/tags/SYP), (http://technorati.com/tags/Skagit Young Professionals), (http://technorati.com/tags/Kickoff Coffee), (http://technorati.com/tags/coffee)

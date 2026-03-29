@@ -10,10 +10,6 @@ original_url: "https://williamforney.com/2007/09/07/skagit-young-professionals-b
 
 This was pretty cool and there were plenty of people there this time.
 
-Technorati tags: (http://technorati.com/tags/Skagit Young Professionals)
-
-Source: <http://www.skagityoungprofessionals.com/2007/09/06/todays-the-day-website-release-party-day/>
-
 Source: <http://www.skagityoungprofessionals.com/2007/09/06/todays-the-day-website-release-party-day/>
 
 ![SYP website launch party](/assets/img/posts/2007-09-07-syp-launch-party.jpg)

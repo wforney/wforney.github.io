@@ -13,5 +13,3 @@ In a so far vain attempt to get somebody to answer the question as to why Outloo
 [http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.outlook.general&mid=a1e35133-6ae2-4221-af97-9bae2fdb6aee&sloc=en-us](http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.outlook.general&mid=a1e35133-6ae2-4221-af97-9bae2fdb6aee&sloc=en-us)
 
 Ok, I’m done ranting now. Honestly though, how hard can it be to just fix this?
-
-Technorati Tags: (http://technorati.com/tags/Outlook),(http://technorati.com/tags/2007),(http://technorati.com/tags/Windows Live),(http://technorati.com/tags/Outlook Connector),(http://technorati.com/tags/0x80070057)
