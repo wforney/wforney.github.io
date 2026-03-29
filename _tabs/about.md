@@ -23,7 +23,6 @@ For the past two decades I have worked with a large variety of businesses and te
 - <i class="fas fa-cube"></i> **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
 - <i class="fab fa-orcid"></i> **ORCID:** [0009-0009-2178-0580](https://orcid.org/0009-0009-2178-0580)
 - <i class="fas fa-code"></i> **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
-- <i class="fas fa-globe"></i> **Website:** [williamforney.com](https://williamforney.com)
 - <i class="fas fa-envelope"></i> **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
 
 </div>
