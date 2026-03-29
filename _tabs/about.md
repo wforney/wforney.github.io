@@ -9,6 +9,8 @@ _Software Engineer by day — Entrepreneur by night — Geek all the time_
 
 For the past two decades I have worked with a large variety of businesses and technologies to design, develop and deploy software to improve the efficiency and impact of the organizations where I have applied my efforts. I look forward to applying my skills to new projects and learning along the way.
 
+<div class="contact-list" markdown="1">
+
 - <i class="fab fa-linkedin"></i> **LinkedIn:** [linkedin.com/in/wforney](https://www.linkedin.com/in/wforney)
 - <i class="fab fa-github"></i> **GitHub:** [github.com/wforney](https://github.com/wforney)
 - <i class="fab fa-x-twitter"></i> **Twitter/X:** [@wforney](https://twitter.com/wforney)
@@ -23,6 +25,8 @@ For the past two decades I have worked with a large variety of businesses and te
 - <i class="fas fa-code"></i> **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
 - <i class="fas fa-globe"></i> **Website:** [williamforney.com](https://williamforney.com)
 - <i class="fas fa-envelope"></i> **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
+
+</div>
 
 ---
 

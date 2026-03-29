@@ -4,6 +4,12 @@
  * Body: very faint warm coffee tint for depth
  */
 
+/* ── Contact list (about page) ───────────────────────────────────────── */
+.contact-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* ── Sidebar ──────────────────────────────────────────────────────────── */
 #sidebar {
   background-image:
