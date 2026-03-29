@@ -1,37 +1,37 @@
 # Adds target="_blank" and rel="nofollow noopener noreferrer" to all
 # external links (those pointing outside the site's own domains).
-require 'nokogiri'
+require 'uri'
+
+OWN_HOSTS = %w[wforney.github.io williamforney.com www.williamforney.com].freeze
+
+def own_host?(href)
+  host = URI.parse(href).host
+  return true if host.nil?
+  OWN_HOSTS.any? { |h| host == h || host.end_with?(".#{h}") }
+rescue URI::InvalidURIError
+  true
+end
 
 Jekyll::Hooks.register [:pages, :posts, :documents], :post_render do |doc|
   next unless doc.output_ext == '.html'
 
-  site_host = URI.parse(doc.site.config['url'] || 'https://wforney.github.io').host rescue 'wforney.github.io'
+  doc.output = doc.output.gsub(/<a\b([^>]*?)href="(https?:\/\/[^"]+?)"([^>]*?)>/i) do
+    pre, href, post = Regexp.last_match(1), Regexp.last_match(2), Regexp.last_match(3)
+    all_attrs = pre + post
 
-  # All domains that belong to this site (current + future)
-  own_hosts = [site_host, 'williamforney.com', 'www.williamforney.com'].uniq
-
-  parsed = Nokogiri::HTML(doc.output)
-  changed = false
-
-  parsed.css('a[href]').each do |link|
-    href = link['href'].to_s
-    next unless href.start_with?('http://', 'https://')
-
-    begin
-      link_host = URI.parse(href).host
-    rescue URI::InvalidURIError
-      next
+    if own_host?(href) || all_attrs.include?('target=')
+      Regexp.last_match(0)
+    else
+      # Merge nofollow into any existing rel, or add new one
+      if (rel_match = all_attrs.match(/rel="([^"]*)"/))
+        existing = rel_match[1].split
+        new_rel  = (existing | %w[nofollow noopener noreferrer]).join(' ')
+        new_attrs = all_attrs.sub(/rel="[^"]*"/, "rel=\"#{new_rel}\"")
+        pre2, post2 = new_attrs[0, pre.length], new_attrs[pre.length..]
+        "<a#{pre2}href=\"#{href}\"#{post2} target=\"_blank\">"
+      else
+        "<a#{pre}href=\"#{href}\"#{post} target=\"_blank\" rel=\"nofollow noopener noreferrer\">"
+      end
     end
-
-    next if link_host.nil?
-    next if own_hosts.any? { |h| link_host == h || link_host.end_with?(".#{h}") }
-    next if link['target'] # already has a target
-
-    link['target'] = '_blank'
-    existing = (link['rel'] || '').split
-    link['rel'] = (existing | %w[nofollow noopener noreferrer]).join(' ')
-    changed = true
   end
-
-  doc.output = parsed.to_html if changed
 end
