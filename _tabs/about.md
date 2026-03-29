@@ -15,7 +15,9 @@ For the past two decades I have worked with a large variety of businesses and te
 - **Instagram:** [@billforney](https://www.instagram.com/billforney)
 - **Facebook:** [facebook.com/wforney](https://www.facebook.com/wforney)
 - **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
+- **ORCID:** [0009-0009-2178-0580](https://orcid.org/0009-0009-2178-0580)
 - **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
+- **Website:** [williamforney.com](https://williamforney.com)
 - **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
 
 ---
