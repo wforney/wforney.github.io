@@ -45,6 +45,30 @@ For the past two decades I have worked with a large variety of businesses and te
 
 ### Starbucks Coffee Company
 
+#### October 2023 – Present · Senior Cloud Engineer (FTE)
+
+Converted to FTE on the Stormbreaker team. This role contributes to Starbucks success by delivering high-quality, dependable, and stable technologies and security capabilities in support of the Starbucks Engineering Platform. Accountable for the implementation, installation, configuration, monitoring, analysis, maintenance, and technical support of the platform. Key responsibilities include:
+
+- Implementing features across Azure cloud technologies: Azure Functions, SQL DB, Blob Storage, Key Vault, Service Bus, Event Hub, and Containers
+- Supporting the development team and resolving developer issues in a timely and accurate fashion
+- Engineering build and release processes using Terraform and Ansible on Azure platforms
+- Ensuring infrastructure architectural solutions are stable, secure, compliant, and documented in accordance with company standards
+- Implementing all technologies in accordance with Information Security's guiding principles for highly sensitive data
+- Providing high-availability operational support and automating solutions across the environment
+- Implementing deep telemetry capabilities to provide ongoing success and performance metrics
+- Implementing service monitoring across all platforms to ensure continuous availability and operational continuity of critical systems
+- Upholding company policies and legal/regulatory requirements such as PCI
+- Communicating highly complex ideas and concepts to non-technical peers and customers
+- Establishing cross-functional, collaborative relationships with business and technology partners
+
+Technologies: C#, Azure Functions, Azure SQL DB, Azure Blob Storage, Azure Key Vault, Azure Service Bus, Azure Event Hub, Azure Containers, Terraform, Ansible, Azure DevOps.
+
+#### February 2023 – September 2023 · Lead Software Engineer via AIM Consulting (Contract)
+
+Picked up for another AIM contract tour on the Thor's Hammer team, which was replaced by the Stormbreaker team after a reorganization, continuing work on the point-of-sale system software and data APIs.
+
+Technologies: C#, Azure, Azure DevOps, GitHub Enterprise, Jira, and Confluence.
+
 #### March 2022 – February 2023 · Lead Software Engineer via AIM Consulting (Contract)
 
 Building project Solstice as part of retail data services, a data pipeline that takes point of sale checks, aggregates, sorts, and forwards them to multiple downstream systems.
@@ -246,6 +270,10 @@ Provided technical support at a few non-profit organizations and set up an NT se
 
 ## Projects
 
+**[Starbucks Engineering Platform — Project Stormbreaker](https://www.starbucks.com/)** _(Oct 2023 – Present)_
+
+FTE role on the Stormbreaker team delivering the Starbucks Engineering Platform. Implementing Azure cloud infrastructure (Functions, SQL DB, Blob Storage, Key Vault, Service Bus, Event Hub, Containers) with Terraform and Ansible, deep telemetry, service monitoring, and PCI-compliant security practices.
+
 **[Starbucks Coffee Company — Project Solstice / Point of Sale](https://www.starbucks.com/)** _(Jun 2021 – Feb 2023)_
 
 Building project Solstice as part of retail data services — a data pipeline that takes point of sale checks, aggregates, sorts, and forwards them to multiple downstream systems. Also helped modernize the point-of-sale software along with development practices and tooling.
@@ -323,6 +351,12 @@ Credential ID 000324731
 **Microsoft Small Business Specialist**
 _Microsoft_ · Issued December 2005 – Expired 2010
 Credential ID 3537527
+
+---
+
+## Languages
+
+- **English** — Native or Bilingual Proficiency
 
 ---
 
