@@ -48,6 +48,11 @@ article.thought-post .preview-img img {
   width: 100% !important;
 }
 
+/* Hover overlay blocks clicks on links inside thought posts */
+article.thought-post .post-preview::before {
+  pointer-events: none;
+}
+
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
