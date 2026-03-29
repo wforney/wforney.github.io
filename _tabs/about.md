@@ -9,20 +9,20 @@ _Software Engineer by day — Entrepreneur by night — Geek all the time_
 
 For the past two decades I have worked with a large variety of businesses and technologies to design, develop and deploy software to improve the efficiency and impact of the organizations where I have applied my efforts. I look forward to applying my skills to new projects and learning along the way.
 
-- **LinkedIn:** [linkedin.com/in/wforney](https://www.linkedin.com/in/wforney)
-- **GitHub:** [github.com/wforney](https://github.com/wforney)
-- **Twitter/X:** [@wforney](https://twitter.com/wforney)
-- **Instagram:** [@billforney](https://www.instagram.com/billforney)
-- **Facebook:** [facebook.com/wforney](https://www.facebook.com/wforney)
-- **TikTok:** [@billforney](https://tiktok.com/@billforney)
-- **YouTube:** [@wforney](https://www.youtube.com/@wforney)
-- **Maven:** [Connect with me](https://app.maven.co/join/DsYfuhyr) · [Book a consult](https://app.maven.co/join/DsYfuhyr/consult)
-- **Buy Me a Coffee:** [buymeacoffee.com/wforney](https://buymeacoffee.com/wforney)
-- **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
-- **ORCID:** [0009-0009-2178-0580](https://orcid.org/0009-0009-2178-0580)
-- **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
-- **Website:** [williamforney.com](https://williamforney.com)
-- **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
+- <i class="fab fa-linkedin"></i> **LinkedIn:** [linkedin.com/in/wforney](https://www.linkedin.com/in/wforney)
+- <i class="fab fa-github"></i> **GitHub:** [github.com/wforney](https://github.com/wforney)
+- <i class="fab fa-x-twitter"></i> **Twitter/X:** [@wforney](https://twitter.com/wforney)
+- <i class="fab fa-instagram"></i> **Instagram:** [@billforney](https://www.instagram.com/billforney)
+- <i class="fab fa-facebook"></i> **Facebook:** [facebook.com/wforney](https://www.facebook.com/wforney)
+- <i class="fab fa-tiktok"></i> **TikTok:** [@billforney](https://tiktok.com/@billforney)
+- <i class="fab fa-youtube"></i> **YouTube:** [@wforney](https://www.youtube.com/@wforney)
+- <i class="fas fa-chalkboard-user"></i> **Maven:** [Connect with me](https://app.maven.co/join/DsYfuhyr) · [Book a consult](https://app.maven.co/join/DsYfuhyr/consult)
+- <i class="fas fa-mug-hot"></i> **Buy Me a Coffee:** [buymeacoffee.com/wforney](https://buymeacoffee.com/wforney)
+- <i class="fas fa-cube"></i> **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
+- <i class="fab fa-orcid"></i> **ORCID:** [0009-0009-2178-0580](https://orcid.org/0009-0009-2178-0580)
+- <i class="fas fa-code"></i> **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
+- <i class="fas fa-globe"></i> **Website:** [williamforney.com](https://williamforney.com)
+- <i class="fas fa-envelope"></i> **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
 
 ---
 
