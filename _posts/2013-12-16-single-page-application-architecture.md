@@ -9,7 +9,6 @@ image:
   alt: "blur close up code computer"
 ---
 
-![blur close up code computer](/assets/img/posts/pexels-photo-546819.jpeg)
 
 I’ve been poking around at a lot of JavaScript over the last year or two and have been refining this layered architecture for setting up applications. The main idea behind it is to cover all the old bases in a way that also reduces the number of requests and performs very well. The layers I am using are setup like so:
 

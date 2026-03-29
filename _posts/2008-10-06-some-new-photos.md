@@ -9,7 +9,6 @@ image:
   alt: "Heliotrope Hike View"
 ---
 
-![Heliotrope Hike View](/assets/img/posts/2892954259_39f9d2f6ce1.jpg)
 
 For those of you who don't follow my flickr feed, I went on a hike a little while ago and took a few photos. They are in reverse order so you see the hike backwards from the end to the top. I don't usually take photos on the way up. Enjoy...
 

@@ -11,7 +11,6 @@ image:
 
 Here are the photos from the meet up last night…
 
-![SYP January 2008 1](/assets/img/posts/2008-01-04-syp-january-001.jpg)
 ![SYP January 2008 2](/assets/img/posts/2008-01-04-syp-january-002.jpg)
 ![SYP January 2008 3](/assets/img/posts/2008-01-04-syp-january-003.jpg)
 ![SYP January 2008 4](/assets/img/posts/2008-01-04-syp-january-004.jpg)

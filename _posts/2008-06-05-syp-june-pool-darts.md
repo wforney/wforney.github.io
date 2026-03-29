@@ -9,7 +9,6 @@ image:
   alt: "SYP Pool Outing"
 ---
 
-![SYP Pool Outing](/assets/img/posts/2552743964_9bffdc2d8a1.jpg)
 
 Well, the Skagit Young Professionals met again for pool and darts. I took a few photos, but they were mostly blurry. I’d just been to the dentist so I wasn’t my usual jovial self in case anybody was wondering.
 

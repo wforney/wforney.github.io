@@ -9,7 +9,6 @@ image:
   alt: "animal cute little mouse"
 ---
 
-![animal cute little mouse](/assets/img/posts/pexels-photo-301448.jpeg)
 
 Here is a simple disposable wait cursor class to simplify your mouse display needs…
     

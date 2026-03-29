@@ -9,7 +9,6 @@ image:
   alt: "blur close up code computer"
 ---
 
-![blur close up code computer](/assets/img/posts/pexels-photo-546819.jpeg)
 
 Recently I had a need to map an IDataRecord to an entity class object in C#. Here is the code for reference… First, we need the method that generates a function to map the properties while handling DBNull.
     

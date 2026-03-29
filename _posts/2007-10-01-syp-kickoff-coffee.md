@@ -9,7 +9,6 @@ image:
   alt: "SYP Crowd"
 ---
 
-![SYP Crowd](/assets/img/posts/1468058267_9fc944eadb1.jpg)
 
 It was an interesting conversation at our Monday meeting this week. We took a photo since it was at a new location, Java Jo’s on Riverside Drive in Mount Vernon.
 

@@ -9,7 +9,6 @@ image:
   alt: "Custom Case Fan Mod"
 ---
 
-![Custom Case Fan Mod](/assets/img/posts/1624452984_9de317e37b1.jpg)
 
 A while ago, when Alan was still working for us, we modified a few computer cases for side panel fans. Here are some photos of the process.
 

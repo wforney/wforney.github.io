@@ -9,7 +9,6 @@ image:
   alt: "SYP @ Skagit River Brewery"
 ---
 
-![SYP @ Skagit River Brewery](/assets/img/posts/1488500646_0b0dce4ccc1.jpg)
 
 Well, the Oktoberfest event last night was a lot of fun and I added some photos to the flickr feed that somebody took with my camera.
 

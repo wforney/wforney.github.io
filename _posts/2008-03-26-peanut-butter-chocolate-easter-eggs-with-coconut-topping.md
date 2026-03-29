@@ -9,7 +9,6 @@ image:
   alt: "Peanut butter and chocolate eggs with coconut"
 ---
 
-![Peanut butter and chocolate eggs with coconut](/assets/img/posts/DSC01884.jpg)
 
 Mmmm…. Yummy stuff… Tonight after work I went over to Amelia and Tony’s house to make some delicious desert.
 

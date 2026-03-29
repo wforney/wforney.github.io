@@ -9,7 +9,6 @@ image:
   alt: "LAN Party December 9th 2006"
 ---
 
-![LAN Party December 9th 2006](/assets/img/posts/2006-12-09-lan-party-001.jpg)
 
 ![LAN Party December 9th 2006](/assets/img/posts/2006-12-09-lan-party-004.jpg)
 

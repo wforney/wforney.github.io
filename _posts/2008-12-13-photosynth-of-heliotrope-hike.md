@@ -9,7 +9,6 @@ image:
   alt: "Heliotrope Hike View"
 ---
 
-![Heliotrope Hike View](/assets/img/posts/2892954259_39f9d2f6ce1.jpg)
 
 I did a 3D Photosynth of our Heliotrope Hike. It has a 360 degree view of the high spot where we went.
 

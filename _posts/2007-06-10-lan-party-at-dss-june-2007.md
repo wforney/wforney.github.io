@@ -11,7 +11,6 @@ image:
 
 Last night was the June LAN party over at DSS. There were a fair number of people there. Along with the usual games, we had a Wii setup off to the side and there were a couple of amusing prizes. Here are some of the photos I took. Everyone loves dodging the camera and flipping it off, though I didn’t post those.
 
-![LAN party June 2007 1](/assets/img/posts/2007-06-10-lan-dss-001.jpg)
 ![LAN party June 2007 2](/assets/img/posts/2007-06-10-lan-dss-002.jpg)
 ![LAN party June 2007 3](/assets/img/posts/2007-06-10-lan-dss-003.jpg)
 ![LAN party June 2007 4](/assets/img/posts/2007-06-10-lan-dss-004.jpg)

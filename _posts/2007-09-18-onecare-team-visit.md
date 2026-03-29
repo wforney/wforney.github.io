@@ -9,7 +9,6 @@ image:
   alt: "Windows One Care Team, Nate, and Bill"
 ---
 
-![Windows One Care Team, Nate, and Bill](/assets/img/posts/1400010854_28f92eb9d71.jpg)
 
 Today, a few of the guys from the Windows Live OneCare team came to visit. Nate also came over to meet them and we had a fun chat about our thoughts on OneCare and what we love and hate about it. Hopefully we gave them some good ideas and pointed out some areas they can work on.
 

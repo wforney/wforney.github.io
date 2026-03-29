@@ -9,7 +9,6 @@ image:
   alt: "The old Computer Repair Place shop"
 ---
 
-![The old Computer Repair Place shop](/assets/img/posts/2099273197_0e79d4c74b1.jpg)
 
 I found a few more photos on my crappy camera phone from the LAN.
 

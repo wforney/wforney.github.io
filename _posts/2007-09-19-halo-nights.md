@@ -13,4 +13,3 @@ This is really funny.
 
 Source: <http://www.superdeluxe.com/sd/contentDetail.do?id=D81F2344BF5AC7BBFFE3587F10E93131C90D27BA743FF37E>
 
-![Halo Nights](/assets/img/posts/2007-09-19-halo-nights.jpg)

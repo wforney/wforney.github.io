@@ -11,7 +11,6 @@ image:
 
 I went for a drive up-river to see a client today. I was bored along the way so I took some photos with my camera phone to pass the time. Here they are. Don’t mind the crack in my window or the water. LOL
 
-![Drive up-river 1](/assets/img/posts/2007-04-11-drive-001.jpg)
 ![Drive up-river 2](/assets/img/posts/2007-04-11-drive-002.jpg)
 ![Drive up-river 3](/assets/img/posts/2007-04-11-drive-003.jpg)
 ![Drive up-river 4](/assets/img/posts/2007-04-11-drive-004.jpg)

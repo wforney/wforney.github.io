@@ -17,7 +17,6 @@ Note to self: Teach Brian how to take pictures that aren’t blurry.
 No, these photos are not out of focus or messed up… Nate is shrouded in a cloud of smoke from the grill. LOL  
                      
 
-![Bellingham LAN 1](/assets/img/posts/bellingham-lan-2007-08-04-bellingham-lan-001.jpg)
 ![Bellingham LAN 2](/assets/img/posts/bellingham-lan-2007-08-04-bellingham-lan-002.jpg)
 ![Bellingham LAN 3](/assets/img/posts/bellingham-lan-2007-08-04-bellingham-lan-003.jpg)
 ![Bellingham LAN 4](/assets/img/posts/bellingham-lan-2007-08-04-bellingham-lan-004.jpg)

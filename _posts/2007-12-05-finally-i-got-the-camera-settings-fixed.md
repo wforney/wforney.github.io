@@ -11,7 +11,6 @@ image:
 
 I took some photos recently of the office decorations and at kickoff coffee on Monday. Today I finally figured out why some images are always coming out blurry. Turns out there was a setting in the camera that was wrong. Go figure. hehe Anyway, with that fixed the photos should be a lot better now.
 
-![P2 office decorations Dec 2007 1](/assets/img/posts/2007-12-04-p2-office-001.jpg)
 ![P2 office decorations Dec 2007 2](/assets/img/posts/2007-12-04-p2-office-002.jpg)
 ![P2 office decorations Dec 2007 3](/assets/img/posts/2007-12-04-p2-office-003.jpg)
 ![P2 office decorations Dec 2007 4](/assets/img/posts/2007-12-04-p2-office-004.jpg)

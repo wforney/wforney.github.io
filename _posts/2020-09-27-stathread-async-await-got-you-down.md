@@ -9,7 +9,6 @@ image:
   alt: "abstract business code coder"
 ---
 
-![abstract business code coder](/assets/img/posts/pexels-photo-270348.jpeg)
 
 When encountering issues with async/await while building a Windows Forms application recently I came across this helpful class that allows you to await returning to the initial (usually UI) thread…
     

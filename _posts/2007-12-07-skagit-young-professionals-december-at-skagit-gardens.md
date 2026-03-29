@@ -11,7 +11,6 @@ image:
 
 We had our monthly get together tonight at Skagit Gardens. There were a few new faces too. Here are the photos…
 
-![SYP December at Skagit Gardens 1](/assets/img/posts/2007-12-07-syp-december-001.jpg)
 ![SYP December at Skagit Gardens 2](/assets/img/posts/2007-12-07-syp-december-002.jpg)
 ![SYP December at Skagit Gardens 3](/assets/img/posts/2007-12-07-syp-december-003.jpg)
 ![SYP December at Skagit Gardens 4](/assets/img/posts/2007-12-07-syp-december-004.jpg)

@@ -9,7 +9,6 @@ image:
   alt: "The old Computer Repair Place shop"
 ---
 
-![The old Computer Repair Place shop](/assets/img/posts/2099273197_0e79d4c74b1.jpg)
 
 I went to the December LAN party across the way yesterday. It was also Nick’s birthday so we had a cake and took some video that Nate is going to edit and post somewhere. Here are some photos from the party.
 
