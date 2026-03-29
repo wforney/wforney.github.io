@@ -14,6 +14,8 @@
 .sidebar-extra {
   border-top: 1px solid rgba(255,255,255,0.1);
   border-bottom: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 0.75rem;
+  gap: 0.6rem !important;
 }
 
 .sidebar-extra .btn-outline-light {
@@ -23,6 +25,10 @@
 
 .sidebar-extra .btn-outline-light:hover {
   opacity: 1;
+}
+
+.sidebar-bottom {
+  padding-top: 0.5rem;
 }
 
 /* ── Sidebar ──────────────────────────────────────────────────────────── */
