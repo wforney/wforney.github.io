@@ -24,6 +24,9 @@ linkedin:
 instagram:
   username: billforney
 
+facebook:
+  username: wforney
+
 social:
   name: William Forney
   email: blog@williamforney.com
@@ -32,6 +35,7 @@ social:
     - https://github.com/wforney
     - https://twitter.com/wforney
     - https://www.instagram.com/billforney
+    - https://www.facebook.com/wforney
     - https://www.improvgroup.com/
     - https://www.nuget.org/profiles/wforney
 

@@ -13,6 +13,7 @@ For the past two decades I have worked with a large variety of businesses and te
 - **GitHub:** [github.com/wforney](https://github.com/wforney)
 - **Twitter/X:** [@wforney](https://twitter.com/wforney)
 - **Instagram:** [@billforney](https://www.instagram.com/billforney)
+- **Facebook:** [facebook.com/wforney](https://www.facebook.com/wforney)
 - **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
 - **improvGroup:** [improvgroup.com](https://www.improvgroup.com/)
 - **Email:** [blog@williamforney.com](mailto:blog@williamforney.com)
