@@ -344,6 +344,14 @@ _High School Diploma_
 
 ---
 
+## GitHub Achievements
+
+- [Pair Extraordinaire](https://github.com/wforney?achievement=pair-extraordinaire&tab=achievements)
+- [Pull Shark](https://github.com/wforney?achievement=pull-shark&tab=achievements) ×2
+- [Arctic Code Vault Contributor](https://github.com/wforney?achievement=arctic-code-vault-contributor&tab=achievements)
+
+---
+
 ## Licenses & Certifications
 
 **MCPS: Microsoft Certified Professional**
