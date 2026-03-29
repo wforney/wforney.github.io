@@ -30,6 +30,9 @@ facebook:
 tiktok:
   username: billforney
 
+youtube:
+  username: wforney
+
 social:
   name: William Forney
   email: blog@williamforney.com
@@ -40,6 +43,7 @@ social:
     - https://www.instagram.com/billforney
     - https://www.facebook.com/wforney
     - https://tiktok.com/@billforney
+    - https://www.youtube.com/@wforney
     - https://app.maven.co/join/DsYfuhyr
     - https://orcid.org/0009-0009-2178-0580
     - https://williamforney.com

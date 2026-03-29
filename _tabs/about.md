@@ -15,6 +15,7 @@ For the past two decades I have worked with a large variety of businesses and te
 - **Instagram:** [@billforney](https://www.instagram.com/billforney)
 - **Facebook:** [facebook.com/wforney](https://www.facebook.com/wforney)
 - **TikTok:** [@billforney](https://tiktok.com/@billforney)
+- **YouTube:** [@wforney](https://www.youtube.com/@wforney)
 - **Maven:** [Connect with me](https://app.maven.co/join/DsYfuhyr) · [Book a consult](https://app.maven.co/join/DsYfuhyr/consult)
 - **NuGet:** [nuget.org/profiles/wforney](https://www.nuget.org/profiles/wforney)
 - **ORCID:** [0009-0009-2178-0580](https://orcid.org/0009-0009-2178-0580)
