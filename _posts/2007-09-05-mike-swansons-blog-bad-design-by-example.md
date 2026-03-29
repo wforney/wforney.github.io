@@ -2,7 +2,8 @@
 title: "Mike Swanson’s Blog : Bad Design by Example"
 date: 2007-09-05
 categories: ["Entertainment"]
-tags: ["bad design"]`nauthor: "Mike Swanson"
+tags: ["bad design"]
+author: "Mike Swanson"
 original_url: "https://williamforney.com/2007/09/05/mike-swansons-blog-bad-design-by-example/"
 ---
 
