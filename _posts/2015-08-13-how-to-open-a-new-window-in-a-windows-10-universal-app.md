@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to open a “new window” in a Windows 10 Universal App"
 date: 2015-08-13
 categories: ["Computers and Internet", "Development"]
@@ -32,5 +32,5 @@ I had to dig a little bit to find this. Since not all form factors support multi
     
     var viewShown = await ApplicationViewSwitcher.TryShowAsStandaloneAsync(viewId);
 
-Hopefully that will save someone some digging. ![screenshot](/assets/img/posts/036808d6-86a0-4dde-bf48-7542c71f5856.png)
+Hopefully that will save someone some digging.
 
