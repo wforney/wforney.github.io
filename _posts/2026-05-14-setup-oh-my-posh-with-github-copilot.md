@@ -4,8 +4,8 @@ date: 2026-05-14
 categories: ["Development", "Terminal", "Productivity"]
 tags: ["Oh My Posh", "GitHub Copilot", "PowerShell", "Terminal", "Setup"]
 image:
-  path: /assets/img/posts/oh-my-posh-copilot.jpeg
-  alt: "Oh My Posh terminal with GitHub Copilot integration"
+  path: https://images.unsplash.com/premium_photo-1678565999332-1cde462f7b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080
+  alt: "Code on a computer screen"
 ---
 
 # Setup Oh My Posh with GitHub Copilot
@@ -49,7 +49,6 @@ npm install -g @github/cli
 
 # 5. Authenticate
 gh auth login
-gh copilot config set suggestion_type inline
 ```
 
 Then reload PowerShell, and you're ready to go!
