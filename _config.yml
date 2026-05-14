@@ -58,6 +58,9 @@ avatar: "https://0.gravatar.com/avatar/f4c1d4d37afad2272d15ca67555270e5?s=320"
 
 toc: true
 
+# Override Chirpy's global tag-frequency list with current focus areas.
+trending_tags: [".NET", "ASP.NET", "ASP.NET Core", "C#", "GitHub", "GitHub Copilot", "Oh My Posh", "PowerShell", "CLI", "architecture"]
+
 # Syntax highlighting
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
