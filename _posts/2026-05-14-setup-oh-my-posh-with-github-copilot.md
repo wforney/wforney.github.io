@@ -4,7 +4,7 @@ date: 2026-05-14
 categories: ["Development", "Terminal", "Productivity"]
 tags: ["Oh My Posh", "GitHub Copilot", "PowerShell", "Terminal", "Setup"]
 image:
-  path: https://images.unsplash.com/premium_photo-1678565999332-1cde462f7b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080
+  path: /assets/img/posts/oh-my-posh-copilot.jpg
   alt: "Code on a computer screen"
 ---
 
