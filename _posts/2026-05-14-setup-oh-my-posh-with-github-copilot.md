@@ -141,12 +141,12 @@ $env:COPILOT_BRANCH = $json.branch_name
 
 ## Step 4: Create Your Statusline Theme
 
-Create `%USERPROFILE%\.copilot\statusline.omp.json` with your Oh My Posh theme:
+Create `%USERPROFILE%\.copilot\statusline.omp.json` using the jandedobbeleer theme style but optimized for the statusline:
 
 ```json
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "version": 3,
+  "version": 4,
   "blocks": [
     {
       "type": "prompt",
@@ -154,41 +154,55 @@ Create `%USERPROFILE%\.copilot\statusline.omp.json` with your Oh My Posh theme:
       "segments": [
         {
           "type": "text",
-          "properties": {
-            "text": " {{ .Env.COPILOT_BRANCH }} "
-          },
-          "style": "plain",
-          "foreground": "#0098FF"
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b0",
+          "background": "#c386f1",
+          "foreground": "#ffffff",
+          "template": " branch: {{ .Env.COPILOT_BRANCH }} "
         },
         {
           "type": "text",
-          "properties": {
-            "text": "{{ .Env.COPILOT_TOKENS_CURRENT }}/{{ .Env.COPILOT_TOKENS_LIMIT }}"
-          },
-          "style": "plain",
-          "foreground": "#90EE90"
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#fffb38",
+          "foreground": "#193549",
+          "template": " tokens: {{ .Env.COPILOT_TOKENS_CURRENT }}/{{ .Env.COPILOT_TOKENS_LIMIT }} "
         },
         {
           "type": "text",
-          "properties": {
-            "text": " {{ .Env.COPILOT_CONTEXT_GAUGE }} "
-          },
-          "style": "plain",
-          "foreground": "#FFD700"
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#6CA35E",
+          "foreground": "#ffffff",
+          "template": " {{ .Env.COPILOT_CONTEXT_GAUGE }} "
         },
         {
           "type": "text",
-          "properties": {
-            "text": "⏱ {{ .Env.COPILOT_DURATION }}"
-          },
-          "style": "plain",
-          "foreground": "#FFA500"
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#8ED1F7",
+          "foreground": "#111111",
+          "template": " \ueba2 {{ .Env.COPILOT_DURATION }} "
+        },
+        {
+          "type": "text",
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "background": "#00897b",
+          "foreground": "#ffffff",
+          "template": " ready "
         }
       ]
     }
-  ]
+  ],
+  "final_space": true,
+  "version": 4
 }
 ```
+
+This statusline uses the same powerline style and color palette as the jandedobbeleer theme for visual consistency.
 
 ## Step 5: Enable the Statusline in Copilot Settings
 
@@ -221,11 +235,127 @@ Then start a new Copilot chat. Your statusline should appear at the bottom!
 Your statusline is now powered by Oh My Posh. To customize it:
 
 - **Add more segments**: Reference additional environment variables in your theme
-- **Change colors**: Update the foreground/background hex values
-- **Adjust spacing**: Modify the text properties in the JSON theme
-- **Reuse your main theme**: Copy styling from your shell prompt theme
+- **Change colors**: Update the foreground/background hex values to match your jandedobbeleer theme
+- **Adjust spacing**: Modify the text templates and powerline symbols
+- **Reuse your main theme**: The jandedobbeleer colors work great—purple (#c386f1), pink (#ff479c), yellow (#fffb38), green (#6CA35E), blue (#8ED1F7)
 
 Remember: keep the statusline fast! Use only the data Copilot provides, and avoid expensive operations.
+
+## Suggested Improvements
+
+Here are some enhancements to consider implementing:
+
+### 1. **Dynamic Token Warning Colors**
+
+Change the token segment color based on usage percentage. Update your PowerShell renderer to calculate percent:
+
+```powershell
+if ($null -ne $currentTokens -and $null -ne $contextLimit -and $contextLimit -gt 0) {
+    $env:COPILOT_TOKEN_PERCENT = [Math]::Round(($currentTokens / $contextLimit) * 100)
+} else {
+    $env:COPILOT_TOKEN_PERCENT = 0
+}
+```
+
+Then use conditional backgrounds in your theme:
+
+```json
+{
+  "type": "text",
+  "style": "powerline",
+  "background_templates": [
+    "{{ if gt .Env.COPILOT_TOKEN_PERCENT 90 }}#ff4500{{ else if gt .Env.COPILOT_TOKEN_PERCENT 70 }}#FFD700{{ else }}#6CA35E{{ end }}"
+  ],
+  "powerline_symbol": "\ue0b0",
+  "foreground": "#ffffff",
+  "template": " tokens: {{ .Env.COPILOT_TOKENS_CURRENT }}/{{ .Env.COPILOT_TOKENS_LIMIT }} "
+}
+```
+
+### 2. **Show Model Name**
+
+Extract and display the model being used:
+
+```powershell
+$env:COPILOT_MODEL = if ($json.model) { $json.model } else { 'GPT-4' }
+```
+
+Add to your theme:
+
+```json
+{
+  "type": "text",
+  "style": "powerline",
+  "background": "#6CA35E",
+  "foreground": "#ffffff",
+  "powerline_symbol": "\ue0b0",
+  "template": " 🤖 {{ .Env.COPILOT_MODEL }} "
+}
+```
+
+### 3. **Cache Renders to Reduce Oh My Posh Calls**
+
+Avoid calling Oh My Posh on every Copilot status update if nothing changed:
+
+```powershell
+$cacheFile = "$env:USERPROFILE\.copilot\statusline.cache"
+$payload | Out-File $cacheFile
+
+# On next run, compare payloads:
+if ((Get-Content $cacheFile -Raw) -eq $payload) {
+    Get-Content "$cacheFile.output" 2>$null
+    exit 0
+}
+```
+
+### 4. **Error Status Indicator**
+
+If Copilot encounters an error, show it in the statusline:
+
+```powershell
+$env:COPILOT_STATUS = if ($json.error) { 
+    "ERROR: $($json.error)" 
+} else { 
+    "ready" 
+}
+```
+
+Add a status segment to your theme that changes color on error.
+
+### 5. **File Changes from Context**
+
+If the payload includes file metadata, show how many files are in the context:
+
+```powershell
+$env:COPILOT_FILE_COUNT = $json.files.count
+```
+
+### 6. **Response Time Gauge**
+
+Track how long Copilot took to generate suggestions:
+
+```powershell
+$env:COPILOT_RESPONSE_MS = $json.response_time_ms
+```
+
+Add an icon that changes based on response speed (fast = green, slow = yellow).
+
+### 7. **Batch Renderer Invocations**
+
+For Windows, the `.cmd` wrapper adds overhead. Consider a faster implementation:
+
+```powershell
+# Instead of calling external Oh My Posh, build the output directly
+$segments = @(
+    "✓ $($env:COPILOT_BRANCH)",
+    "$($env:COPILOT_TOKENS_CURRENT)/$($env:COPILOT_TOKENS_LIMIT)",
+    $env:COPILOT_CONTEXT_GAUGE,
+    "⏱ $($env:COPILOT_DURATION)"
+)
+Write-Host ($segments -join " | ")
+```
+
+This trades Oh My Posh styling for faster startup.
 
 ## Troubleshooting
 
