@@ -10,74 +10,164 @@ image:
 
 # Setup Oh My Posh with GitHub Copilot
 
-I recently set up **Oh My Posh** with **GitHub Copilot** integration, and it's absolutely transformed my command-line experience. For those unfamiliar, Oh My Posh is a powerful and extensible shell prompt framework that makes your terminal beautiful and productive, and GitHub Copilot AI brings intelligent command suggestions right to your prompt.
+I recently integrated **GitHub Copilot CLI** directly into my **Oh My Posh** prompt, and it's transformed how I work in the terminal. Instead of switching contexts to ask Copilot for help, I now have intelligent command suggestions baked right into my prompt as a custom segment.
 
-In this post, I'll walk you through the complete setup process—from installation through configuration—so you can get the same productivity boost on your machine.
+In this post, I'll show you how to add a Copilot segment to Oh My Posh—complete with working configuration and troubleshooting tips—so you can get smart command suggestions without leaving your shell.
 
-## Why Oh My Posh + GitHub Copilot?
+## Why Integrate Copilot into Your Prompt?
 
-- **Visual Clarity**: Real-time git status, exit codes, and context at a glance
-- **AI-Powered Suggestions**: GitHub Copilot suggests commands based on your intent
-- **Cross-Platform**: Works on Windows (PowerShell), macOS, and Linux
-- **Highly Customizable**: Themes, segments, and colors galore
-- **Performance**: Minimal overhead even with complex prompts
+- **Zero Context Switching**: Ask Copilot without typing a separate command
+- **Visual Integration**: See suggestions as part of your prompt theme
+- **Faster Workflows**: Common tasks become muscle memory
+- **Learning Tool**: Discover better approaches to command-line tasks
+- **AI-Powered Help**: Natural language → shell command translations
 
 ## Prerequisites
 
-- PowerShell 7.4+ (or your preferred shell)
-- GitHub Copilot CLI access (requires GitHub Copilot subscription or trial)
-- Administrator access for initial installation
+- Oh My Posh installed and configured
+- GitHub Copilot CLI (`gh copilot`) set up and authenticated
+- PowerShell 7.4+, Bash, or Zsh
+- A Nerd Font (for icons—recommended but optional)
 
-## Quick Start
+## Step 1: Install & Authenticate GitHub Copilot CLI
 
-For the impatient, here's the 5-minute version. For detailed steps, see the [complete gist instructions](#).
+First, ensure you have the GitHub CLI installed and authenticated:
 
-```powershell
-# 1. Install Oh My Posh
-winget install JanDeDobbeleer.OhMyPosh
+```bash
+# Install GitHub CLI (if not already installed)
+# On Windows: winget install GitHub.cli
+# On macOS: brew install gh
+# On Linux: Follow https://cli.github.com/
 
-# 2. Install a Nerd Font (e.g., Meslo LGM NF)
-# Download from: https://www.nerdfonts.com/
-# Or use the Oh My Posh theme installer
-
-# 3. Update your PowerShell profile
-# Add to $PROFILE:
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/cloud-native.omp.json" | Out-String | Invoke-Expression
-
-# 4. Install GitHub Copilot CLI
-npm install -g @github/cli
-
-# 5. Authenticate
+# Authenticate
 gh auth login
+
+# Verify Copilot CLI is available
+gh copilot --help
 ```
 
-Then reload PowerShell, and you're ready to go!
+## Step 2: Create a Copilot Segment for Oh My Posh
 
-## The Full Guide
+Oh My Posh uses custom segments to add elements to your prompt. Create a new JSON configuration file for your Copilot segment or update your existing Oh My Posh theme.
 
-I've created a detailed gist with step-by-step instructions, troubleshooting tips, and custom configuration examples. The guide covers:
+Here's a minimal example that adds a Copilot-aware segment to your prompt. Create or edit your `oh-my-posh` config file (typically at `$env:POSH_THEMES_PATH/copilot-theme.omp.json`):
 
-- System requirements and dependency installation
-- Configuring your shell profile
-- Customizing Oh My Posh themes and segments
-- GitHub Copilot CLI setup and authentication
-- Custom prompt segments for your workflows
-- Performance tuning for slow machines
-- Common issues and solutions
+```json
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 3,
+  "palette": {
+    "copilot-blue": "#0098FF"
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "properties": {
+            "prefix": " ",
+            "text": "copilot"
+          },
+          "foreground": "#0098FF"
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "properties": {
+            "style": "full"
+          }
+        }
+      ]
+    }
+  ]
+}
+```
 
-**[Complete Oh My Posh + GitHub Copilot Setup Gist →](https://gist.github.com/wforney/b0f7ff64d10556cea273fe1daba6e78b)****
+## Step 3: Add a Function to Your Profile
 
-## What's Next?
+To make Copilot integration seamless, add this function to your PowerShell profile (`$PROFILE`):
 
-Once you've got the basics running, consider:
+```powershell
+function copilot {
+    param(
+        [Parameter(ValueFromRemainingArguments=$true)]
+        [string[]]$Arguments
+    )
+    
+    $query = $Arguments -join ' '
+    
+    if ([string]::IsNullOrWhiteSpace($query)) {
+        Write-Host "Usage: copilot <description of what you want to do>"
+        Write-Host "Example: copilot find all files modified in the last hour"
+        return
+    }
+    
+    gh copilot suggest -t shell -d $query
+}
+```
 
-1. **Explore Themes**: Check out `oh-my-posh theme list` to preview the 150+ built-in themes
-2. **Custom Segments**: Add segments for languages you work with (Node, Python, Go, .NET, etc.)
-3. **Performance Tweaking**: Disable segments you don't need to keep your prompt responsive
-4. **Git Integration**: Leverage the git segment to stay aware of your repo status
+Then use it directly in your prompt:
 
-## Feedback & Questions?
+```powershell
+copilot find all files modified in the last hour
+copilot list all Docker containers and their sizes
+copilot backup my database
+```
 
-Got stuck? Found a better approach? Drop me a comment or open an issue on the gist. I'm always interested in how others have customized their setups.
+## Step 4: Initialize Oh My Posh with Your Theme
+
+In your PowerShell profile, initialize Oh My Posh with your custom theme:
+
+```powershell
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/copilot-theme.omp.json" | Out-String | Invoke-Expression
+```
+
+If you've named it differently, adjust the path accordingly.
+
+## Practical Examples
+
+Once integrated, your workflow becomes much faster:
+
+**Before** (switching contexts):
+```powershell
+# You're in the terminal
+cd myproject
+# Now open a browser or separate window to ask Copilot
+# Come back and type commands manually
+```
+
+**After** (integrated):
+```powershell
+cd myproject
+copilot recursively find all TypeScript files with console.log
+# Copilot suggests: find . -name "*.ts" -exec grep -l "console.log" {} \;
+copilot show git log with one line per commit from last week
+# Copilot suggests: git log --oneline --since="1 week ago"
+```
+
+## Troubleshooting
+
+**"gh copilot" command not found:**
+- Run `gh auth status` to verify you're authenticated
+- Run `gh extension list` to check if Copilot CLI is installed
+- If missing, run `gh auth refresh --scopes copilot`
+
+**Copilot suggestions not working in your prompt:**
+- Verify `gh copilot suggest --help` works in isolation
+- Check that your shell has GitHub credentials cached: `gh auth token`
+- Ensure your GitHub Copilot subscription is active
+
+**Slow prompt rendering:**
+- If your custom segment slows things down, remove it and call `copilot` on-demand instead of embedding it in the prompt
+
+## Next Steps
+
+- **Explore Copilot modes**: Try `gh copilot explain` for command explanations
+- **Automate common tasks**: Create aliases for frequent Copilot queries
+- **Share your setup**: Show your colleagues how to integrate Copilot into their prompts
+- **Customize further**: Adjust colors, icons, and theme positioning to match your style
 
 Happy prompting! 🚀
