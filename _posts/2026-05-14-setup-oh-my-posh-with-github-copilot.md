@@ -1,64 +1,152 @@
 ---
-title: "Setup Oh My Posh with GitHub Copilot"
+title: "Render GitHub Copilot CLI's Statusline with Oh My Posh"
 date: 2026-05-14
-categories: ["Development", "Terminal", "Productivity"]
-tags: ["Oh My Posh", "GitHub Copilot", "PowerShell", "Terminal", "Setup"]
+categories: ["Development", "Terminal", "GitHub Copilot"]
+tags: ["GitHub Copilot", "Oh My Posh", "PowerShell", "CLI", "Statusline"]
 image:
   path: /assets/img/posts/oh-my-posh-copilot.jpg
   alt: "Code on a computer screen"
 ---
 
-# Setup Oh My Posh with GitHub Copilot
+# Render GitHub Copilot CLI's Statusline with Oh My Posh
 
-I recently integrated **GitHub Copilot CLI** directly into my **Oh My Posh** prompt, and it's transformed how I work in the terminal. Instead of switching contexts to ask Copilot for help, I now have intelligent command suggestions baked right into my prompt as a custom segment.
+GitHub Copilot CLI has an experimental statusline feature that lets you render custom output at the bottom of the Copilot terminal UI. If you already use Oh My Posh, you can reuse the same rendering engine, colors, and segments to create a beautiful Copilot-aware statusline in just a few minutes.
 
-In this post, I'll show you how to add a Copilot segment to Oh My Posh—complete with working configuration and troubleshooting tips—so you can get smart command suggestions without leaving your shell.
+This guide shows how to set it up on Windows with PowerShell, but the approach is portable to macOS and Linux.
 
-## Why Integrate Copilot into Your Prompt?
+## How It Works
 
-- **Zero Context Switching**: Ask Copilot without typing a separate command
-- **Visual Integration**: See suggestions as part of your prompt theme
-- **Faster Workflows**: Common tasks become muscle memory
-- **Learning Tool**: Discover better approaches to command-line tasks
-- **AI-Powered Help**: Natural language → shell command translations
+1. Copilot calls a local script when the statusline needs to update
+2. Copilot sends session state (tokens used, duration, branch, etc.) as JSON on stdin
+3. Your script maps those values into environment variables
+4. Oh My Posh renders a small statusline theme using those variables
+
+The result: a beautiful statusline showing git branch, runtime info, token usage, and more—all styled with your favorite Oh My Posh theme.
+
+## Example Output
+
+```
+main +2/-1 | .NET 10.0 | 123.5k/200.0k | ######.... | 00:12:34 | +42/-8
+```
+
+This shows: branch, changes, runtime, token usage gauge, elapsed time, and line changes—all from Oh My Posh rendering!
 
 ## Prerequisites
 
-- Oh My Posh installed and configured
-- GitHub Copilot CLI (`gh copilot`) set up and authenticated
-- PowerShell 7.4+, Bash, or Zsh
-- A Nerd Font (for icons—recommended but optional)
+- **GitHub Copilot CLI** with experimental statusline support
+- **PowerShell 7+** (`pwsh`)
+- **Oh My Posh** installed and on your PATH
+- A **Nerd Font** (optional, but recommended for icons)
 
-## Step 1: Install & Authenticate GitHub Copilot CLI
+Verify your setup:
 
-First, ensure you have the GitHub CLI installed and authenticated:
-
-```bash
-# Install GitHub CLI (if not already installed)
-# On Windows: winget install GitHub.cli
-# On macOS: brew install gh
-# On Linux: Follow https://cli.github.com/
-
-# Authenticate
-gh auth login
-
-# Verify Copilot CLI is available
+```powershell
+oh-my-posh version
 gh copilot --help
 ```
 
-## Step 2: Create a Copilot Segment for Oh My Posh
+## Step 1: Create the Statusline Directory
 
-Oh My Posh uses custom segments to add elements to your prompt. Create a new JSON configuration file for your Copilot segment or update your existing Oh My Posh theme.
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.copilot" | Out-Null
+```
 
-Here's a minimal example that adds a Copilot-aware segment to your prompt. Create or edit your `oh-my-posh` config file (typically at `$env:POSH_THEMES_PATH/copilot-theme.omp.json`):
+## Step 2: Create the Command Wrapper
+
+Create `%USERPROFILE%\.copilot\statusline.cmd`:
+
+```cmd
+@echo off
+pwsh -NoProfile -ExecutionPolicy Bypass -File "%~dp0statusline.ps1"
+```
+
+This wrapper ensures stdin is preserved when Copilot calls your statusline script.
+
+## Step 3: Create the PowerShell Renderer
+
+Create `%USERPROFILE%\.copilot\statusline.ps1`. This is where the magic happens—it reads Copilot's JSON payload and feeds data into Oh My Posh:
+
+```powershell
+$ErrorActionPreference = 'Stop'
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
+
+# Helper functions for formatting
+function Format-TokenCount {
+    param([Nullable[double]]$Value)
+    if ($null -eq $Value) { return '?' }
+    if ($Value -ge 1000000) { return ('{0:0.0}m' -f ($Value / 1000000)) }
+    if ($Value -ge 1000) { return ('{0:0.0}k' -f ($Value / 1000)) }
+    return ([int]$Value).ToString()
+}
+
+function Format-Duration {
+    param([Nullable[double]]$Milliseconds)
+    if ($null -eq $Milliseconds -or $Milliseconds -le 0) { return '00:00:00' }
+    $duration = [TimeSpan]::FromMilliseconds($Milliseconds)
+    return '{0:00}:{1:00}:{2:00}' -f [int]$duration.TotalHours, $duration.Minutes, $duration.Seconds
+}
+
+function New-Gauge {
+    param([Nullable[double]]$Percent)
+    if ($null -eq $Percent) { return '..........' }
+    $bounded = [Math]::Max(0, [Math]::Min(100, [Math]::Round($Percent)))
+    $filled = [int][Math]::Floor($bounded / 10)
+    return ('#' * $filled) + ('.' * (10 - $filled))
+}
+
+# Read Copilot's JSON payload from stdin
+$payload = [Console]::In.ReadToEnd()
+
+try {
+    $json = $payload | ConvertFrom-Json
+} catch {
+    Write-Host -NoNewline 'Copilot status unavailable'
+    exit 0
+}
+
+# Extract context and cost data
+$context = $json.context_window
+$cost = $json.cost
+
+$currentTokens = if ($null -ne $context.current_context_tokens) {
+    [double]$context.current_context_tokens
+} else {
+    $null
+}
+
+$contextLimit = if ($null -ne $context.displayed_context_limit) {
+    [double]$context.displayed_context_limit
+} else {
+    $null
+}
+
+$contextPercent = if ($null -ne $context.current_context_used_percentage) {
+    [double]$context.current_context_used_percentage
+} elseif ($null -ne $context.used_percentage) {
+    [double]$context.used_percentage
+} else {
+    $null
+}
+
+# Set environment variables for Oh My Posh to use
+$env:COPILOT_TOKENS_CURRENT = Format-TokenCount $currentTokens
+$env:COPILOT_TOKENS_LIMIT = Format-TokenCount $contextLimit
+$env:COPILOT_CONTEXT_GAUGE = New-Gauge $contextPercent
+$env:COPILOT_DURATION = Format-Duration $cost.total_milliseconds
+$env:COPILOT_BRANCH = $json.branch_name
+
+# Call Oh My Posh to render the statusline theme
+& oh-my-posh print line --config "$env:USERPROFILE\.copilot\statusline.omp.json"
+```
+
+## Step 4: Create Your Statusline Theme
+
+Create `%USERPROFILE%\.copilot\statusline.omp.json` with your Oh My Posh theme:
 
 ```json
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "version": 3,
-  "palette": {
-    "copilot-blue": "#0098FF"
-  },
   "blocks": [
     {
       "type": "prompt",
@@ -66,19 +154,35 @@ Here's a minimal example that adds a Copilot-aware segment to your prompt. Creat
       "segments": [
         {
           "type": "text",
-          "style": "plain",
           "properties": {
-            "prefix": " ",
-            "text": "copilot"
+            "text": " {{ .Env.COPILOT_BRANCH }} "
           },
+          "style": "plain",
           "foreground": "#0098FF"
         },
         {
-          "type": "path",
-          "style": "plain",
+          "type": "text",
           "properties": {
-            "style": "full"
-          }
+            "text": "{{ .Env.COPILOT_TOKENS_CURRENT }}/{{ .Env.COPILOT_TOKENS_LIMIT }}"
+          },
+          "style": "plain",
+          "foreground": "#90EE90"
+        },
+        {
+          "type": "text",
+          "properties": {
+            "text": " {{ .Env.COPILOT_CONTEXT_GAUGE }} "
+          },
+          "style": "plain",
+          "foreground": "#FFD700"
+        },
+        {
+          "type": "text",
+          "properties": {
+            "text": "⏱ {{ .Env.COPILOT_DURATION }}"
+          },
+          "style": "plain",
+          "foreground": "#FFA500"
         }
       ]
     }
@@ -86,88 +190,63 @@ Here's a minimal example that adds a Copilot-aware segment to your prompt. Creat
 }
 ```
 
-## Step 3: Add a Function to Your Profile
+## Step 5: Enable the Statusline in Copilot Settings
 
-To make Copilot integration seamless, add this function to your PowerShell profile (`$PROFILE`):
+Open your Copilot settings at `%USERPROFILE%\.copilot\settings.json` and add:
 
-```powershell
-function copilot {
-    param(
-        [Parameter(ValueFromRemainingArguments=$true)]
-        [string[]]$Arguments
-    )
-    
-    $query = $Arguments -join ' '
-    
-    if ([string]::IsNullOrWhiteSpace($query)) {
-        Write-Host "Usage: copilot <description of what you want to do>"
-        Write-Host "Example: copilot find all files modified in the last hour"
-        return
-    }
-    
-    gh copilot suggest -t shell -d $query
+```json
+{
+  "statusLine": {
+    "enabled": true,
+    "command": "%USERPROFILE%\\.copilot\\statusline.cmd"
+  },
+  "feature_flags": {
+    "enabled": ["STATUS_LINE"]
+  }
 }
 ```
 
-Then use it directly in your prompt:
+## Step 6: Restart Copilot
+
+If Copilot CLI is already running, restart it:
 
 ```powershell
-copilot find all files modified in the last hour
-copilot list all Docker containers and their sizes
-copilot backup my database
+/restart
 ```
 
-## Step 4: Initialize Oh My Posh with Your Theme
+Then start a new Copilot chat. Your statusline should appear at the bottom!
 
-In your PowerShell profile, initialize Oh My Posh with your custom theme:
+## Customization
 
-```powershell
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/copilot-theme.omp.json" | Out-String | Invoke-Expression
-```
+Your statusline is now powered by Oh My Posh. To customize it:
 
-If you've named it differently, adjust the path accordingly.
+- **Add more segments**: Reference additional environment variables in your theme
+- **Change colors**: Update the foreground/background hex values
+- **Adjust spacing**: Modify the text properties in the JSON theme
+- **Reuse your main theme**: Copy styling from your shell prompt theme
 
-## Practical Examples
-
-Once integrated, your workflow becomes much faster:
-
-**Before** (switching contexts):
-```powershell
-# You're in the terminal
-cd myproject
-# Now open a browser or separate window to ask Copilot
-# Come back and type commands manually
-```
-
-**After** (integrated):
-```powershell
-cd myproject
-copilot recursively find all TypeScript files with console.log
-# Copilot suggests: find . -name "*.ts" -exec grep -l "console.log" {} \;
-copilot show git log with one line per commit from last week
-# Copilot suggests: git log --oneline --since="1 week ago"
-```
+Remember: keep the statusline fast! Use only the data Copilot provides, and avoid expensive operations.
 
 ## Troubleshooting
 
-**"gh copilot" command not found:**
-- Run `gh auth status` to verify you're authenticated
-- Run `gh extension list` to check if Copilot CLI is installed
-- If missing, run `gh auth refresh --scopes copilot`
+**Statusline doesn't appear:**
+- Verify the feature flag is enabled: `STATUS_LINE` in `feature_flags.enabled`
+- Check that `statusLine.command` points to the correct `.cmd` file path
+- Ensure PowerShell can access the script: `Test-Path "$env:USERPROFILE\.copilot\statusline.ps1"`
 
-**Copilot suggestions not working in your prompt:**
-- Verify `gh copilot suggest --help` works in isolation
-- Check that your shell has GitHub credentials cached: `gh auth token`
-- Ensure your GitHub Copilot subscription is active
+**Broken output in statusline:**
+- Verify `oh-my-posh print line` works manually: `& oh-my-posh print line --config "..."`
+- Check environment variables are set: `$env:COPILOT_TOKENS_CURRENT`
+- Confirm your Nerd Font supports the glyphs (if using icons)
 
-**Slow prompt rendering:**
-- If your custom segment slows things down, remove it and call `copilot` on-demand instead of embedding it in the prompt
+**Performance issues:**
+- Keep the statusline theme minimal—fewer segments render faster
+- Avoid calling external commands in the renderer
 
 ## Next Steps
 
-- **Explore Copilot modes**: Try `gh copilot explain` for command explanations
-- **Automate common tasks**: Create aliases for frequent Copilot queries
-- **Share your setup**: Show your colleagues how to integrate Copilot into their prompts
-- **Customize further**: Adjust colors, icons, and theme positioning to match your style
+- Share your custom statusline theme with the community
+- Extend the renderer to include additional Copilot context
+- Customize colors to match your Oh My Posh shell theme
 
-Happy prompting! 🚀
+Happy Copilot-ing! 🚀
