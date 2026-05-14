@@ -1,7 +1,7 @@
 <!-- The trending tags list -->
 
 {% assign MAX = 10 %}
-{% assign configured_tags = site.trending_tags | default: '' | split: '' %}
+{% assign configured_tags = site.trending_tags %}
 {% assign trending_tags = '' | split: '' %}
 
 {% if configured_tags.size > 0 %}
