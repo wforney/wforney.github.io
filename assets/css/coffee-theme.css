@@ -114,6 +114,8 @@ body {
   --link-hover-color: #efc27b;
   --bs-link-color: #d8a15d;
   --bs-link-hover-color: #efc27b;
+  --bs-link-color-rgb: 216, 161, 93;
+  --bs-link-hover-color-rgb: 239, 194, 123;
   background-image:
     linear-gradient(rgba(27, 27, 30, 0.93), rgba(27, 27, 30, 0.93)),
     url("/assets/img/backgrounds/coffee-beans-roasted.jpg");
