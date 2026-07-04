@@ -140,21 +140,28 @@ body {
   display: inline-block;
   width: 100%;
   margin: 0 0 1.25rem;
+  vertical-align: top;
   break-inside: avoid;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1rem;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.03);
+  color: var(--text-color);
 }
 
 .pin-card-image {
   display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
 .pin-card-image img {
   display: block;
   width: 100%;
   height: auto;
+  margin: 0;
+  vertical-align: top;
 }
 
 .pin-card-body {
@@ -186,4 +193,9 @@ body {
 
 .pin-card-link {
   white-space: nowrap;
+  color: var(--link-color);
+}
+
+.pin-card-link:hover {
+  color: var(--link-color);
 }
