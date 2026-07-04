@@ -1,17 +1,20 @@
 (() => {
-  const modal = document.getElementById("pin-modal");
-  if (!modal) {
-    return;
-  }
-
-  const image = document.getElementById("pin-modal-image");
-  const title = document.getElementById("pin-modal-title");
-  const excerpt = document.getElementById("pin-modal-excerpt");
-  const category = document.getElementById("pin-modal-category");
-  const source = document.getElementById("pin-modal-source");
-  const closeButton = modal.querySelector("[data-pin-close]");
+  const getModal = () => document.getElementById("pin-modal");
+  const getModalFields = () => ({
+    image: document.getElementById("pin-modal-image"),
+    title: document.getElementById("pin-modal-title"),
+    excerpt: document.getElementById("pin-modal-excerpt"),
+    category: document.getElementById("pin-modal-category"),
+    source: document.getElementById("pin-modal-source"),
+    closeButton: document.querySelector("#pin-modal [data-pin-close]"),
+  });
 
   const reset = () => {
+    const { image, title, excerpt, category, source } = getModalFields();
+    if (!image || !title || !excerpt || !category || !source) {
+      return;
+    }
+
     image.removeAttribute("src");
     image.alt = "";
     title.textContent = "";
@@ -23,6 +26,12 @@
   };
 
   window.openPin = (trigger) => {
+    const modal = getModal();
+    const { image, title, excerpt, category, source } = getModalFields();
+    if (!modal || !image || !title || !excerpt || !category || !source) {
+      return;
+    }
+
     image.src = trigger.dataset.pinImage || "";
     image.alt = trigger.dataset.pinTitle || "";
     title.textContent = trigger.dataset.pinTitle || "";
@@ -46,13 +55,27 @@
   };
 
   const closeModal = () => {
+    const modal = getModal();
+    if (!modal) {
+      return;
+    }
+
     modal.hidden = true;
     modal.setAttribute("aria-hidden", "true");
     document.body.classList.remove("pin-modal-open");
     reset();
   };
 
-  closeButton.addEventListener("click", closeModal);
+  const { closeButton } = getModalFields();
+  if (closeButton) {
+    closeButton.addEventListener("click", closeModal);
+  }
+
+  const modal = getModal();
+  if (!modal) {
+    return;
+  }
+
   modal.addEventListener("click", (event) => {
     if (event.target === modal) {
       closeModal();
