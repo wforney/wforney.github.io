@@ -27,6 +27,27 @@
     color: #efc27b !important;
   }
 </style>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    var selectors = [
+      '.content a',
+      '.content a.anchor',
+      '.content a.anchor.text-muted',
+      '.post-meta a:not([class])',
+      '#topbar #breadcrumb a',
+      '#toc-wrapper ul li a',
+      '#toc-popup ul li a',
+      '#archives a',
+      '#search-results a',
+      '#page-tag ul > li > a'
+    ];
+
+    document.querySelectorAll(selectors.join(',')).forEach(function (link) {
+      link.style.color = '#d8a15d';
+      link.style.textDecorationColor = '#d8a15d';
+    });
+  });
+</script>
 {% endif %}
 {% if page.url == '/pins/' %}
 <script defer src="{{ '/assets/js/pins.js' | relative_url }}"></script>
