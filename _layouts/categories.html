@@ -1,0 +1,98 @@
+---
+layout: page
+---
+
+{% include lang.html %}
+
+{% assign empty_list = '' | split: '' %}
+{% assign category_names = empty_list %}
+
+{% for category in site.categories %}
+  {% assign category_names = category_names | push: category[0] %}
+{% endfor %}
+
+{% for pin in site.data.pins %}
+  {% if pin.categories %}
+    {% for category in pin.categories %}
+      {% assign category_names = category_names | push: category %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign category_names = category_names | uniq | sort_natural %}
+
+<div class="categories-page">
+  <h1 class="mb-3">Categories</h1>
+  <p class="mb-4">Posts and pins grouped by category.</p>
+
+  {% if category_names.size > 0 %}
+    <div class="d-flex flex-wrap gap-2 mb-4">
+      {% for category_name in category_names %}
+        {% assign posts = site.categories[category_name] | default: empty_list %}
+        {% assign pin_count = 0 %}
+
+        {% for pin in site.data.pins %}
+          {% if pin.categories and pin.categories contains category_name %}
+            {% assign pin_count = pin_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign total_count = posts.size | plus: pin_count %}
+        <a class="btn btn-outline-primary btn-sm" href="#{{ category_name | slugify }}">
+          {{ category_name }}
+          <span class="badge text-bg-secondary ms-1">{{ total_count }}</span>
+        </a>
+      {% endfor %}
+    </div>
+
+    {% for category_name in category_names %}
+      {% assign posts = site.categories[category_name] | default: empty_list %}
+      {% assign pins_for_category = empty_list %}
+
+      {% for pin in site.data.pins %}
+        {% if pin.categories and pin.categories contains category_name %}
+          {% assign pins_for_category = pins_for_category | push: pin %}
+        {% endif %}
+      {% endfor %}
+
+      <section id="{{ category_name | slugify }}" class="mb-5">
+        <h2 class="h3 mb-3">{{ category_name }}</h2>
+
+        <p class="text-muted mb-3">
+          {{ posts.size }} post{% if posts.size != 1 %}s{% endif %}
+          {% if pins_for_category.size > 0 %}
+            and {{ pins_for_category.size }} pin{% if pins_for_category.size != 1 %}s{% endif %}
+          {% endif %}
+        </p>
+
+        {% if posts.size > 0 %}
+          <h3 class="h5">Posts</h3>
+          <ul class="mb-4">
+            {% for post in posts %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <span class="text-muted">— {% include datetime.html date=post.date lang=lang %}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if pins_for_category.size > 0 %}
+          <h3 class="h5">Pins</h3>
+          <ul class="mb-0">
+            {% for pin in pins_for_category %}
+              <li>
+                <a href="{{ pin.url }}">{{ pin.title }}</a>
+                {% if pin.source_text %}
+                  <span class="text-muted">— {{ pin.source_text }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </section>
+    {% endfor %}
+  {% else %}
+    <p>No categories found.</p>
+  {% endif %}
+</div>
