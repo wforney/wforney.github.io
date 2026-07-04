@@ -112,6 +112,7 @@ body[data-mode="dark"],
 body {
   --link-color: #d8a15d;
   --link-hover-color: #efc27b;
+  --toc-highlight: #d8a15d;
   --bs-link-color: #d8a15d;
   --bs-link-hover-color: #efc27b;
   --bs-link-color-rgb: 216, 161, 93;
