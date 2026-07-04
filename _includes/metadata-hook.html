@@ -1,10 +1,15 @@
 <link rel="stylesheet" href="{{ '/assets/css/coffee-theme.css' | relative_url }}">
 {% if page.layout == 'post' %}
 <style>
-  .content a,
-  .content a.anchor,
-  .content a.anchor.text-muted,
-  .post-meta a:not([class]),
+  main .content a,
+  main .content a.anchor,
+  main .content a.anchor.text-muted,
+  main .content h2 .anchor,
+  main .content h3 .anchor,
+  main .content h4 .anchor,
+  main .content h5 .anchor,
+  main .content .anchor i,
+  main .post-meta a:not([class]),
   #topbar #breadcrumb a,
   #toc-wrapper ul li a,
   #toc-popup ul li a,
@@ -12,12 +17,18 @@
   #search-results a,
   #page-tag ul > li > a {
     color: #d8a15d !important;
+    text-decoration-color: #d8a15d !important;
   }
 
-  .content a:hover,
-  .content a.anchor:hover,
-  .content a.anchor.text-muted:hover,
-  .post-meta a:not([class]):hover,
+  main .content a:hover,
+  main .content a.anchor:hover,
+  main .content a.anchor.text-muted:hover,
+  main .content h2 .anchor:hover,
+  main .content h3 .anchor:hover,
+  main .content h4 .anchor:hover,
+  main .content h5 .anchor:hover,
+  main .content .anchor:hover i,
+  main .post-meta a:not([class]):hover,
   #topbar #breadcrumb a:hover,
   #toc-wrapper ul li a:hover,
   #toc-popup ul li a:hover,
@@ -25,29 +36,9 @@
   #search-results a:hover,
   #page-tag ul > li > a:hover {
     color: #efc27b !important;
+    text-decoration-color: #efc27b !important;
   }
 </style>
-<script>
-  window.addEventListener('DOMContentLoaded', function () {
-    var selectors = [
-      '.content a',
-      '.content a.anchor',
-      '.content a.anchor.text-muted',
-      '.post-meta a:not([class])',
-      '#topbar #breadcrumb a',
-      '#toc-wrapper ul li a',
-      '#toc-popup ul li a',
-      '#archives a',
-      '#search-results a',
-      '#page-tag ul > li > a'
-    ];
-
-    document.querySelectorAll(selectors.join(',')).forEach(function (link) {
-      link.style.color = '#d8a15d';
-      link.style.textDecorationColor = '#d8a15d';
-    });
-  });
-</script>
 {% endif %}
 {% if page.url == '/pins/' %}
 <script defer src="{{ '/assets/js/pins.js' | relative_url }}"></script>
