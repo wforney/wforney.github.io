@@ -198,19 +198,23 @@ body {
   opacity: 1;
 }
 
-.pin-dialog {
-  width: min(960px, 96vw);
-  border: 0;
-  padding: 0;
-  background: transparent;
-}
-
-.pin-dialog::backdrop {
+.pin-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1040;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
   background: rgba(0, 0, 0, 0.78);
 }
 
-.pin-dialog-shell {
+.pin-modal[hidden] {
+  display: none;
+}
+
+.pin-modal-shell {
   position: relative;
+  width: min(960px, 96vw);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1rem;
   overflow: hidden;
@@ -218,7 +222,7 @@ body {
   color: var(--text-color);
 }
 
-.pin-dialog-close {
+.pin-modal-close {
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
@@ -231,27 +235,27 @@ body {
   color: #fff;
 }
 
-.pin-dialog-media img {
+.pin-modal-media img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.pin-dialog-body {
+.pin-modal-body {
   padding: 1rem 1.25rem 1.25rem;
 }
 
-.pin-dialog-title {
+.pin-modal-title {
   margin: 0 0 0.75rem;
   line-height: 1.35;
 }
 
-.pin-dialog-excerpt {
+.pin-modal-excerpt {
   margin-bottom: 1rem;
   opacity: 0.92;
 }
 
-.pin-dialog-meta {
+.pin-modal-meta {
   display: flex;
   gap: 0.75rem;
   align-items: center;
@@ -259,16 +263,20 @@ body {
   flex-wrap: wrap;
 }
 
-.pin-dialog-source {
+.pin-modal-source {
   color: var(--link-color);
 }
 
-.pin-dialog-source:hover {
+.pin-modal-source:hover {
   color: var(--link-color);
 }
 
-.pin-dialog-source[hidden] {
+.pin-modal-source[hidden] {
   display: none;
+}
+
+body.pin-modal-open {
+  overflow: hidden;
 }
 
 .pin-card-body {

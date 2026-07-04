@@ -33,23 +33,23 @@ A scrapbook of pins migrated from my old WordPress site.
 {% endfor %}
 </div>
 
-<dialog id="pin-dialog" class="pin-dialog" aria-label="Pin details">
-  <div class="pin-dialog-shell">
-    <button type="button" class="pin-dialog-close" data-pin-close aria-label="Close">
+<div id="pin-modal" class="pin-modal" hidden aria-hidden="true">
+  <div class="pin-modal-shell" role="dialog" aria-modal="true" aria-label="Pin details">
+    <button type="button" class="pin-modal-close" data-pin-close aria-label="Close">
       <i class="fas fa-times"></i>
     </button>
-    <div class="pin-dialog-media">
-      <img id="pin-dialog-image" alt="">
+    <div class="pin-modal-media">
+      <img id="pin-modal-image" alt="">
     </div>
-    <div class="pin-dialog-body">
-      <h2 id="pin-dialog-title" class="pin-dialog-title"></h2>
-      <p id="pin-dialog-excerpt" class="pin-dialog-excerpt"></p>
-      <div class="pin-dialog-meta">
-        <span id="pin-dialog-category"></span>
-        <a id="pin-dialog-source" class="pin-dialog-source" href="#" target="_blank" rel="noopener noreferrer" hidden></a>
+    <div class="pin-modal-body">
+      <h2 id="pin-modal-title" class="pin-modal-title"></h2>
+      <p id="pin-modal-excerpt" class="pin-modal-excerpt"></p>
+      <div class="pin-modal-meta">
+        <span id="pin-modal-category"></span>
+        <a id="pin-modal-source" class="pin-modal-source" href="#" target="_blank" rel="noopener noreferrer" hidden></a>
       </div>
     </div>
   </div>
-</dialog>
+</div>
 
 <script src="{{ '/assets/js/pins.js' | relative_url }}"></script>

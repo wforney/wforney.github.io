@@ -1,15 +1,15 @@
 (() => {
-  const dialog = document.getElementById("pin-dialog");
-  if (!dialog) {
+  const modal = document.getElementById("pin-modal");
+  if (!modal) {
     return;
   }
 
-  const image = document.getElementById("pin-dialog-image");
-  const title = document.getElementById("pin-dialog-title");
-  const excerpt = document.getElementById("pin-dialog-excerpt");
-  const category = document.getElementById("pin-dialog-category");
-  const source = document.getElementById("pin-dialog-source");
-  const closeButton = dialog.querySelector("[data-pin-close]");
+  const image = document.getElementById("pin-modal-image");
+  const title = document.getElementById("pin-modal-title");
+  const excerpt = document.getElementById("pin-modal-excerpt");
+  const category = document.getElementById("pin-modal-category");
+  const source = document.getElementById("pin-modal-source");
+  const closeButton = modal.querySelector("[data-pin-close]");
 
   const reset = () => {
     image.removeAttribute("src");
@@ -40,14 +40,27 @@
       source.hidden = true;
     }
 
-    dialog.showModal();
+    modal.hidden = false;
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("pin-modal-open");
   };
 
-  closeButton.addEventListener("click", () => dialog.close());
-  dialog.addEventListener("click", (event) => {
-    if (event.target === dialog) {
-      dialog.close();
+  const closeModal = () => {
+    modal.hidden = true;
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("pin-modal-open");
+    reset();
+  };
+
+  closeButton.addEventListener("click", closeModal);
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      closeModal();
     }
   });
-  dialog.addEventListener("close", reset);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !modal.hidden) {
+      closeModal();
+    }
+  });
 })();
