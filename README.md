@@ -26,6 +26,15 @@ bundle exec jekyll build
 
 This matches the GitHub Pages build used in CI. The deploy workflow passes the GitHub Pages base path automatically.
 
+## Browser tests
+
+```bash
+npm install
+npm run test:playwright
+```
+
+The Playwright test suite spins up a local Jekyll server and exercises the Pins overlay.
+
 ## Repository structure
 
 - `_posts/` - blog posts in `YYYY-MM-DD-slug.md` format
@@ -52,4 +61,3 @@ Pushes to `main` trigger `.github/workflows/deploy.yml`, which:
 2. Installs Ruby dependencies
 3. Builds the site with Jekyll
 4. Publishes the artifact to GitHub Pages
-
