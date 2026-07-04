@@ -110,6 +110,8 @@ article.thought-post .post-preview::before {
 body[data-mode="dark"],
 [data-mode="dark"] body,
 body {
+  --link-color: #d8a15d;
+  --link-hover-color: #efc27b;
   background-image:
     linear-gradient(rgba(27, 27, 30, 0.93), rgba(27, 27, 30, 0.93)),
     url("/assets/img/backgrounds/coffee-beans-roasted.jpg");
@@ -328,16 +330,6 @@ body.pin-modal-open {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
   color: var(--text-color);
-}
-
-.categories.card a,
-.category-page a {
-  color: #d8a15d !important;
-}
-
-.categories.card a:hover,
-.category-page a:hover {
-  color: #efc27b !important;
 }
 
 .categories.card .text-muted,
