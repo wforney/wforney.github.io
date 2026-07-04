@@ -132,6 +132,30 @@ a:not(.btn):not(.badge):hover {
   color: var(--link-hover-color);
 }
 
+.content a.anchor,
+.content a.anchor.text-muted,
+.post-meta a:not([class]),
+#topbar #breadcrumb a,
+#toc-wrapper ul li a,
+#toc-popup ul li a,
+#archives a,
+#search-results a,
+#page-tag ul > li > a {
+  color: var(--link-color) !important;
+}
+
+.content a.anchor:hover,
+.content a.anchor.text-muted:hover,
+.post-meta a:not([class]):hover,
+#topbar #breadcrumb a:hover,
+#toc-wrapper ul li a:hover,
+#toc-popup ul li a:hover,
+#archives a:hover,
+#search-results a:hover,
+#page-tag ul > li > a:hover {
+  color: var(--link-hover-color) !important;
+}
+
 /* ── Pins board ───────────────────────────────────────────────────────── */
 .pin-board {
   column-count: 3;
