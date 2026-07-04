@@ -321,3 +321,26 @@ body.pin-modal-open {
 .pin-card-link:hover {
   color: var(--link-color);
 }
+
+/* ── Categories pages ─────────────────────────────────────────────────── */
+.categories.card,
+.category-page .card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-color);
+}
+
+.categories.card a,
+.category-page a {
+  color: var(--link-color);
+}
+
+.categories.card a:hover,
+.category-page a:hover {
+  color: var(--link-hover-color);
+}
+
+.categories.card .text-muted,
+.category-page .text-muted {
+  color: var(--text-muted-color) !important;
+}
