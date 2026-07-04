@@ -124,11 +124,13 @@ body {
   background-position: center;
 }
 
-a:not(.btn):not(.badge) {
+a:link:not(.btn):not(.badge),
+a:visited:not(.btn):not(.badge) {
   color: var(--link-color);
 }
 
-a:not(.btn):not(.badge):hover {
+a:link:not(.btn):not(.badge):hover,
+a:visited:not(.btn):not(.badge):hover {
   color: var(--link-hover-color);
 }
 
