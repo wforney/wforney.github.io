@@ -1,4 +1,33 @@
 <link rel="stylesheet" href="{{ '/assets/css/coffee-theme.css' | relative_url }}">
+{% if page.layout == 'post' %}
+<style>
+  .content a,
+  .content a.anchor,
+  .content a.anchor.text-muted,
+  .post-meta a:not([class]),
+  #topbar #breadcrumb a,
+  #toc-wrapper ul li a,
+  #toc-popup ul li a,
+  #archives a,
+  #search-results a,
+  #page-tag ul > li > a {
+    color: #d8a15d !important;
+  }
+
+  .content a:hover,
+  .content a.anchor:hover,
+  .content a.anchor.text-muted:hover,
+  .post-meta a:not([class]):hover,
+  #topbar #breadcrumb a:hover,
+  #toc-wrapper ul li a:hover,
+  #toc-popup ul li a:hover,
+  #archives a:hover,
+  #search-results a:hover,
+  #page-tag ul > li > a:hover {
+    color: #efc27b !important;
+  }
+</style>
+{% endif %}
 {% if page.url == '/pins/' %}
 <script defer src="{{ '/assets/js/pins.js' | relative_url }}"></script>
 {% endif %}
