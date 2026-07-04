@@ -22,11 +22,67 @@ layout: page
 {% assign category_names = category_names | uniq | sort_natural %}
 
 <div class="categories-page">
+  <style>
+    .categories-page .categories-index .btn,
+    .categories-page .accordion-button,
+    .categories-page .accordion-item {
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    .categories-page .categories-index .btn {
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-color);
+    }
+
+    .categories-page .categories-index .btn:hover,
+    .categories-page .categories-index .btn:focus {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-color);
+    }
+
+    .categories-page .categories-index .badge {
+      background: rgba(255, 255, 255, 0.12) !important;
+      color: var(--text-color);
+    }
+
+    .categories-page .accordion-item {
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 1rem;
+      overflow: hidden;
+      margin-bottom: 0.9rem;
+    }
+
+    .categories-page .accordion-button {
+      background: transparent;
+      color: var(--text-color);
+      box-shadow: none;
+    }
+
+    .categories-page .accordion-button:not(.collapsed) {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-color);
+      box-shadow: none;
+    }
+
+    .categories-page .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    .categories-page .accordion-button::after {
+      filter: brightness(0) invert(1);
+      opacity: 0.65;
+    }
+
+    .categories-page .accordion-button:not(.collapsed)::after {
+      opacity: 0.9;
+    }
+  </style>
+
   <h1 class="mb-3">Categories</h1>
   <p class="mb-4">Posts and pins grouped by category.</p>
 
   {% if category_names.size > 0 %}
-    <div class="d-flex flex-wrap gap-2 mb-4">
+    <div class="categories-index d-flex flex-wrap gap-2 mb-4">
       {% for category_name in category_names %}
         {% assign posts = site.categories[category_name] | default: empty_list %}
         {% assign pin_count = 0 %}
@@ -38,9 +94,9 @@ layout: page
         {% endfor %}
 
         {% assign total_count = posts.size | plus: pin_count %}
-        <a class="btn btn-outline-primary btn-sm" href="#{{ category_name | slugify }}">
+        <a class="btn btn-sm" href="#{{ category_name | slugify }}">
           {{ category_name }}
-          <span class="badge text-bg-secondary ms-1">{{ total_count }}</span>
+          <span class="badge rounded-pill ms-1">{{ total_count }}</span>
         </a>
       {% endfor %}
     </div>
@@ -72,7 +128,7 @@ layout: page
               aria-controls="collapse-{{ category_id }}"
             >
               <span class="me-auto">{{ category_name }}</span>
-              <span class="badge text-bg-secondary ms-2">{{ total_count }}</span>
+              <span class="badge rounded-pill ms-2" style="background: rgba(255, 255, 255, 0.12); color: var(--text-color);">{{ total_count }}</span>
             </button>
           </h2>
           <div
