@@ -137,10 +137,9 @@ body {
 }
 
 .pin-card {
-  display: inline-block;
+  display: block;
   width: 100%;
   margin: 0 0 1.25rem;
-  vertical-align: top;
   break-inside: avoid;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1rem;
@@ -149,19 +148,121 @@ body {
   color: var(--text-color);
 }
 
-.pin-card-image {
+.pin-card-trigger {
+  position: relative;
   display: block;
-  margin: 0;
+  width: 100%;
   padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
   line-height: 0;
 }
 
-.pin-card-image img {
+.pin-card-trigger:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 3px;
+}
+
+.pin-card-trigger img {
   display: block;
   width: 100%;
   height: auto;
   margin: 0;
-  vertical-align: top;
+}
+
+.pin-card-zoom {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.pin-card-trigger:hover .pin-card-zoom,
+.pin-card-trigger:focus-visible .pin-card-zoom {
+  opacity: 1;
+}
+
+.pin-dialog {
+  width: min(960px, 96vw);
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.pin-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.78);
+}
+
+.pin-dialog-shell {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(18, 18, 20, 0.98);
+  color: var(--text-color);
+}
+
+.pin-dialog-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+}
+
+.pin-dialog-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pin-dialog-body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.pin-dialog-title {
+  margin: 0 0 0.75rem;
+  line-height: 1.35;
+}
+
+.pin-dialog-excerpt {
+  margin-bottom: 1rem;
+  opacity: 0.92;
+}
+
+.pin-dialog-meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pin-dialog-source {
+  color: var(--link-color);
+}
+
+.pin-dialog-source:hover {
+  color: var(--link-color);
+}
+
+.pin-dialog-source[hidden] {
+  display: none;
 }
 
 .pin-card-body {
