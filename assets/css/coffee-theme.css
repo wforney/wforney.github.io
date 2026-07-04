@@ -332,12 +332,12 @@ body.pin-modal-open {
 
 .categories.card a,
 .category-page a {
-  color: var(--link-color);
+  color: #d8a15d !important;
 }
 
 .categories.card a:hover,
 .category-page a:hover {
-  color: var(--link-hover-color);
+  color: #efc27b !important;
 }
 
 .categories.card .text-muted,
