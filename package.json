@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "test:playwright": "playwright test"
+    "test:playwright": "playwright test",
+    "import:pins": "node scripts/import-pinterest-pins.cjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0"

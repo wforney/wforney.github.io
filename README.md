@@ -35,6 +35,24 @@ npm run test:playwright
 
 The Playwright test suite spins up a local Jekyll server and exercises the Pins overlay.
 
+## Importing new Pinterest pins
+
+Use the import script to pull from your public Pinterest profile and merge new pins into `_data/pins.json` with duplicate protection.
+
+```bash
+# Preview only (no file changes)
+npm run import:pins
+
+# Write merged results
+npm run import:pins -- --apply
+```
+
+Optional flags:
+
+```bash
+npm run import:pins -- --username wforney --max 300 --scrolls 30 --apply
+```
+
 ## Repository structure
 
 - `_posts/` - blog posts in `YYYY-MM-DD-slug.md` format
