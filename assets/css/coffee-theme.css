@@ -112,12 +112,22 @@ body[data-mode="dark"],
 body {
   --link-color: #d8a15d;
   --link-hover-color: #efc27b;
+  --bs-link-color: #d8a15d;
+  --bs-link-hover-color: #efc27b;
   background-image:
     linear-gradient(rgba(27, 27, 30, 0.93), rgba(27, 27, 30, 0.93)),
     url("/assets/img/backgrounds/coffee-beans-roasted.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+a:not(.btn):not(.badge) {
+  color: var(--link-color);
+}
+
+a:not(.btn):not(.badge):hover {
+  color: var(--link-hover-color);
 }
 
 /* ── Pins board ───────────────────────────────────────────────────────── */
