@@ -12,23 +12,24 @@ A scrapbook of pins migrated from my old WordPress site.
 <div class="pin-board">
 {% for pin in sorted_pins %}
   <article class="pin-card">
-    <button
-      type="button"
-      class="pin-card-trigger"
-      data-pin-open
-      onclick="openPin(this); return false;"
-      data-pin-title="{{ pin.title | escape }}"
-      data-pin-image="{{ pin.image | escape }}"
-      data-pin-excerpt="{{ pin.excerpt | escape }}"
-      data-pin-source-text="{{ pin.source_text | escape }}"
-      data-pin-source-url="{{ pin.source_url | escape }}"
-      data-pin-category="{{ pin.categories | first | default: '' | escape }}"
-      aria-label="Zoom {{ pin.title | escape }}">
+    <div class="pin-card-frame">
       <img src="{{ pin.image }}" alt="{{ pin.title | escape }}" loading="lazy">
-      <span class="pin-card-zoom" aria-hidden="true">
-        <i class="fas fa-search-plus"></i>
-      </span>
-    </button>
+      <a href="#"
+         class="pin-card-trigger"
+         data-pin-open
+         onclick="openPin(this); return false;"
+         data-pin-title="{{ pin.title | escape }}"
+         data-pin-image="{{ pin.image | escape }}"
+         data-pin-excerpt="{{ pin.excerpt | escape }}"
+         data-pin-source-text="{{ pin.source_text | escape }}"
+         data-pin-source-url="{{ pin.source_url | escape }}"
+         data-pin-category="{{ pin.categories | first | default: '' | escape }}"
+         aria-label="Zoom {{ pin.title | escape }}">
+        <span class="pin-card-zoom" aria-hidden="true">
+          <i class="fas fa-search-plus"></i>
+        </span>
+      </a>
+    </div>
   </article>
 {% endfor %}
 </div>

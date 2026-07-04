@@ -148,32 +148,36 @@ body {
   color: var(--text-color);
 }
 
-.pin-card-trigger {
+.pin-card-frame {
   position: relative;
-  display: block;
   width: 100%;
   aspect-ratio: 4 / 5;
-  padding: 0;
-  border: 0;
-  background: #000;
   overflow: hidden;
-  cursor: zoom-in;
-  line-height: 0;
+  background: #000;
 }
 
-.pin-card-trigger:focus-visible {
-  outline: 2px solid var(--link-color);
-  outline-offset: 3px;
-}
-
-.pin-card-trigger img {
+.pin-card-frame img {
   position: absolute;
   inset: 0;
   display: block;
   width: 100%;
   height: 100%;
-  margin: 0;
   object-fit: cover;
+}
+
+.pin-card-trigger {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: zoom-in;
+  z-index: 2;
+}
+
+.pin-card-trigger:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 3px;
 }
 
 .pin-card-zoom {
