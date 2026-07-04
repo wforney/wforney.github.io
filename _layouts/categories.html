@@ -45,53 +45,86 @@ layout: page
       {% endfor %}
     </div>
 
-    {% for category_name in category_names %}
-      {% assign posts = site.categories[category_name] | default: empty_list %}
-      {% assign pins_for_category = empty_list %}
+    <div class="accordion" id="categories-accordion">
+      {% for category_name in category_names %}
+        {% assign posts = site.categories[category_name] | default: empty_list %}
+        {% assign pins_for_category = empty_list %}
+        {% assign pin_count = 0 %}
 
-      {% for pin in site.data.pins %}
-        {% if pin.categories and pin.categories contains category_name %}
-          {% assign pins_for_category = pins_for_category | push: pin %}
-        {% endif %}
-      {% endfor %}
-
-      <section id="{{ category_name | slugify }}" class="mb-5">
-        <h2 class="h3 mb-3">{{ category_name }}</h2>
-
-        <p class="text-muted mb-3">
-          {{ posts.size }} post{% if posts.size != 1 %}s{% endif %}
-          {% if pins_for_category.size > 0 %}
-            and {{ pins_for_category.size }} pin{% if pins_for_category.size != 1 %}s{% endif %}
+        {% for pin in site.data.pins %}
+          {% if pin.categories and pin.categories contains category_name %}
+            {% assign pins_for_category = pins_for_category | push: pin %}
+            {% assign pin_count = pin_count | plus: 1 %}
           {% endif %}
-        </p>
+        {% endfor %}
 
-        {% if posts.size > 0 %}
-          <h3 class="h5">Posts</h3>
-          <ul class="mb-4">
-            {% for post in posts %}
-              <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <span class="text-muted">— {% include datetime.html date=post.date lang=lang %}</span>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
+        {% assign total_count = posts.size | plus: pin_count %}
+        {% assign category_id = category_name | slugify %}
 
-        {% if pins_for_category.size > 0 %}
-          <h3 class="h5">Pins</h3>
-          <ul class="mb-0">
-            {% for pin in pins_for_category %}
-              <li>
-                <a href="{{ pin.url }}">{{ pin.title }}</a>
-                {% if pin.source_text %}
-                  <span class="text-muted">— {{ pin.source_text }}</span>
+        <div class="accordion-item" id="{{ category_id }}">
+          <h2 class="accordion-header" id="heading-{{ category_id }}">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-{{ category_id }}"
+              aria-expanded="false"
+              aria-controls="collapse-{{ category_id }}"
+            >
+              <span class="me-auto">{{ category_name }}</span>
+              <span class="badge text-bg-secondary ms-2">{{ total_count }}</span>
+            </button>
+          </h2>
+          <div
+            id="collapse-{{ category_id }}"
+            class="accordion-collapse collapse"
+            aria-labelledby="heading-{{ category_id }}"
+            data-bs-parent="#categories-accordion"
+          >
+            <div class="accordion-body">
+              <p class="text-muted mb-3">
+                {{ posts.size }} post{% if posts.size != 1 %}s{% endif %}
+                {% if pins_for_category.size > 0 %}
+                  and {{ pins_for_category.size }} pin{% if pins_for_category.size != 1 %}s{% endif %}
                 {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </section>
-    {% endfor %}
+              </p>
+
+              <div class="row g-4">
+                {% if posts.size > 0 %}
+                  <div class="col-lg-6">
+                    <h3 class="h5">Posts</h3>
+                    <ul class="mb-0">
+                      {% for post in posts %}
+                        <li class="mb-2">
+                          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                          <span class="text-muted">— {% include datetime.html date=post.date lang=lang %}</span>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
+
+                {% if pins_for_category.size > 0 %}
+                  <div class="col-lg-6">
+                    <h3 class="h5">Pins</h3>
+                    <ul class="mb-0">
+                      {% for pin in pins_for_category %}
+                        <li class="mb-2">
+                          <a href="{{ pin.url }}">{{ pin.title }}</a>
+                          {% if pin.source_text %}
+                            <span class="text-muted">— {{ pin.source_text }}</span>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   {% else %}
     <p>No categories found.</p>
   {% endif %}
