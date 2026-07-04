@@ -120,17 +120,11 @@ body {
 
 /* ── Pins board ───────────────────────────────────────────────────────── */
 .pin-board {
-  column-count: 4;
+  column-count: 3;
   column-gap: 1.25rem;
 }
 
 @media (max-width: 991.98px) {
-  .pin-board {
-    column-count: 3;
-  }
-}
-
-@media (max-width: 767.98px) {
   .pin-board {
     column-count: 2;
   }
@@ -164,17 +158,18 @@ body {
 }
 
 .pin-card-body {
-  padding: 1rem;
+  padding: 0.6rem 1rem 1rem;
 }
 
 .pin-card .card-title {
+  margin-top: 0;
   line-height: 1.35;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
   overflow: visible !important;
 }
 
 .pin-card-excerpt {
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.75rem;
   opacity: 0.9;
 }
 
