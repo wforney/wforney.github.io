@@ -1,0 +1,59 @@
+---
+layout: page
+---
+
+{% include lang.html %}
+
+{% assign category_name = page.category | default: page.title %}
+{% assign posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
+{% assign pins = site.data.pins | where_exp: "pin", "pin.categories contains page.category" %}
+
+<div class="category-page">
+  <h1 class="mb-3">{{ category_name }}</h1>
+  <p class="text-muted mb-4">
+    {{ posts.size }} post{% if posts.size != 1 %}s{% endif %}
+    {% if pins.size > 0 %}
+      and {{ pins.size }} pin{% if pins.size != 1 %}s{% endif %}
+    {% endif %}
+  </p>
+
+  <div class="row g-4">
+    {% if posts.size > 0 %}
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="h5">Posts</h2>
+            <ul class="mb-0">
+              {% for post in posts %}
+                <li class="mb-2">
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  <span class="text-muted">— {% include datetime.html date=post.date lang=lang %}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if pins.size > 0 %}
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="h5">Pins</h2>
+            <ul class="mb-0">
+              {% for pin in pins %}
+                <li class="mb-2">
+                  <a href="{{ pin.url }}">{{ pin.title }}</a>
+                  {% if pin.source_text %}
+                    <span class="text-muted">— {{ pin.source_text }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
