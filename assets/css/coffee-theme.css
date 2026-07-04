@@ -117,3 +117,72 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* ── Pins board ───────────────────────────────────────────────────────── */
+.pin-board {
+  column-count: 3;
+  column-gap: 1.25rem;
+}
+
+@media (max-width: 991.98px) {
+  .pin-board {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .pin-board {
+    column-count: 1;
+  }
+}
+
+.pin-card {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1.25rem;
+  break-inside: avoid;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.pin-card-image {
+  display: block;
+}
+
+.pin-card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pin-card-body {
+  padding: 1rem;
+}
+
+.pin-card .card-title {
+  line-height: 1.35;
+  margin-bottom: 0.65rem;
+  overflow: visible !important;
+}
+
+.pin-card-excerpt {
+  margin-bottom: 0.9rem;
+  opacity: 0.9;
+}
+
+.pin-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.pin-card-link {
+  white-space: nowrap;
+}
