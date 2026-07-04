@@ -1,1 +1,4 @@
 <link rel="stylesheet" href="{{ '/assets/css/coffee-theme.css' | relative_url }}">
+{% if page.url == '/pins/' %}
+<script defer src="{{ '/assets/js/pins.js' | relative_url }}"></script>
+{% endif %}
