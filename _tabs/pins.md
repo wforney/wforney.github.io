@@ -7,13 +7,16 @@ order: 6
 
 A scrapbook of pins migrated from my old WordPress site.
 
+{% assign sorted_pins = site.data.pins | sort: 'date' | reverse %}
+
 <div class="pin-board">
-{% for pin in site.data.pins %}
+{% for pin in sorted_pins %}
   <article class="pin-card">
     <button
       type="button"
       class="pin-card-trigger"
       data-pin-open
+      onclick="openPin(this); return false;"
       data-pin-title="{{ pin.title | escape }}"
       data-pin-image="{{ pin.image | escape }}"
       data-pin-excerpt="{{ pin.excerpt | escape }}"

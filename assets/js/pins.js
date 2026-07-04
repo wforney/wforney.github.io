@@ -22,12 +22,7 @@
     source.hidden = true;
   };
 
-  document.addEventListener("click", (event) => {
-    const trigger = event.target.closest("[data-pin-open]");
-    if (!trigger) {
-      return;
-    }
-
+  window.openPin = (trigger) => {
     image.src = trigger.dataset.pinImage || "";
     image.alt = trigger.dataset.pinTitle || "";
     title.textContent = trigger.dataset.pinTitle || "";
@@ -46,7 +41,7 @@
     }
 
     dialog.showModal();
-  });
+  };
 
   closeButton.addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", (event) => {
