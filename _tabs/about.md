@@ -130,7 +130,7 @@ Technologies: C#, VB.NET, Windows Forms, WPF, XAML, MarkDown, and Oracle.
 
 #### July 2017 – September 2019 · Software Development Engineer II
 
-On the Microsoft Academic team in AI+R, I built many patterns for the site, introduced newer standards, and created the client-side build chain. Upon becoming a direct employee again I worked on the [Microsoft Academic](https://academic.microsoft.com/) web site, including the build chain, front end Aurelia application, and middle tier ASP.NET Core APIs. I also built small tools used in the data pipeline to fetch images, among other things. Most of the work was in TypeScript or C#.
+On the Microsoft Academic team in AI+R, I built many patterns for the site, introduced newer standards, and created the client-side build chain. Upon becoming a direct employee again I worked on the [Microsoft Academic](https://www.microsoft.com/en-us/research/articles/keep-your-profile-and-yourself-up-to-date/) web site, including the build chain, front end Aurelia application, and middle tier ASP.NET Core APIs. I also built small tools used in the data pipeline to fetch images, among other things. Most of the work was in TypeScript or C#.
 
 Technologies: ASP.NET Core, Node.js, webpack, Aurelia, lit-element, plot.ly, Azure Maps, TypeScript, C#.
 
@@ -305,7 +305,7 @@ A line of business utility using .NET Core Windows Forms and an ODBC database to
 
 Contract through WWT and Bridgewater Consulting Services. Upgraded and extended a Windows Forms application used for compliance tracking of equipment in the field. Added a generic wizard control, functional updates, legacy boilerplate cleanup, and database access improvements. Technologies: C#, VB.NET, Windows Forms, WPF, XAML, Oracle.
 
-**[Microsoft Academic](https://academic.microsoft.com/)** _(Feb 2017 – Sep 2019)_
+**[Microsoft Academic](https://www.microsoft.com/en-us/research/articles/keep-your-profile-and-yourself-up-to-date/)** _(Feb 2017 – Sep 2019)_
 
 Microsoft Academic understands the meaning of words — it doesn't just match keywords to content. For example, when you type "Microsoft," it knows you mean the institution, and shows you papers authored by researchers affiliated with Microsoft. Similarly, Microsoft Academic knows journal titles, conference names, and many research topics. Built many patterns for the site, introduced newer standards, and created the client-side build chain using ASP.NET Core, nodejs, webpack, Aurelia, lit-element, plot.ly, Azure Maps, and many other libraries.
 
