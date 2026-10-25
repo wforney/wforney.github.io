@@ -26,6 +26,10 @@ bundle exec jekyll build
 
 This matches the GitHub Pages build used in CI. The deploy workflow passes the GitHub Pages base path automatically.
 
+The canonical site URL is `https://williamforney.com`. Tag archives are generated
+automatically by `jekyll-archives` at `/tags/:name/` using Chirpy's tag layout.
+Category pages remain managed separately under `categories/`.
+
 ## Browser tests
 
 ```bash
@@ -33,7 +37,8 @@ npm install
 npm run test:playwright
 ```
 
-The Playwright test suite spins up a local Jekyll server and exercises the Pins overlay.
+The Playwright test suite spins up a local Jekyll server and exercises the Pins
+overlay and tag navigation, including every generated tag archive.
 
 ## Importing new Pinterest pins
 

@@ -7,10 +7,20 @@ description: >-
   Personal blog of William Forney — software engineer, architect, and developer.
   Writing about .NET, cloud, architecture, and more.
 
-url: "https://wforney.github.io"
+url: "https://williamforney.com"
 baseurl: ""
 
 theme: jekyll-theme-chirpy
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [tags]
+  layouts:
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
 
 github:
   username: wforney

@@ -2,7 +2,7 @@
 title: "Skagit Young Professionals » Blog Archive » Kickoff Coffee at Same Ol’ Grind 8/6"
 date: 2007-07-31
 categories: ["Skagit Young Professionals"]
-tags: ["Kickoff", "Coffee", "Same Ol’ Grind", "Skagit Young Professionals", "Burlington", "WA"]
+tags: ["Kickoff", "coffee", "Same Ol’ Grind", "Skagit Young Professionals", "Burlington", "WA"]
 original_url: "https://williamforney.com/2007/07/31/skagit-young-professionals-blog-archive-kickoff-coffee-at-same-ol-grind-86/"
 ---
 
